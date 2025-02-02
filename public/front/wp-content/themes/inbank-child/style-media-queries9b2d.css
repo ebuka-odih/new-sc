@@ -1,0 +1,6957 @@
+/*========================================Media Queries=========================================*/
+@media only screen and (max-width:1880px){
+	.gform_wrapper.gravity-theme .ginput_complex span:last-child {
+		margin-bottom:0px !important;
+	}
+	/* Homepage */
+	.home-banner {
+		padding:50px 0px 50px 0px;
+	}
+	.page-home-personal-banking .home-banner {
+		background-position: bottom !important;
+	}
+	.login-form {
+		max-width: 320px;
+		width: 100%;
+		position: absolute;
+		left: -180px;
+		top: 120px;
+	}
+	.mobile-image {
+		max-width:300px;
+	}
+	.services-sections .services-slider .owl-carousel .owl-nav  {
+		display:block !important;
+	}
+	/* Mortgage */
+	.about-banner .left-banner {
+		margin-top:70px;
+		margin-bottom:120px;
+	}
+	.right-banner.right-banner-about .banner-right-image {
+		max-width:700px;
+		right:0px;
+	}
+	.right-banner.right-banner-about .right-banner-bubble {
+		top:90px;
+	}
+	/* Business Checking */
+	.solution-image-wrap {
+		max-width: 400px;
+		width: 100%;
+		position: absolute;
+		right: -26%;
+		bottom: -4px;
+		max-height: 608px;
+	}
+	/* Business Banking */
+	.banking-banner .left-banner {
+		margin-top:0px;
+	}
+	.banking-banner .mobile-image {
+		max-width: 650px;
+	}
+	.banking-banner .transfer-wrap {
+		position: absolute;
+		right: -80px;
+		top: 120px;
+	}
+	.services-box-right {
+		width:60%;
+	}
+	.service-box-wrap {
+		max-width:none !important;
+		width:50%;
+	}
+
+	/* Landing Banner */
+	.landing-banner {
+		padding: 80px 0px;
+	}
+
+}
+@media only screen and (max-width:1780px) {
+	.testimonials-wrap {
+		margin-left: 10%;
+	}
+	.services-slider .owl-nav {
+		right:5%;
+	}
+	.right-circle-arrow, .left-circle-arrow {
+		width:70px;
+		height:70px;
+	}
+	.verticle-slider-wrap {
+		max-width:400px;
+	}
+	.resources-right-wrap {
+		padding-left:100px;
+	}
+	.footer-container {
+		padding: 0 50px;
+	}
+
+	/*=================About Page=================== */
+	.image-bubble {
+		right:7%;
+	}
+
+	/*========================Business Banking============================ */
+	.services-box-slider::after {
+		right:20%;
+	}
+	.lg-slider .verticle-slider-wrap {
+		max-width:700px;
+	}
+	.container-lg .d-flex {
+        justify-content: center;
+	}
+	
+
+	/* ======================Careers================================ */
+	.core-values-sec.our-culture-sec .core-values-slider-wrap {
+		max-width:1000px;
+	}
+	.inner-page-banner .banner-right-image {
+		max-width:850px;
+	}
+	.inner-page-banner {
+		padding-top: 100px;
+		padding-bottom: 150px;
+	}
+	.page-career-opportunities .inner-page-banner{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	/* ==============================Contact============================= */
+	.page-contact-us .here-to-help-right .help-form-wrap {
+		margin-left:10%;
+	}
+	.page-contact-us .inner-page-banner .banner-right-image {
+    max-width: 470px;
+    width: 100%;
+    right: 20%;
+  }
+  .page-contact-us .inner-page-banner span.right-banner-bubble {
+    right: 10%;
+    bottom: 305px;
+    top: auto;
+  }
+  .page-career-opportunities .image-bubble {
+    left: 7% !important;
+  }
+  .ctf-carousel .ctf-owl-stage {
+	  margin-left:0px;
+  }
+  .ctf-carousel .ctf-owl-item {
+    margin-left: 0px;
+  }
+  .tweet-slider {
+    margin-left: 50px;
+  }
+  .ctf-author-goinbank {
+    max-width: 430px;
+  }
+}
+
+@media only screen and (max-width:1680px){
+	.get-in-touch-wrap {
+		background-position: 20px bottom;
+		padding-left:50px;
+	}
+	.resources-right-wrap {
+		padding-left:5%;
+	}
+	.right-circle-arrow, .left-circle-arrow {
+		width:60px;
+		height:60px;
+	}
+	.services-slider .owl-nav {
+		right: 9%;
+	}
+	.connect-link .right-circle-arrow {
+		position: absolute;
+		right: -80px;
+		top: 10px;
+	}
+	.front-back-image {
+		width:40%;
+	}
+	section.newsletter-sec {
+		background-position: 90px bottom;
+	}
+
+
+	/* About */
+	.image-gallery-content .image-gallery {
+		margin-left:-90px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		margin-top: -120px;
+		/* width: 650px !important; */
+		height: 395px;
+	}
+	.image-bubblt-wrap span {
+		right:-70px;
+	}
+	/* .connect-with-us-sec .image-carousel .owl-stage {
+		margin-left:-90px;
+	} */
+
+	/* Business Banking */
+	.banking-banner .mobile-image {
+		max-width:none;
+		width:70%;
+	}
+	.page-personal-banking .banking-banner .mobile-image {
+		width:100%;
+	}
+	.service-box-wrap {
+		max-width:480px;
+	}
+	.services-box-slider::after {
+		right: 14%;
+	}
+	.lg-slider .container-lg {
+		padding: 0 50px;
+	}
+	.services-left, .services-box-sec .services-left {
+		padding-right:153px;
+	}
+	.banking-banner .received-wrap {
+		position: absolute;
+		left: -50px;
+		bottom: 0px;
+		margin: 0px;
+	}
+	.page-personal-banking .banking-banner .received-wrap {
+		bottom: 30px;
+	}
+	.banking-banner .transfer-wrap {
+		position: absolute;
+		right: -100px;
+		top: 80px;
+	}
+	.banking-banner .earnings-wrap {
+		bottom:-48px;
+		right:-170px;
+	}
+	.page-personal-banking .banking-banner .earnings-wrap {
+			bottom: 30px;
+			right: -170px;
+	}
+	.page-personal-banking .banking-banner .mobile-image {
+		margin-left:auto;
+	}
+
+
+	/* Business Checking */
+	.solution-image-wrap {
+		right: -120px;
+	}
+	.verticle-slider-wrap .slick-slide {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.verticle-slider-wrap .slick-slide.slick-center {
+		font-size: 60px;
+		line-height: 65px;
+	 }
+	 .verticle-slider-wrap {
+		 max-height:380px;
+	 }
+
+	/* investor relations */
+	.investor-left-banner img {
+		width: 290px;
+	}
+	.inner-page-banner .banner-right-image {
+		max-width: 780px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin-left:10%;
+	}
+	.center-content {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+	.here-to-help-right {
+		max-width: none;
+		width: calc(100% - 537px);
+	}
+	.here-to-help-inner {
+		padding-top:100px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin-top:100px;
+	}
+
+
+	/* Contact Us */
+	.page-contact-us .here-to-help-right .help-form-wrap {
+		margin-top: 209px;  
+	}
+
+}
+
+@media only screen and (max-width:1580px){
+	.get-in-touch-inner {
+		margin-right:9%;
+	}
+	.resources-right-content {
+		padding-left:9%;
+	}
+	.footer-newletter {
+		max-width:480px;
+	}
+	.testimonials-wrap {
+		margin-left: 7%;
+	}
+	.verticle-slider-wrap {
+		max-width: none;
+		width: 24%;
+	}
+	.services-slider {
+		margin-left:-18%;
+	}
+	span.bubble-text {
+		right:25%;
+	}
+
+	/*About*/ 
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: 0px !important;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		/* width:590px !important; */
+		margin-top:-100px;
+	}
+	.image-gallery-content .image-gallery {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 879px;
+		width: 100%;
+		justify-content: flex-end;
+		row-gap: 16px;
+		column-gap: 19px;
+		/* margin-left:-135px; */
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width: 370px;
+	}
+
+
+	/* Team Bio */
+	.team-bottom-left, .team-bottom-right {
+		max-width:none;
+		width:50%;
+	}
+	.team-bottom-left {
+		padding-right:20px;
+	}
+	a.team-close {
+	  right: 30px;
+	  top: 30px;
+	}
+	/*Business Banking */
+	.banking-banner .right-banner {
+		margin-left:50px;
+	}
+	.personal-banking .right-banner {
+		margin-left:10%;
+	}
+	.service-box-wrap {
+		max-width: 450px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		max-width:none;
+		width:80%;
+	}
+	.verticle-slider-wrap .slick-slide,
+	.verticle-slider-wrap .slick-slide.slick-center {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.verticle-slider-wrap {
+		padding:40px 0px 50px 0px;
+	}
+	.services-box-right {
+		width: 61%;
+	}
+	.layout2 .testimonials-carousel span.about-bubble-text{
+		max-height:110px;
+	}
+
+	/* Business Checking */
+	.solution-image-wrap {
+		right: -80px;
+	} 
+	.solution-image-wrap {
+		max-width:320px;
+	}
+
+	/* Careers */
+	.core-values-sec.our-culture-sec .core-values-slider-wrap {
+		max-width: 900px;
+	}
+
+	/* Contact us */
+	.page-contact-us .here-to-help-right .help-form-wrap {
+    margin-left: 8%;
+  }
+  .page-career-opportunities .image-bubble {
+    left: 40px !important;
+  }
+
+  /* Locations */
+  .location-banner .banner-image-wrap {
+	  width:260px;
+  }
+  .location-banner .banner-right-image {
+	  width:230px;
+	  left:130px;
+  }
+  .location-banner .banner-download-btns {
+	  max-width:none;
+	  width:auto;
+	  margin-left:-214px;
+	  bottom:80px;
+	  display:block;
+  }
+  .location-banner span.right-banner-bubble {
+	  right:45px;
+  }
+
+  /* Treasury Management */
+  .team-bottom-sec.reverse-order .team-bottom-left {
+	  width:50%;
+	  margin-right:32px;
+  }
+  .team-bottom-sec.reverse-order .team-bottom-right {
+	  width:50%;
+  }
+
+}
+
+@media only screen and (max-width:1480px){
+	html body {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	h1 {
+		font-size: 70px;
+		line-height: 70px;
+	}
+	h2 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	h3 {
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.alert-content p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.alert-section {
+		padding: 15px 0 15px 0px;
+	}
+	.left-banner .banner-content p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.left-banner {
+		margin-top:0px;
+	}
+	.login-form {
+		width: 320px;
+    	position: absolute;
+    	left: -245px;
+    	top: 17%;
+	}
+	.mobile-image {
+		max-width:230px;
+	}
+	.services-slider {
+		max-width:940px;
+	}
+	.right-banner {
+		margin-left:260px;
+	}
+	.verticle-slider-wrap {
+		padding:40px 0px 50px 0px;
+	}
+	.services-slider {
+    	margin-left: -20%;
+	}
+	.services-slider .owl-nav {
+    	right: 10%;
+	}
+	.container, .custom-container {
+		padding:0 30px;
+	}
+	.main-header {
+		padding:20px;
+	}
+	.testimonials-wrap {
+    	margin-left: 4%;
+	}
+	section.newsletter-sec {
+    	background-position: 0px bottom;
+	}
+	.right-circle-arrow, .left-circle-arrow {
+		width:50px;
+		height:50px;
+	}
+	.services-slider .owl-nav {
+		right: 90px;
+	}
+	.footer-newletter {
+		max-width: 410px;
+	}
+	.footer-col4, .footer-col3, .footer-col2 {
+		max-width:160px;
+	}
+
+	/* =======================About================== */
+	.image-gallery .gallery-img-wrap {
+		max-width: 350px;
+	}
+	.gallery-img-wrap:nth-child(2) {
+		margin-top:auto;
+	}
+	.gallery-content {
+		margin-left:80px;
+	}
+	.image-bubble {
+		right: 40px;
+	}
+	.core-values-slider {
+		padding-left:90px;
+	}
+	.full-video-sec #full-video {
+		height: 700px;
+	}
+	.core-values-sec {
+		padding-top: 100px;
+	}
+	.image-gallery-content {
+		padding: 100px 0px 150px 0px;
+	}
+	.services-left, .services-right {
+		padding-top:120px;
+		padding-bottom:120px;
+	}
+	.connect-with-us-sec {
+		padding:100px 0px;
+	}
+	.page-career-opportunities .connect-with-us-sec {
+		padding: 200px 0px 100px 0px;
+	}
+	#sync2 p .slide-count {
+		margin-right:5px;
+	}
+	.image-bubblt-wrap span {
+		right:-27%;
+		top:70px;
+	}
+
+	/* =============================Business Banking========================= */
+	.who-we-are-inner h2 {
+		font-size: 50px;
+		line-height: 55px;
+	}
+	.testimonial-text p {
+		font-size:18px;
+	}
+	.testimonial-content {
+		padding: 90px 50px 50px 50px;
+	}
+	.service-box-wrap h3 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.banking-banner .mobile-image {
+		width:70%;
+	}
+	.banking-banner .earnings-wrap {
+		bottom: -0px;
+    	right: -160px;
+	}
+	.banking-banner .transfer-wrap {
+		right: -20%;
+        top: 18%;
+	}
+	.personal-banking .transfer-wrap {
+		right: -35%;
+        top: 18%;
+	}
+	.banking-banner .received-wrap {
+		bottom:-3%;
+	}
+	.service-box-wrap {
+		max-width:none;
+		width:50%;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		left: -20%;
+	}
+	.services-box-slider::after {
+		right: 38px;
+	}
+	.text-on-left {
+		max-width:370px;
+	}
+	.lg-slider .text-on-right {
+		max-width:300px;
+	}
+	.verticle-slider .custom-container .d-flex.align-center {
+		justify-content:space-between;
+	}
+
+	/* Mortgage */
+	span.right-banner-bubble {
+	  background: #B6D4DB 0% 0% no-repeat padding-box;
+	  box-shadow: 0px 0px 12px #00000029;
+	  border-radius: 20px 20px 20px 0px;
+	  padding: 35px;
+	  position: absolute;
+	  top: 0;
+		font-size: 16px;
+		line-height: 24px;
+	  letter-spacing: 0px;
+	  color: #1A1A1A;
+	  max-width: 347px;
+	}
+	.right-banner.right-banner-about .banner-right-image {
+		max-width: 570px;
+		right: 10%;
+	}
+	.right-banner.right-banner-about .right-banner-bubble {
+		padding: 25px;
+		font-size: 14px;
+		line-height: 24px;
+		right:50px;
+	}
+	.mortgage-left h2 {
+		line-height:65px;
+	}
+	.image-content-sec .bubble-wrap {
+		right: 14%;
+	}
+	.left-banner .banner-content {
+		padding-top:10px;
+	}
+
+	/* Business Checking */
+	.left-banner {
+		max-width:600px;
+	}
+	.left-solutions h2 {
+		margin-right:87px;
+	}
+	.left-solutions {
+		max-width:490px;
+	}
+	.blue-tick-list {
+		margin-left:110px;
+	}
+	.blue-tick-list li::after {
+		width:30px;
+		height:30px;
+		top:4px;
+	}
+	.blue-tick-list li {
+		padding: 7px 0px 7px 40px;
+	}
+	.solutions-bubble {
+		right: 115px;
+		padding:25px;
+		max-width:190px;
+		bottom:25px;
+	}
+	.account-options-sec h2 {
+		line-height: 70px;
+	}
+	.left-solutions, .right-solutions {
+		padding:120px 0px;
+	}
+	.solution-image-wrap {
+		max-width: 280px;
+	}
+	.solution-image-wrap {
+		right: -30px;
+	}
+	.account-options-sec {
+		margin: 100px 0px;
+	}
+	/* .services-left.light-bg h2 {
+		padding-right:60px;
+	} */
+	.testimonial-left h3 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.testimonial-right .testimonial-text p {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		padding:100px 30px;
+	}
+	.testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		left:-575px;
+	}
+	.services-business-checking .services-left h2 {
+		margin-right:60px;
+	}
+
+	/* Resources Library */
+	.resources-main-wrap h3{
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.resources-box-wrap {
+		margin-bottom: 100px;
+	}
+
+	/* Investor relations */
+	.investor-banner {
+		padding-top:40px;
+	}
+	.investor-left-banner {
+		max-width: none;
+		width: 20%;
+		margin-left: auto;
+	}
+	.investor-right-banner {
+		max-width: none;
+		margin-left: auto;
+		padding-top: 100px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 100px;
+		border-radius: 8px 0px 0px 0px;
+		width: 65%;
+	}
+	.text-center.center-image-sec {
+		padding: 60px 0px;
+	}
+	.investors-doc-sec {
+		padding: 100px 0px 105px 0px;
+	}
+	.investor-banner .custom-container {
+		padding:0px 30px;
+	}
+	.investor-right-banner {
+		margin-right:-30px;
+	}
+
+	/* Search Page */
+	.search-form h2 {
+		font-size:70px;
+		line-height:70px;
+	}
+
+	/* Business Checking */
+	.testimonial-right .testimonials-carousel .owl-carousel {
+		max-width: 760px;
+	}
+
+
+	/* Contact Us */
+	.page-contact-us .inner-page-banner .banner-right-image {
+    max-width: 400px;
+    width: 100%;
+    right: 20%;
+  }
+  .page-contact-us .here-to-help-right .help-form-wrap {
+    margin-left: 40px;
+  }
+  .page-contact-us .inner-page-banner {
+    padding-bottom: 130px;
+  }
+
+
+  /* Locations */
+  .location-banner span.right-banner-bubble {
+    right: 200px;
+  }
+  .find-an-atm-sec {
+    padding: 90px 0px 90px 0px;
+  }
+  .locations-sec {
+    padding: 90px 0px 90px 0px;
+  }
+  .page-locations-and-hours .location-inner {
+    margin-bottom: 90px;
+  }
+  .find-an-atm-sec .container {
+	  padding:0 30px;
+  }
+  .find-an-atm-sec .atm-text {
+    max-width: none;
+    width: 40%;
+	} 
+	.find-an-atm-sec .map-sec {
+		max-width: none;
+		width: 57%;
+	}
+	.location-banner .right-banner {
+		margin-left: 40px;
+	}
+	.map-input-address {
+		max-width:none;
+		width:80% !important;
+	}
+	.map-search-btn {
+		max-width:none;
+		width:19% !important;
+	}
+	.map-search-btn .red-btn {
+		min-width:auto;
+	}
+	.chainsaw-toggle .button-round {
+		bottom:14rem !important;
+	}
+
+	/* Personal Banking */
+	.page-personal-banking .banking-banner .mobile-image {
+		max-width:360px;
+		width:100%;
+	}
+	.personal-banking .transfer-wrap {
+		right:-45%;
+	}
+	.personal-banking .earnings-wrap {
+		bottom: -33px;
+		right: -55%;
+	}
+	.page-personal-banking .banking-banner .earnings-wrap {
+		bottom: 30px;
+		right: -230px;
+	}
+	.page-personal-banking .banking-banner .received-wrap {
+		left:-110px;
+	}
+	.personal-banking .right-banner {
+		margin-left: 14%;
+	}
+
+	/* Mortgage */
+	.page-mortgage .image-content-sec.white-gradient .d-flex .right-content h2 {
+		margin-right:135px;
+	}
+	.page-mortgage .mortgage-left {
+		max-width:360px;
+	}
+	.right-banner.right-banner-about .right-banner-bubble {
+		max-width:298px;
+	}
+
+
+	/* Business Concierge */
+	.services-form-left, .services-form-right {
+		width:45%;
+	}
+}
+
+@media only screen and (max-width:1440px){
+	.services-slider .owl-nav {
+		right: 105px;
+	}
+}
+
+@media only screen and (max-width:1407px){
+	.services-slider .owl-nav {
+		right: 105px;
+	}
+	.services-slider .owl-nav {
+		right: 112px;
+	}
+	.lg-slider .text-on-right {
+		max-width: 345px;
+	}
+}
+
+@media only screen and (max-width:1380px){
+	.login-form-wrap {
+		padding: 20px 30px 25px 30px;
+		max-width:309px;
+	}
+	.right-circle-arrow, .left-circle-arrow {
+    	width: 50px;
+    	height: 50px;
+	}
+	.services-slider .owl-nav {
+    	right: 114px;
+	}
+	.footer-newletter {
+    	max-width: 375px;
+	}
+	/* .right-banner {
+    	margin-left: 110px;
+	} */
+	.get-in-touch-wrap {
+		background-position: -46px bottom;
+	}
+	.connect-link .right-circle-arrow {
+		top:17px;
+	}
+	.services-slider {
+    	margin-left: -23%;
+	}
+	.text-on-right {
+		max-width:310px;
+	}
+	.connect-link .right-circle-arrow {
+		top:50%;
+		transform:translateY(-50%) !important;
+	}
+	.verticle-slider  .d-flex.align-center {
+		justify-content:space-between;
+	}
+	/* span.about-bubble-text {
+		max-width:none;
+	} */
+	.footer-col2 {
+		width: 100%;
+		max-width: 150px;
+	}
+	.footer-col3 {
+		width: 100%;
+		max-width: 150px;
+	}
+	.footer-col4 {
+		width: 100%;
+		max-width: 160px;
+	}
+	.who-we-are-sec .custom-container {
+		margin-top: 100px;
+		margin-bottom: 63px;
+	}
+	.right-image {
+		padding-top:50px;
+	}
+	.resources-right-content .content-wrap.mt-10 {
+		margin-right:24px;
+	}
+	.testimonials-carousel span.about-bubble-text {
+		max-width: none;
+	}
+	.home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text  {
+		max-width:260px;
+	}
+	.testimonials-carousel span.about-bubble-text {
+		padding: 0px;
+		height: 100%;
+    	padding: 30px;
+	}
+	.login-form-wrap p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.login-form-wrap .input-wrap select, .login-form-wrap .input-wrap input {
+		font-size: 13px ;
+		line-height: 36px;
+		width: 100%;
+		padding: 6px;
+		max-height: 35px;
+		outline: none;
+	}
+	.login-form {
+		top:11%;
+	}
+	.mobile-image {
+		width:210px;
+	}
+	.verticle-slider-wrap .slick-slide,
+	.verticle-slider-wrap .slick-slide.slick-center {
+		font-size: 40px ;
+		line-height: 50px;
+	}
+	.verticle-slider-wrap {
+		max-height: 370px;
+	}
+	.input-wrap:first-child:after {
+		top:79%;
+	}
+	.connect-link a {
+		position:initial;
+	}
+	h2.connect-link {
+		position:relative;
+		width: 100%;
+		display:inline-block;
+	}
+	.connect-link .right-circle-arrow {
+		right:0px !important;
+	}
+	.page-business-banking .connect-link .right-circle-arrow {
+		left:65%;
+	}
+
+
+	/*About*/
+	.image-bubble {
+		right: 20px;
+	}
+	.tabs .tab-content {
+		column-gap:15px;
+	}
+	.team-wrap {
+		width:24%;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		/* width: 540px !important; */
+		margin-top: -80px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -5%;
+	}
+	.team-wrap a img {
+		max-width:90%;
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width: 300px;
+	}
+
+	/* Team Bio */
+	.team-slider.team-overlay {
+		padding:70px 0px;
+	}
+	a.team-close {
+	  right: 20px;
+	  top: 15px;
+	}
+	.team-banner-content p {
+		margin: 30px 0px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom:0px !important;
+	}
+	.next-post-link {
+		margin-top:140px;
+	}
+	.team-about-right {
+		max-width: none;
+		width:70%;
+	}
+	.team-about-right img {
+		width:100%;
+	}
+	.team-about-sec .left-content {
+		padding-right: 170px;
+	}
+	.team-about-right h3 {
+		font-size: 36px ;
+		line-height: 30px;
+	}
+
+
+	/*Business Banking*/
+	.banking-banner .mobile-image {
+		width: 100%;
+		max-width: 480px;
+	}
+	.banking-banner .earnings-wrap {
+		bottom: -32%;
+		right: -19%;
+	}
+	.banking-banner .received-wrap {
+		bottom: -6%;
+		left: -7%;
+	}
+	.personal-banking .mobile-image {
+		width: 70%;
+		max-width: none;
+	}
+	.layout2 {
+		max-width:none;
+		width:56%;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		max-width:450px;
+	}
+	.banking-banner .left-banner{
+		margin-top:0px;
+	}
+	.home-banner {
+		padding:70px 0 100px 0px;
+	}
+	.banking-banner .earnings-wrap {
+		bottom: -50px;
+		right: -43%;
+	}
+	.banking-banner .received-wrap {
+		bottom: -12%;
+		left: -12%;
+	}
+	.banking-banner .transfer-wrap {
+		right: -25%;
+		top: 18%;
+	}
+	.personal-banking .transfer-wrap {
+		right: -30%;
+		top: 18%;
+	}
+	.personal-banking .received-wrap {
+		bottom: 45px;
+		left: -50px;
+	}
+	.services-left h2 {
+		margin-right:50px;
+	}
+	.service-box-wrap::after {
+		width:60px;
+		height:60px;
+	}
+	.service-box-wrap .services-post-content {
+		max-width:230px;
+	}
+	.gallery-img-wrap {
+		max-width: 340px;
+	}
+
+
+
+	/*Mortgage*/
+	.mortgage-tools-sec .tool-box-wrap {
+		max-width:49%;
+	}
+	.mortgage-right {
+		max-width: 770px;
+		margin-left: auto;
+	}
+	.image-content-sec .left-image img {
+		width:auto;
+	}
+
+	/* Business Checking */
+	.solution-image-wrap {
+		right: 0px;
+	}	
+	.options-wrap {
+		column-gap:2%;
+	}
+	.options-box-wrap {
+		margin-right:0px;
+	}
+	.testimonial-right .testimonials-carousel .owl-carousel {
+		position:initial;
+		max-width: 740px;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		position:relative;
+	}
+	.testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		left:30px;
+		bottom:100px;
+	}
+	.services-post-content h4{
+		font-size: 20px ;
+		line-height: 28px;
+		margin-bottom:10px;
+	}
+
+	/* Help Center */
+	.help-boxes {
+		margin-right:1.2%;
+	}
+
+	/* Carrers */
+	.core-values-sec.our-culture-sec .core-values-slider-wrap {
+		max-width: 820px;
+	}
+	.inner-page-banner .banner-right-image {
+		max-width: 670px;
+	}
+
+	/* Contact Us */
+	.page-career-opportunities .image-bubble {
+		left: 20px !important;
+	}
+
+	/* Locations */
+	.location-banner span.right-banner-bubble {
+		right: 120px;
+	}
+
+
+	/* Legacy */
+	.legacy-merger, .legacy-merger-image {
+		margin-top:100px;
+		margin-bottom:40px;
+	}
+	.legacy-merger .image-gallery .gallery-img-wrap {
+		max-width:none !important;
+		max-height:none !important;
+		width:45%;
+	}
+	.page-legacy .get-in-touch-sec .container h1 {
+		margin-top:100px;
+	}
+	.faq-wrap.d-flex {
+		margin-bottom:100px;
+	}
+	.gallery-content h1 {
+		font: normal normal bold 50px/55px Avenir Next Demi;
+	}
+	.legacy-merger .gallery-content {
+		width:48%;
+	}
+	.legacy-merger-image .image-sec {
+		width:50%;
+	}
+	.legacy-merger-image .image-sec::after {
+		width:100%;
+	}
+	.legacy-merger .image-gallery {
+		column-gap:20px;
+		row-gap:20px;
+	}
+
+
+	/* Landing Page */
+	.right-landing-banner {
+		width:30%;
+	}
+	.left-landing-banner {
+		width:55%;
+	}
+}
+
+
+
+#companyId{
+	display:none;
+}
+
+
+@media only screen and (max-width:1320px){
+	.gallery-img-wrap {
+		max-width: 260px;
+	}
+	.testimonial-right .testimonials-carousel .owl-carousel {
+		max-width: 700px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		padding:8px 0px;
+	}
+	.page-business-banking .who-we-are-wrap {
+		margin-right: 20px;
+	}
+	.banking-banner .received-wrap {
+		bottom: -12%;
+		left: -17%;
+	}
+	.banking-banner .transfer-wrap {
+		right: -30%;
+		top: 16%;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width:500px;
+	}
+
+	/* About */
+	.team-banner-image {
+		height: 460px;
+	}
+
+	/* Business Checking */
+	.left-solutions {
+		max-width:450px;
+	}
+	.blue-tick-list {
+		margin-left: 90px;
+	}
+	.solutions-bubble {
+		right: 170px;
+		padding: 25px;
+		max-width: 190px;
+		bottom: 40px;
+	}
+	.help-boxes:before {
+		right:10px;
+	}
+
+	/* Personal Banking */
+	.page-personal-banking .banking-banner .earnings-wrap {
+		bottom: -8px;
+		right: -170px;
+	}
+	.personal-banking .right-banner {
+		margin-left: 10%;
+	}
+	.page-personal-banking .banking-banner .received-wrap {
+		left: -70px;
+	}
+
+
+	/* Locations */
+	.location-banner span.right-banner-bubble {
+		top:-16px;
+	}
+}
+
+
+@media only screen and (max-width:1280px){
+	.image-gallery .gallery-img-wrap {
+	  max-width: 250px;
+	}
+	.gallery-img-wrap:nth-child(1) {
+		max-width:210px !important;
+		margin-left:auto;
+	}
+	.gallery-img-wrap:nth-child(2) {
+		max-width:30% !important;
+	}
+	.gallery-img-wrap:nth-child(3) {
+	  max-height: 236px;
+	}
+	.core-values-slider {
+		padding-left: 50px;
+	}
+	ul#primary-menu li {
+		margin-right: 20px;
+	}
+	.left-banner h1 {
+		font-size: 50px ;
+		line-height: 60px;
+		margin-right: 60px;
+	}
+	.image-gallery-content .image-gallery {
+		max-width:48%;
+		margin-left:0px;
+	}
+	.gallery-content {
+		max-width:none;
+		width: 40%;
+	}
+	
+	/* Home */
+	.home-banner.banner-overlay .container .d-flex{
+		align-items: center;
+	}
+	.left-banner .banner-content p {
+		font-size: 18px ;
+		line-height: 26px;
+	}
+	h2 {
+		font-size: 40px ;
+		line-height: 50px;
+	}
+	h3 {
+		font-size: 30px ;
+		line-height: 40px;
+	}
+	p,.services-form-left p {
+		font-size: 16px ;
+		line-height: 24px;
+	}
+	.services-form-right p {
+		font-size:20px;
+		line-height:30px;
+		margin-bottom:15px;
+	}
+	.service-form-sec {
+		padding: 70px 0px;
+	}
+	.service-form-sec h4.text-red {
+		margin-top: 20px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.tick-list li {
+		margin-bottom:5px;
+	}
+	.testimonial-text p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.testimonial-content {
+		padding: 90px 40px 40px 50px;
+	}
+	.layout2 .testimonial-content {
+		padding:70px 40px 40px 50px;
+	}
+	.services-post-content {
+		padding: 20px;
+		padding-bottom: 40px;
+	}
+	.services-post-content h4 {
+		margin-bottom:5px;
+	}
+	.text-on-right {
+		max-width: 260px;
+	}
+	.verticle-slider-wrap {
+		max-height: 313px;
+		padding:0px;
+	}
+	.get-in-touch-wrap {
+		background-position: -85px bottom;
+	}
+	section.newsletter-sec {
+		background-position: -123px bottom;
+	}	
+	.get-in-touch-sec {
+		min-height: auto;
+	}
+	.resources-right-content {
+		max-width:330px;
+	}
+	.testimonials-carousel span.about-bubble-text {
+		max-width: 260px;
+	}
+	.footer-bottom .download-button a {
+		display: inline-flex;
+		margin-right: 12px;
+		max-width: 100px;
+		height: 28px;
+	}
+	.services-left h2 {
+		margin-right: 120px;
+	}
+	
+
+	/* About */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -80px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		/* width: 500px !important; */
+		margin-top: -40px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		padding-top:120px;
+	}
+	.image-bubble {
+		margin-top:-50px;
+	}
+	.gallery-img-wrap {
+		max-width: 260px;
+	}
+	.gallery-content {
+		margin-top:0px;
+	}
+	.image-gallery-content .d-flex {
+		align-items: center;
+	}
+	.image-gallery-content {
+		padding: 70px 0px 120px 0px;
+	}
+	.core-values-sec {
+		padding-top:70px;
+	}
+
+	/* About */
+	.core-values-slider {
+		padding:35px;
+	}
+	.core-values-slider #sync2 {
+		max-width: 160px;
+		margin-right: 50px;
+	}
+	.image-bubblt-wrap {
+		margin-top:0px;
+	}
+	.core-values-slider-wrap {
+		margin-top:70px;
+	}
+	#sync1 p {
+		margin-right:30px;
+	}
+	.here-to-help-left {
+		width:44%;
+	}
+	.team-banner-image {
+		height:460px;
+	}
+	.team-banner-content p {
+		height:auto;
+	}
+	.team-banner-content {
+		margin-top: 45px;
+	}
+
+
+	/* Business Checking */
+	.testimonial-right .testimonials-carousel .owl-carousel {
+		max-width: 660px;
+	}
+	.services-business-checking .services-left h2 {
+		margin-right: 165px;
+	}
+	.services-business-checking .left-banner {
+		max-width: 490px;
+	}
+	.services-business-checking .left-solutions h2 {
+		line-height:50px;
+	}
+	.left-solutions {
+		max-width: none;
+		width: 35%;
+	}
+	.right-solutions {
+		max-width:none;
+		width:65%;
+	}
+
+
+	/* Business Banking */
+	.earnings-top img {
+		width:60px;
+		height:50px;
+	}
+	.banking-banner .earnings-wrap .earnings-amount {
+		font: normal normal bold 24px/30px Avenir Next Demi;
+		color: #102245;
+	}
+	.earning-table thead tr th {
+		padding-top:7px;
+	}
+	.banking-banner .earnings-wrap {
+		bottom: -50px;
+		right: -34%;
+	}
+	.banking-banner .mobile-image {
+		width: 100%;
+		max-width: 440px;
+	}
+	.layout2 .testimonials-carousel span.about-bubble-text {
+		margin-left:-60px;
+		margin-right:0px;
+	}
+	.services-sections .services-left {
+		width:44%;
+	} 
+	.services-left, .services-box-sec .services-left {
+		width:30%;
+		padding-right:50px;
+	}
+	.services-box-right {
+		width:70%;
+	}
+	.container-lg .text-on-left {
+		max-width: 275px;
+	} 
+	.personal-banking .transfer-wrap {
+		right: -41%;
+		top: 14%;
+	}
+	.banking-banner .earnings-wrap {
+		bottom: 0px;
+		right: -50%;
+	}
+	.page-business-banking .connect-link .right-circle-arrow {
+		left: 86%;
+	}
+
+	/* Locations */
+	.here-to-help-inner h3 {
+		font:normal normal bold 40px/45px Avenir Next Demi;
+	}
+	.page-career-opportunities .here-to-help-inner h3 {
+		margin-right:12px;
+	}
+	.location-banner {
+		padding:110px 0px;
+	}
+	.map-search-btn .red-btn {
+		height:50px;
+	}
+	#locatoraid-search-form-inputs #searchLocation {
+		max-height:50px;
+	}
+
+	/* Mortgage */
+	.page-mortgage .right-banner.right-banner-about .right-banner-bubble {
+		top: 55px;
+	}
+	.mortgage-left h2 {
+		line-height:50px;
+	}
+	.mortgage-right .tick-list {
+		margin-top:0px;
+	}
+	.mortgageBenefits-sec {
+		padding: 100px 0px 100px 0px;
+	}
+	.mortgage-tools-sec {
+		padding: 100px 0px 100px 0px;
+	}
+	.mortgage-tools-sec h2 {
+		margin-bottom: 30px;
+	}
+	section.image-content-sec {
+		padding-top:100px;
+	}
+	.image-content-sec .left-image {
+		width:60%;
+	}
+	.image-content-sec .right-content {
+		width:40%;
+	}
+	.mortgage-right .tick-list li {
+		font-size:15px;
+	}
+	
+
+
+	/* Resources */
+	.resource-box {
+		margin-right:0px;
+		margin-bottom:0px;
+		margin-bottom:1.3%;
+	}
+	.resources-box-wrap {
+		column-gap:1.3%;
+	}
+	.resources-heading {
+		font-size:50px;
+		line-height:60px;
+		padding-top:60px;
+	}
+	.resources-box-wrap {
+		margin-bottom: 70px;
+	}
+	.resources-sec .white-btn {
+		margin-bottom:70px;
+	}
+	.questions-inquiries-sec .resources-right-content, .questions-inquiries-sec .get-in-touch-inner {
+		padding-top:0px;
+		margin-top:0px;
+	}
+
+
+	/* FAQ */
+	.get-in-touch-sec .container h1 {
+		font: normal normal 600 50px/60px Avenir Next Demi;
+		margin-top:60px;
+		padding-bottom:58px;
+		margin-bottom:58px;
+	}
+	.get-in-touch-sec .container h3 {
+		margin-bottom: 10px;
+	}
+	.search-form {
+		margin-bottom: 60px;
+	}
+	.help-boxes-wrap {
+		margin-bottom:60px;
+	}
+	.faq-wrap.d-flex {
+		margin-bottom: 70px;
+	}
+
+	/* Single FAQ Page */
+	h1 {
+		font:normal normal 600 50px/60px Avenir Next Demi;
+	}
+	.signle-faq-page h1 {
+		margin-top:60px;
+	}
+
+	/* Investor Relations */
+	.document-wrap {
+		max-width:24%;
+		margin:0px;
+		margin-bottom:1.3%;
+	}
+	.document-row-wrap {
+		column-gap: 1.3%;
+	}
+	.page-investor-relations .document-wrap {
+		min-height: 260px;
+	}
+	.investors-doc-wrap h3{
+		margin-bottom:20px;
+	}
+	.investors-doc-sec .tabs.investors-tab-ul {
+		top:10px;
+	}
+	.investors-doc-wrap {
+		margin-bottom: 70px;
+	}
+	.investors-doc-sec {
+		padding: 70px 0px 70px 0px;
+	}
+	.tabs.investors-tab-ul {
+		position: initial;
+		margin-top: -10px;
+		margin-bottom: 34px;
+	}
+
+	/* Careers */
+	.page-career-opportunities .inner-page-banner .banner-right-image {
+		max-width: 600px;
+	}
+	.page-career-opportunities .core-values-sec.our-culture-sec .core-values-slider-wrap {
+		max-width:none;
+		width:57.6%;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage-outer {
+		max-height: 518px;
+	}
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 250px;
+	}
+	.page-career-opportunities .image-gallery-content {
+		padding: 93px 0px 100px 0px;
+	}
+
+	/* Articles */
+	.related-blog-wrapper {
+		column-gap:1.3%;
+	}
+	.single-post-page {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.post-content-wrap {
+		padding-top:70px;
+		padding-bottom:70px;
+	}
+	.related-article-section {
+		padding-top:70px;
+		margin-top:70px;
+	}
+
+	/* Bio Page */
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 35px;
+	}	
+
+
+	/* Contact */
+	.ctf-author-goinbank {
+		max-width:none;
+		width:95% !important;
+	}
+	.page-contact-us .inner-page-banner span.right-banner-bubble {
+		right:7%;
+	}
+	.page-contact-us .get-in-touch-sec {
+		padding-top: 70px;
+	}
+	.page-contact-us .help-boxes-wrap {
+		margin-top: 60px;
+	}
+	.page-contact-us .faq-wrap.d-flex {
+		margin-bottom: 60px;
+	}
+	.page-contact-us .here-to-help-inner {
+		padding-top: 100px;
+	}
+	.page-contact-us .here-to-help-right .help-form-wrap {
+		margin-top: 100px;
+	}
+	.twitter-container h2 {
+		margin-top:100px;
+	}
+	#ctf.ctf-narrow .ctf-tweet-content {
+		margin-left:0px !important;
+		margin-top:15px;
+	}
+	.ctf-carousel .ctf-owl-item>div {
+		width:92% !important;
+	}
+	.ctf-carousel .ctf-owl-stage {
+		height:377px;
+	}
+
+	/* Checking Account */
+	.checking-account-banner h1 {
+		margin-right:90px;
+	}
+	.checking-account-banner {
+		padding: 120px 0px 120px 0px;
+	}
+	.checking-management-section {
+		padding:100px 0px;
+	}
+	.account-options-sec {
+		margin: 70px 0px;
+	}
+	.account-features-section {
+		margin-bottom: 70px;
+		margin-top: 70px;
+	}
+
+
+
+	/* Help */
+	.help-boxes:hover h4 {
+		margin-right:30px;	
+	}
+	.faq-links a {
+		line-height:24px !important;
+	}
+	.faq-links span {
+		line-height:initial !important;
+	}
+	.faq-links {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 10px;
+	}
+
+
+	/* Landing Page */
+	.landing-banner {
+		padding: 40px 0px;
+	}
+	.landing-mobile-image .image-bubble-text {
+		bottom:21%;
+	}
+	.left-landing-banner .banner-content p {
+		font: normal normal normal 18px/30px Avenir Next;
+	}
+	.left-landing-banner {
+		width:44%;
+	}
+}
+
+@media only screen and (max-width:1250px){
+	/* .team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 35px;
+	} */
+	.payment-details {
+		display:none;
+	}
+
+	/* About */
+	.full-video-sec.mobile-full-video {
+		display:block;
+	}
+	.full-video-sec.desktop-full-video {
+		display:none;
+	}
+	.full-video-sec.mobile-full-video iframe {
+		height:400px;
+		margin-bottom:-5px;
+	}
+}	
+
+
+@media only screen and (max-width:1200px){
+	/* Home */
+	span.about-bubble-text {
+		font-size: 14px ;
+		line-height: 20px;
+		padding:20px;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: 470px;
+	}
+	.service-wrap {
+		margin-right:10px;
+	}
+	.services-slider .owl-nav {
+		right: 12%;
+	}
+	.services-post-content {
+		padding: 10px 20px;
+	}
+	.services-slider {
+		margin-left: -25%;
+	}
+	.left-banner {
+		max-width: 475px;
+	}
+	.page-home .left-banner .banner-content, .page-home-personal-banking .left-banner .banner-content{
+		padding-right:60px;
+	}
+	.login-form-wrap {
+		max-width:300px;
+	}
+	.received-wrap p.amount-text {
+		font-size: 18px ;
+		line-height: 20px;
+	}
+	.video-sec {
+		height:278px;
+	}
+	.video-sec iframe {
+		height:100%;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: 400px;
+	}
+	.service-wrap {
+		max-width: 340px;
+	}
+	.services-post-content {
+		padding: 30px 30px 20px 30px;
+	}
+	.page-home span.about-bubble-text {
+		margin-left:-50px;
+	}
+	.right-banner {
+		margin-left: 240px;
+	}
+	section.newsletter-sec {
+		background-position: -200px bottom;
+	}
+	.get-in-touch-inner {
+		max-width: 220px;
+	}
+	.resources-right-content {
+		max-width: 280px;
+	}
+	.copyright-text {
+		left:60%;
+	}
+	.footer-top {
+		flex-wrap: wrap;
+	}
+	.footer-col1 {
+		margin-bottom:30px;
+	}
+	.footer-col2, .footer-col3, .footer-col4 {
+		width: 20%;
+    	max-width: none;
+		margin-bottom:30px;
+	}
+	.footer-newletter {
+		max-width: 470px;
+	}
+	#gform_4 .gform_footer {
+		padding:0px;
+		margin-top:15px;
+	}
+
+
+	/* Business Banking */
+	.service-box-wrap {
+		height:260px;
+	}
+	.service-box-wrap .services-post-content {
+		padding-left:20px;
+		padding-bottom:20px;
+	}
+	.service-box-wrap::after {
+		bottom:-10px;
+		right: 20px;
+	}
+
+	/* Resources */
+	.resource-box h5 {
+		height:120px;
+		overflow:hidden;
+	}
+
+
+	/* Bio Page */
+	.team-about-sec .left-content {
+		padding-right: 30px;
+		width: 50%;
+	} 
+	.team-about-right {
+		max-width: none;
+		width: 50%;
+	}
+	.team-about-sec {
+		padding:100px 0px;
+	}
+	.accordion-wrap {
+		margin-bottom: 40px;
+		margin-right: 40px;
+	}
+	.team-bottom-right {
+		padding-left:80px;
+	}
+	.team-bottom-left, .team-bottom-right {
+		padding: 100px 0px 100px 0px;
+	}
+	.single-our-team .team-bottom-right {
+		padding-left:40px;
+	}
+
+	/* Treasury Management */
+	.team-bottom-right, .team-bottom-sec.reverse-order .team-bottom-left {
+		padding-left:35px;
+	}
+}
+
+
+@media only screen and (max-width:1180px){
+	ul#primary-menu li a {
+		font-size: 12px ;
+		line-height: 19px;
+	}
+	ul#primary-menu li {
+		margin-right: 12px;
+	}
+	li.login-btn, li.signup-btn {
+		padding:10px;
+	}
+	.home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		max-width: 290px;
+	}
+
+	/* About */
+	.tabs .tab-content {
+		column-gap: 15px;
+	}
+	.team-wrap {
+		margin-bottom:15px;
+	}
+	.team-wrap {
+		width: 23%;
+	}
+	.image-bubblt-wrap span {
+		right: -36%;
+		top: 45px;
+	}
+	.connect-with-us-sec .image-bubble {
+		margin-top:-86px;
+		padding:30px 35px;
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width: 200px;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-height: 210px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage-outer {
+		max-height: 517px;
+		margin-bottom:25px;
+	}
+	.image-gallery-heading-container {
+		max-width: 450px;
+	}
+
+	/* Business Banking */
+	.container-lg .text-on-left {
+		max-width:none;
+		width:30%;
+	}
+	.container-lg .text-on-left {
+		max-width:none;
+		width:43%;
+	}
+	.lg-slider .text-on-right {
+		max-width:none;
+		width:27%;
+	}
+	.banking-banner .earnings-wrap {
+		display:none;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		max-width: 410px;
+	}
+	.gallery-content {
+		max-width: none;
+		width: 41%;
+	}
+	.page-business-banking .connect-link .right-circle-arrow {
+		left: 89%;
+	}
+
+	/* locations */
+	.options-box-wrap {
+		width:49%;
+		max-width:none;
+	}
+	.options-wrap {
+		column-gap: 2%;
+	}
+	.locations-sec h3.options-heading {
+		padding-right: 260px;
+	}
+	.location-banner {
+		padding:100px 0px 100px 0px;
+	}
+	.location-banner span.right-banner-bubble {
+		right: 90px;
+	}
+
+	/* Mortgage */
+	.page-mortgage .right-banner.right-banner-about .banner-right-image {
+		right:50px;
+	}
+	.page-mortgage .image-content-sec .left-image img {
+		width: 60%;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right:13%;
+		top:110px;
+	}
+	.mortgageBenefits-sec .mortgage-left {
+		width:30%;
+	}
+	.mortgageBenefits-sec .mortgage-right {
+		width:65%;
+	}
+
+	/* Careers */
+	.page-career-opportunities .inner-page-banner .banner-right-image {
+		max-width: 530px;
+	}
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 228px;
+	}
+
+
+	/* Business Checking */
+	.left-solutions h2 {
+		margin-right: 40px;
+	}
+	.blue-tick-list {
+		margin-left: 40px;
+	}
+	.services-business-checking .solutions-bubble {
+		right:145px;
+	}
+
+	/* Personal Banking */
+	.page-personal-banking .layout2 .testimonials-carousel span.about-bubble-text {
+		max-width: 248px;
+    	max-height: none;
+    	padding: 35px;
+	}
+
+
+	/* Credit Cards */
+	.here-to-help-right {
+		width:calc(100% - 537px);
+	}
+	.services-credit-cards .here-to-help-left {
+		width:44%;
+	}
+
+}
+
+
+@media only screen and (max-width:1100px){
+	/* Home */
+	#primary {
+		padding-top:75px;
+	}
+    .post-title {
+   	padding-top:40px;
+    }
+	.login-form-wrap {
+		max-width: 265px;
+	}
+	.right-banner {
+		margin-left: 160px;
+	}
+	.payment-details {
+		right:-120px;
+	}
+	.transfer-wrap {
+		padding-right: 16px;
+	}
+	.login-form {
+		left:-200px;
+	}
+	.video-sec {
+		height: 268px;
+	}
+	.page-home span.about-bubble-text {
+		margin-left: -120px;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: 380px;
+	}
+	.signup-content {
+		max-width: 460px;
+		width: 100%;
+	}
+	.get-in-touch-wrap {
+		background-position: bottom -90px right 94px;
+		background-size: contain;
+	}
+	.copyright-text {
+		position: initial;
+		transform: none;
+		margin-top: 20px;
+	}
+	.red-btn, #gform_submit_button_1 {
+		min-width:160px;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: 337px;
+	}
+	.services-left,.services-right {
+		width:50%;
+	}	
+	.services-sections .services-left {
+		width:50%;
+	}
+	.services-slider {
+		margin-left: -20%;
+	}
+	.services-slider .owl-nav {
+		right: 112px;
+	}
+	.page-home-personal-banking .services-sections .services-left, .page-home .services-sections .services-left{
+		width:100%;
+	}
+	h2 {
+		font-size: 40px ;
+		line-height: 42px;
+	}
+	span.bubble-text {
+		padding: 15px 25px;
+	}
+	.service-wrap {
+		max-width: none;
+		margin-right: 30px;
+	}
+	.content-image-sec .left-content {
+		padding-right: 130px;
+	}
+	.get-in-touch-wrap {
+		background-position: bottom -154px right 103px;
+		background-size: contain;
+	}
+	.testimonial-content {
+		padding: 90px 30px 30px 30px;
+	}
+	.main-header .custom-logo {
+		max-width: 133px;
+	}
+	.core-values-slider {
+		width: 62.6%;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap {
+		width:100%;
+		height:100%;	
+	}
+	.image-bubblt-wrap span {
+		right: -42%;
+		top: 50px;
+	}
+	.sidebar-tab-ul {
+		top:20px;
+	}
+	.team-wrap {
+		width: 32%;
+	}
+	.gallery-content {
+		margin-left: 50px;
+	}
+
+	/* Business Banking */
+	.banking-banner .transfer-wrap {
+		right: -60px;
+		top: 18%;
+	}
+	.banking-banner .received-wrap {
+		bottom: -10px;
+		left: -80px;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		max-width: none;
+		width: 60%;
+	}
+	.services-box-sec .services-left {
+		width:30%;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		left: -15%;
+	}
+	.banking-banner .transfer-wrap, .banking-banner .received-wrap {
+		display: none;
+	}
+	.testimonial-content {
+		padding: 70px 30px 30px 30px;
+	}
+	.gallery-content h1 {
+		font:normal normal bold 40px/45px Avenir Next Demi;
+	}
+	.lg-slider .verticle-slider-wrap {
+		padding:0px;
+	}
+	.page-business-banking .connect-link .right-circle-arrow {
+		left: 93%;
+	}
+
+	/* Locations */
+	.location-banner {
+		padding:100px 0px 100px 0px;
+	}
+	.here-to-help-image .image-bubble-text {
+		right:-30px;
+		top:150px;
+	}
+	.location-banner span.right-banner-bubble {
+		right: 60px;
+	}
+	.locations-sec h3.options-heading {
+		padding-right: 100px;
+	}	
+
+	/* Mortgage */
+	.page-mortgage .right-banner.right-banner-about .banner-right-image {
+		right: 10px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right: 60px;
+	}
+	.right-banner.right-banner-about .banner-right-image {
+		max-width:490px;
+	}
+	.page-mortgage h3.options-heading {
+		padding:30px;
+		font-size:24px;
+		line-height:30px;
+	}
+	.mortgage-tools-sec .tool-box-wrap {
+		max-width: 48%;
+	}
+	.image-content-sec.white-gradient .d-flex .right-content {
+		margin-top: 40px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		top:70px;
+	}
+
+	/* Single FAQ */
+	.signle-faq-page .faq-right {
+		margin-left:40px;
+	}
+
+	/* Career */
+	.page-career-opportunities .inner-page-banner .banner-right-image {
+		max-width: 450px;
+	}
+	.page-career-opportunities .core-values-slider #sync1 {
+		max-width:66%;
+	}
+	.here-to-help-image {
+		max-width: 402px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin-bottom:100px;
+	}
+
+
+	/* Business Checking */
+	.services-business-checking .solutions-bubble {
+		bottom:25px;
+	}
+	.services-business-checking .services-left h2 {
+		margin-right: 110px;
+	}
+	h3.options-heading {
+		padding:30px;
+		min-height:auto;
+	}
+	h3.options-heading br {
+		display:none;
+	}
+	.options-box-wrap::after {
+		width:60px;
+		height:60px;
+		top:24px;
+	}
+	.option-content-wrap {
+		padding:30px;
+	}
+	.options-sub-heading {
+		margin-bottom: 20px;
+	}
+	.options-wrap ul {
+		margin-top:20px;
+	}
+	.testimonial-right .testimonials-carousel .owl-carousel {
+		max-width:600px;
+		width: 100%;
+	}
+
+	/* Bio Page */
+	.team-banner-content p {
+		font: normal normal normal 20px/30px Avenir Next;
+		height:60px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 32px;
+	}	
+
+
+	/* Career */
+	.gallery-content {
+		max-width: none;
+		width: 40%;
+	}
+	.image-gallery-content .image-gallery {
+		max-width: 50%;
+		margin-left: 0px;
+	}
+
+
+	/* Credit Cards */
+	.services-credit-cards .here-to-help-left {
+		width: 50%;
+	}
+	.here-to-help-left {
+		width:50%;
+	}
+}
+
+
+@media only screen and (max-width:1080px){
+	.desktop-iframe {
+		display:none;
+	}
+	.video-sec {
+		height: 187px;
+	}
+
+	/* Checking platform */
+	.account-features-section .tick-list {
+		column-count: 2;
+	}
+	.account-features-section .tick-list li {
+		width: 50%;
+	}
+
+	/* Help */
+	.help-boxes h4 {
+		margin-right:22px;
+	}
+
+	/* Landing Page */
+	.landing-mobile-image .image-bubble-text {
+		bottom: 14%;
+	}
+}
+
+
+@media only screen and (max-width:1024px){
+	.image-gallery-content .image-gallery {
+		max-width:none;
+		width:50%;
+	}
+	.gallery-content {
+		max-width:none;
+		width:45%;
+	}
+	.image-gallery-content .image-gallery {
+		margin-left: 0px;
+	}
+	.gallery-content {
+		margin-left: auto;
+	}
+
+	/* Business Banking */
+	.banking-banner .right-banner {
+		margin-right:0px;
+		margin-left:0px;
+	}
+
+	/* Locations */
+	.location-banner .banner-image-wrap {
+		width: 210px;
+	}
+	.location-banner .banner-download-btns {
+		margin-left: -281px;
+		bottom: 25px;
+	}
+	.location-banner {
+		padding: 130px 0px 100px 0px;
+	}
+	.location-banner .banner-right-image {
+		width: 173px;
+		left: 130px;
+	}
+	.location-banner .banner-image-wrap {
+		width: 200px;
+	}
+	.location-banner .banner-download-btns {
+		margin-left: -214px;
+		bottom: 0px;
+	}
+	.banner-download-btns a {
+		max-width: 100px;
+	}
+	.location-banner span.right-banner-bubble {
+		padding:17px;
+		display:none;
+	}
+	.banner-download-btns img {
+		height: 30px;
+	}
+
+	/* Mortgage */
+	.options-sub-heading {
+		margin-bottom:0px;
+	}
+	.tools-wrap .option-content-wrap {
+		padding:30px;
+	}
+	.option-content-wrap .content-wrap {
+		margin-top: 10px;
+	}
+	.mortgageBenefits-sec {
+		padding: 70px 0px 70px 0px;
+	}
+	.mortgage-tools-sec {
+		padding: 70px 0px 70px 0px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right: 40px;
+	}
+	.page-mortgage section.image-content-sec .d-flex {
+		flex-direction: column-reverse;
+	}
+	.image-content-sec.white-gradient .d-flex .right-content {
+		margin-top:0px;
+		width:100%;
+		margin-bottom:70px;
+	}
+	.image-content-sec .left-image {
+		width:60%;
+		padding-left:0px;
+		margin:0 auto;
+	}
+
+	/* Resources */
+	.help-boxes {
+		margin-right:0px;
+		max-width:24%;
+		margin-bottom:1.3%;
+	}
+	.help-boxes-wrap {
+		column-gap:1.3%;
+	}
+	.help-boxes:before {
+		display:none !important;
+	}
+
+	/* Carrers */
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 220px;
+	}
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 220px;
+	}
+	.page-career-opportunities .connect-with-us-sec {
+		padding: 200px 0px 70px 0px;
+	}
+	.connect-with-us-sec .image-carousel .owl-nav {
+		bottom:-70px;
+	}
+	.page-career-opportunities .image-gallery-content {
+		padding: 70px 0px 100px 0px;
+	}
+
+	/* Bio Page */
+	.team-banner-content p {
+		margin-right:10px;
+	}
+	.team-about-sec .container .d-flex {
+		flex-wrap:wrap;
+	}
+	.team-about-right {
+		max-width: none;
+		width: 40%;
+		margin-left: auto;
+	}
+	.team-about-sec .left-content {
+		padding-right: 0px;
+		width: 55%;
+	}
+	.team-bottom-left h3 {
+		font: normal normal 600 40px/48px 'Avenir Next Demi';
+	}
+	.acc-heading i {
+		display: inline-block;
+		margin-right: 18px;
+		margin-top: -3px;
+	}
+	.mt-25 {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width:991px){
+	/* Navbar menu */
+	.wp-block-search__label, .wp-block-search__button   {
+		display:none;
+	}
+	.widget_block.widget_search {
+		margin-bottom:0px;
+	}
+	.wp-block-search__input {
+		width:100%;
+		height:50px;
+		color:white !important;
+		outline:none !important;
+		background:#283958!important;
+		padding-left: 45px !important;
+		padding-right:10px !important;
+	}
+	.wp-block-search__inside-wrapper {
+		position:relative;
+		margin-top:48px;
+	}
+	.wp-block-search__inside-wrapper::after {
+		position: absolute;
+		content:"";
+		background-image: url(images/Search_Icon.svg);
+		width: 16px;
+		height:16px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		filter: brightness(0) invert(1);
+		top:16px;
+		left:15px;
+	}
+
+	input:-webkit-autofill,
+	input:-webkit-autofill:hover, 
+	input:-webkit-autofill:focus, 
+	input:-webkit-autofill:active{
+		-webkit-box-shadow: 0 0 0 30px #283958 inset !important;
+		-webkit-text-fill-color: white;
+	}
+		/* clears the ‘X’ from Internet Explorer */
+	input[type=search]::-ms-clear { 
+		display: none; width : 0; height: 0; 
+	}
+	input[type=search]::-ms-reveal {
+		display: none; width : 0; height: 0; 
+	}
+	/* clears the ‘X’ from Chrome */
+	input[type="search"]::-webkit-search-decoration,
+	input[type="search"]::-webkit-search-cancel-button,
+	input[type="search"]::-webkit-search-results-button,
+	input[type="search"]::-webkit-search-results-decoration { 
+		display: none; 
+	}
+	.wp-block-search__input::placeholder {
+		color:white;
+		font-size:15px;
+		font-family: 'Avenir Next';
+	}
+	.mobile-login-menu-btn {
+		display: block !important;
+	} 
+	.overflow-none {
+		overflow:hidden !important;
+	}
+	.menu-main-menu-container {
+		display:none;
+	}
+	.mobile-menu {
+		position: fixed;
+		z-index: 9999;
+		background-color: #102245;
+		max-width: 1920px;
+		width: 100%;
+		left: 0px;
+		right: 0px;
+		top: 74px;
+		height: 100%;
+		padding: 0 50px;
+		display:none;
+		transition:0.3s ease;
+		padding-bottom:80px;
+	}
+	.sub-menu {
+		z-index:9999;
+		top:116px;
+		left: -100% !important;
+		display:block !important;
+		max-width: 1920px;
+		width: 100% !important;
+		position: fixed !important;
+		top: 73px !important;
+		height:100%;
+		border-radius:0px;
+		background-color: #102245;
+		transition:0.3s ease;
+		padding: 0 50px !important;
+		padding-bottom:80px !important;
+		overflow-y: scroll;
+	}
+	
+	.business-sub-menu-open {
+		left:0px !important;
+	}
+	.mobile-login-menu-btn {
+		font: normal normal normal 13px/18px Avenir Next Demi;
+		padding:6px 13px;
+		border:2px solid #D13035;
+		color:#D13035 !important;
+		text-transform: uppercase;
+		margin-right:12px;
+	}
+	.main-header #site-navigation {
+		align-items: center;
+	}
+	#menu-mobile-menu-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	ul#menu-mobile-menu-1 li a, #menu-business-sub-menu li a {
+		color:white;
+		font-size: 18px ;
+		line-height: 25px;
+		letter-spacing: 0.45px;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	ul#menu-mobile-menu-1 .resource-menu {
+		margin-top:15px;
+	}
+	ul#menu-mobile-menu-1 .mobile-bottom-menu a {
+		font-size: 15px ;
+		line-height:15px;
+		letter-spacing: 0px;
+		margin-bottom: 15px;
+	}
+	ul#menu-mobile-menu-1 li.search-menu a {
+		display:none;
+	}
+	li.login-btn {
+		background-color:#102245 !important;
+		border:1px solid white;
+	}
+	li.login-btn, li.signup-btn {
+		max-width:275px;
+		margin-bottom:10px;
+	}
+	li.login-btn {
+		margin-top:20px;
+	}
+	#menu-mobile-menu-1 {
+		padding-top: 38px;
+	}
+	.menu-toggle {
+		display:block !important;
+	}
+	.main-navigation.toggled .mobile-menu {
+		display:block;
+		overflow-y:scroll !important;
+	}
+	.sub-menu-toggle {
+		width:20px;
+		height:14px;
+		position:absolute;
+		right:-87px;
+		top:5px;
+		background-image: url('images/arrow-right-red.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position:center;
+		font-size:0px;
+	}
+	.personal-banking-menu .sub-menu-toggle {
+		right:-78px;
+	}
+	.resources .sub-menu-toggle {
+		right: -156px;
+	}
+	.sub-menu li.back-btn {
+		margin-top:63px;
+		margin-bottom:60px !important;
+	}
+	.back-btn a {
+		font-size: 15px ;
+		line-height: 15px;
+    	letter-spacing: 0px;
+		position: relative;
+		padding-left:20px;
+		text-transform: capitalize !important;
+	}
+	.back-btn a::after {
+		position:absolute;
+		content: "";
+		width:7px;
+		height: 12px;
+		top:5px;
+		left:0px;
+		background-image: url('images/arrow-right-red.svg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position:center;
+		transform: rotate(180deg);
+	}
+	ul#menu-mobile-menu-1 li.login-btn a {
+		font-size: 13px ;
+		line-height: 18px;
+		letter-spacing: 0.52px;
+		color: #FFFFFF;
+		background-color: transparent;
+		margin-bottom:0px;
+	}
+	ul#menu-mobile-menu-1 li.signup-btn a {
+		font-size: 13px ;
+		line-height: 18px;
+		margin-bottom:0px;
+	}
+	.menu-item-has-children a, .sub-menu-toggle {
+		z-index: 99;
+	}
+	
+
+
+
+
+	/* Homepage */
+	.left-banner {
+		max-width: 400px;
+	}
+	.login-form-wrap {
+		max-width: 260px;
+		padding: 30px;
+	}
+	.login-form-wrap .input-wrap button {
+		max-height:none;
+		font-size: 14px ;
+		line-height: 20px;
+	}
+	.login-form-wrap .form-bottom a {
+		font-size:12px;
+	}
+	.received-wrap p {
+		font-size: 14px ;
+		line-height: 14px;
+	}
+	.who-we-are-sec .custom-container .d-flex {
+		flex-wrap:wrap;
+	}
+	.who-we-are-sec .custom-container .testimonial-about {
+		flex-wrap: nowrap;
+	}
+	.who-we-are-wrap {
+		margin-top:30px;
+	}
+	.who-we-are-wrap, .testimonials-wrap {
+		width:100%;
+	}
+	.login-form {
+		left: -156px;
+	}
+	.testimonials-wrap {
+		margin-left:0px;
+	}
+	.testimonials-inner-wrap {
+		width:100%;
+	}
+	.who-we-are-wrap {
+		margin-bottom:80px;
+		margin-top:0px;
+	}
+	.video-sec {
+		max-width:none;
+		height: 420px;
+		max-height: none;
+		margin-bottom:-48px;
+	}
+	.who-we-are-sec .custom-container {
+		margin-top:70px;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		margin-left: 0px;
+		margin-top:110px;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		margin-left:0px;
+		max-width:220px;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: none;
+		width: 64%;
+	}
+	.service-wrap {
+		max-width: none;
+		margin-right: 25px;
+	}
+	.services-slider {
+		margin-left: -25%;
+	}
+	.signup-content {
+		max-width: 410px;
+		width: 100%;
+	}
+	section.newsletter-sec {
+		background-position: -282px bottom;
+	}
+	.content-image-sec .right-image img {
+		margin-bottom:-5px
+	}
+	.content-image-sec .container .d-flex.align-center {
+		align-items:flex-end;
+	}
+	.page-home .content-image-sec .d-flex {
+		align-items:end;
+	}
+	.page-home .content-image-sec .right-image img {
+		margin-bottom:-5px;
+	}
+	.content-image-sec .left-content {
+		padding-right: 130px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.services-post-content {
+		padding: 20px 30px 20px 30px;
+	}
+	.get-in-touch-inner {
+		padding-top:0px;
+	}
+	.resources-right-content {
+		margin-top:0px;
+	}
+	.get-in-touch-wrap span.bubble-text {
+		bottom:30px;
+	}
+	.text-on-left {
+		max-width: 290px;
+	}
+	.footer-container {
+		padding: 0 30px;
+	}
+	.right-banner {
+		margin-left: 130px;
+	}
+	.page-career-opportunities .right-banner {
+		margin-left:40px;
+	}
+	.services-left p {
+		margin-right:15px;
+	}
+	.video-sec {
+		height: 330px;
+	}
+	.home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		max-width: 220px;
+	}
+
+	/* About */
+	.core-values-slider-wrap {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap {
+		margin-right: 0px;
+		text-align: center;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap img{
+		width:30%;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap span {
+		right: 20%;
+		top: 50px;
+	}
+	.core-values-slider {
+		width:100%;
+		flex-direction:column;
+		border-radius:0px;
+	}
+	.core-values-slider #sync2 {
+		max-width:470px;
+		margin-right:0px;
+	}
+	.sync2 .owl-stage {
+		transition:initial !important;
+		width: auto !important;
+		display:flex !important;
+	}
+	#sync2 p {
+		font-size:0px;
+		line-height: normal;
+	}
+	#sync2 p .slide-count {
+		font-size:14px;
+	}
+	.core-values-slider #sync1 {
+		max-width:none;
+		margin-top:30px;
+	}
+	#sync1 .owl-nav {
+		margin-top:60px;
+		text-align:end;
+	}
+	.sidebar-tab-ul {
+		top: 30px;
+	}
+	.connect-with-us-sec {
+		position:relative;
+	}
+	.connect-with-us-sec .image-bubble {
+		margin-top:0px;
+		bottom:22%;
+		left:30px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-bubble {
+		bottom:44px;
+	}
+	.connect-with-us-sec .image-carousel .owl-item img {
+		object-fit:contain;
+		height:auto;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		display:flex;
+		align-items:center;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		height:200px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -50px;
+		padding-top:70px;
+	} 
+	.connect-with-us-sec .image-carousel .owl-nav {
+		bottom:-70px;
+	}
+	.connect-with-us-sec .red-btn {
+		margin-top: 240px;
+	}
+	.page-who-we-are .core-values-sec {
+		position:relative;
+		z-index: 1;
+	}
+	.page-who-we-are .core-values-sec:after {
+		position:absolute;
+		background: transparent linear-gradient(1deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+		content: "";
+		opacity: 0.82;
+		width: 100%;
+		height:382px;
+		z-index: -1;
+		top:0px;
+		left:0px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		height:290px;	
+	}
+
+
+
+	/* Business Banking */
+	.layout2 .testimonials-carousel span.about-bubble-text {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		left: 0px;
+		margin-right: auto;
+	}
+	.layout2 .testimonials-carousel span.about-bubble-text {
+		margin-top:13%;
+	}
+	.lg-slider .verticle-slider-wrap .slick-slide, .lg-slider .verticle-slider-wrap .slick-slide.slick-center {
+		font-size:30px;
+		line-height:40px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		max-height:280px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		width:60%;
+	}
+	.lg-slider .verticle-slider-wrap {
+		margin-right:auto;
+	}
+
+
+	/* Locations */
+	.here-to-help-sec .d-flex {
+		flex-direction: column;
+	}
+	.here-to-help-sec .custom-container {
+		padding:0px;
+	}
+	.here-to-help-left {
+		padding:0px 30px;
+		width:100%;
+	}
+	.here-to-help-right {
+		width:100%;
+		padding:0 30px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+	.here-to-help-image {
+		margin: 0 auto;
+	}
+	.page-locations-and-hours .here-to-help-image {
+		position:initial;
+		margin-top:25px;
+	}
+	.page-locations-and-hours .here-to-help-image .image-bubble-text {
+		top: auto;
+		left: auto;
+		right: 28%;
+		bottom: 23%;
+	}
+	.location-banner span.right-banner-bubble {
+		display:none;
+	}
+	.location-banner .right-banner {
+		margin-left: 109px;
+	}
+	.location-banner .banner-download-btns {
+		margin-left: -258px;
+		bottom: 5px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin:70px auto;
+	}
+
+	/* Resources */
+	.resource-box h5 {
+		font: normal normal bold 20px/30px Avenir Next Demi;
+		margin-top: 0px;
+	}
+	.resource-box {
+		max-width:32%;
+		margin-bottom:2%;
+	}
+	.resources-box-wrap {
+		column-gap:2%;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap .get-in-touch-inner, .questions-inquiries-sec .resources-right-wrap .resources-right-content {
+		max-width:none;
+		width:100%;
+		padding: 0px;
+	}	
+	.questions-inquiries-sec .get-in-touch-wrap {
+		padding-bottom:400px;
+		background-size: auto;
+    	background-position: bottom -130px right 47%;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap span.bubble-text {
+		bottom: 25%;
+		right: auto;
+		left: 62%;
+	}
+	.questions-inquiries-sec .resources-right-wrap {
+		padding-bottom: 280px;
+    	background-size: auto;
+    	background-position: left -56px bottom -2px;
+	}
+
+	/* Single FAQ */
+	.signle-faq-page .related-faq-section, .more-details {
+		padding: 30px;
+	}
+	.more-details p {
+		font-size:16px;
+		line-height:24px;
+	}
+	.signle-faq-page .faq-content p{
+		margin-bottom:15px;
+	}
+	a.back-link {
+		margin-top:50px;
+	}
+	.signle-faq-page .more-details.navy-bg p strong {
+		font-size:16px;
+		line-height:24px;
+	}
+	.faq-links {
+		display: flex;
+    	align-items: flex-start;
+		margin-bottom:10px;
+	}
+	.faq-links span {
+		line-height:42px;
+		padding-right:15px;
+	}
+	.post-content h4 {
+		line-height:26px;
+	}
+
+	/* Investor Relations */
+	.document-wrap{
+		max-width: 32%;
+		margin-bottom: 2%;
+	}
+	.document-row-wrap {
+		column-gap:2%;
+	}
+
+
+	/* Career */
+	.page-career-opportunities .left-banner h1 {
+		margin-right:0px;
+	}
+	.page-career-opportunities .core-values-sec.our-culture-sec .core-values-slider-wrap {
+		position:initial;
+		width:100%;
+	}
+	.page-career-opportunities .core-values-slider #sync1 {
+		max-width:100%;
+	}
+	.core-values-sec.our-culture-sec {
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top left;
+		padding-bottom:0px;
+	}
+	.page-career-opportunities .connect-with-us-sec {
+		padding: 70px 0px 160px 0px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage {
+		padding-top:70px;
+	}
+	.page-career-opportunities .here-to-help-inner {
+		max-width: none;
+		width:100%;
+		padding-top:70px;
+	}
+	.page-career-opportunities .here-to-help-right .help-form-wrap {
+		max-width:none;
+	}
+	.page-career-opportunities .here-to-help-image {
+		position:relative;
+		margin-top:30px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		max-width:initial !important;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -20px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-nav {
+		text-align:right;
+		margin-right:25px;
+		bottom:-70px;
+	}
+
+
+	/* Business checking */
+	.solution-image-wrap {
+		max-width: 250px;
+	}
+	.services-business-checking .solutions-bubble {
+		right: 100px;
+	}
+	.left-solutions, .right-solutions {
+		padding: 100px 0px;
+	}
+	.account-options-sec {
+		margin:70px 0px;
+	}
+	.services-business-checking .testimonial-right .testimonial-text p {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		padding: 70px 30px;
+	}
+	.services-business-checking .solutions-bubble {
+		right:80px;
+		bottom:25px;
+	}
+	.solution-image-wrap {
+		right: -25px;
+	}
+	.testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		bottom:70px;
+	}
+	.left-solutions h2 {
+		line-height:60px;
+	}
+	.service-solutions-sec .left-solutions, .service-solutions-sec .right-solutions {
+		padding:100px 35px 200px 35px;
+	}	
+
+
+
+	/* Contact */
+	.here-to-help-inner {
+		max-width:none;
+	}
+	.page-contact-us .here-to-help-inner h5,
+	.here-to-help-sec .here-to-help-inner h5 {
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.page-contact-us .here-to-help-inner {
+		padding-bottom:0px !important;
+	}
+	.page-contact-us .here-to-help-image {
+		position: initial;
+		transform: none;
+		margin: 0 auto;
+		margin-bottom: -110px;
+	}
+	.page-contact-us .here-to-help-inner h5,
+	.here-to-help-sec .here-to-help-inner h5 {
+		margin-top:20px;
+	}
+	.tweet-slider {
+		margin-left: 25px;
+	}
+
+
+	/* Treasury Mangement */
+	.team-bottom-sec.reverse-order .team-bottom-right {
+		padding-right:30px;
+	}
+
+
+	/* Careers */
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 200px;
+	}
+
+
+	/* Business Checking */
+	.testimonial-slider-section .testimonial-left {
+		max-width: none;
+		width: 36%;
+	}
+	.testimonial-slider-section .testimonial-right {
+		max-width:none;
+		width:60%;
+	}
+	.testimonial-slider-section .testimonial-right .testimonial-content {
+		margin:0px;
+	}
+	.testimonial-right .testimonial-text p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+
+	/* Credit Cards */
+	.services-credit-cards .here-to-help-left {
+		width: 100%;
+	}
+	.here-to-help-image {
+		position:initial;
+		margin-top:50px;
+	}
+	.services-credit-cards .here-to-help-left {
+		padding-right: 35px;
+	}
+
+
+	/* Services Pages */
+	.grey-bg.testimonial-slider-section .testimonial-left h2 {
+		font-size: 20px;
+		line-height: 30px;
+	
+	}
+
+
+	/* Legacy */
+	.legacy-merger, .legacy-merger-image {
+		margin-top: 70px;
+	}
+	.legacy-merger {
+		margin-bottom:70px;
+	}
+	.page-legacy .get-in-touch-sec .container h1 {
+		margin-top:70px;
+	}
+	.legacy-merger .d-flex,.legacy-merger .d-flex.reverse-order  {
+		flex-direction:column;
+		row-gap: 50px;
+	}
+	.legacy-merger .image-gallery {
+		width:70%;
+	}
+	.legacy-merger .gallery-content {
+		width:100%;
+	}
+	.legacy-merger .image-gallery .gallery-img-wrap img {
+		width:100%;
+	}
+	.get-in-touch-sec h3 {
+		line-height: 40px;
+	}
+	#legacy-form {
+		margin-bottom:20px;
+	}
+	.page-legacy .center-content {
+		padding-bottom: 70px;
+		padding-top: 70px;
+	}
+
+
+	/* Landing Page */
+	.landing-banner .d-flex {
+		flex-direction:column;
+	}
+	.left-landing-banner {
+		width:100%;
+	}
+	.right-landing-banner {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.landing-banner {
+		padding: 70px 0px;
+	}
+	.landing-banner .d-flex {
+		row-gap: 50px;
+	}
+}
+
+@media only screen and (max-width:900px){
+	/* Home */
+	.home-banner.banner-overlay .d-flex {
+		flex-wrap: wrap;
+	} 
+	.home-banner.banner-overlay .left-banner, .home-banner.banner-overlay .right-banner  {
+		width:100%;
+		max-width:none;
+	}
+	.home-banner.banner-overlay .right-banner {
+		margin-left:0px;
+		margin-top:70px;
+	}
+	.home-banner.banner-overlay .right-banner .mobile-image {
+		margin:0 auto;
+	}
+	.alert-content p {
+		font-size: 13px ;
+		line-height: 20px;
+	}
+	.alert-content p br {
+		display:none;
+	}
+	.video-sec {
+		height:370px;
+	}
+	.services-slider {
+		margin-left: -15%;
+	}
+	.services-left h2 {
+		margin-top:0px;
+	}
+	.signup-content {
+		max-width: 345px;
+		width: 100%;
+	}
+	section.newsletter-sec {
+		background-position: left -293px bottom -76px;
+	}
+	.content-image-sec .left-content {
+		padding-right:0px;
+	}
+	.content-image-sec .right-image img {
+		margin-bottom: -50px;
+	}
+	.verticle-slider .d-flex {
+		flex-direction:column;
+	}
+	.verticle-slider .text-on-left {
+		max-width: 305px;
+		margin-right:auto;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	.text-on-right {
+		max-width: 407px;
+		margin-right: auto;
+		margin-bottom:50px;
+	}
+	.verticle-slider-wrap {
+		max-width: none;
+		width: 100%;
+		margin-bottom:50px;
+	}
+	.get-in-touch-sec .d-flex {
+		flex-wrap:wrap;
+	}
+	.get-in-touch-wrap, .resources-right-wrap {
+		width:100%;
+		padding:100px 30px;
+	}
+	.resources-right-content {
+		max-width: none;
+		width: 50%;
+		padding-left:14%;
+	}
+	.resources-right-wrap {
+		justify-content: end;
+	}
+	.resources-right-content {
+		max-width: none;
+		width: 255px;
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: 4%;
+	}
+	.front-back-image {
+		width: 40%;
+		margin-left: 55px;
+	}
+	.content-image-sec .right-image img {
+		margin-bottom: -6px;
+	}
+	.get-in-touch-wrap {
+		background-position: 30px bottom;
+		background-size: contain;
+		padding-top:130px;
+	}
+	.get-in-touch-wrap span.bubble-text {
+		bottom: 35px;
+		right:auto;
+		left:39%;
+	}
+	.alert-content {
+		width:85%;
+	}
+	.resources-right-wrap {
+		align-items:center;
+	}
+	.video-sec {
+		height: 320px;
+	}
+	.services-sections .services-slider .owl-carousel .owl-nav {
+		top:115%;
+		right:130px;
+	}
+	.connect-link .right-circle-arrow {
+		right: -60px !important;
+	}
+
+
+
+	/* About */
+	.image-gallery-content .d-flex {
+		flex-direction: column;
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width: 270px;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-height: 270px;
+	}
+	.image-gallery-content .image-gallery {
+		max-width: none;
+		width: 80%;
+		margin: 0 auto;
+		margin-left:36px;
+	}
+	.gallery-content {
+		width:100%;
+		margin-top:70px;
+	}
+	.services-slider button.owl-next {
+		transform:translateY(-60%);
+	}
+
+	/* Business Banking */
+	.banking-banner .mobile-image {
+		width: 100%;
+		max-width: 400px;
+	}
+	.service-box-wrap h3 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.service-box-wrap::after {
+		bottom: 20px;
+		right: 20px;
+		transform: none;
+		background-size: auto;
+		width:40px;
+		height:40px;
+	}
+	.services-box-sec .services-sec-wrap {
+		flex-direction: column;
+	}
+	.services-box-sec .services-left, .services-box-sec .services-box-right {
+		width:100%;
+	}
+	.services-sections.services-box-sec .custom-container {
+		padding-left:0px;
+	}
+	.services-sections.services-box-sec .services-left {
+		padding: 70px 30px;
+	}
+	.lg-slider .container-lg {
+		padding: 0 30px;
+	}
+	.lg-slider .text-on-right {
+		width:100%;
+	}
+	h2.connect-link {
+	  width: unset;
+	}
+	.location-banner .right-banner {
+		margin-left: 10%;
+	} 
+	.find-an-atm-sec .container {
+		flex-direction:column;
+	}
+	.find-an-atm-sec .atm-text {
+		width:100%;
+		margin-bottom:70px;
+	}
+	.find-an-atm-sec .map-sec {
+		max-width: none;
+		width: 100%;
+	}
+	#locatoraid-search-form-search {
+		max-width: none;
+		width: 100%;
+	}
+	.options-box-wrap::after {
+		width:70px;
+		height:70px;
+	}
+	.page-business-banking .connect-link .right-circle-arrow {
+		left: 105%;
+	}
+
+	/* Mortgage */
+	.page-mortgage .right-banner.right-banner-about .banner-right-image {
+		max-width:100%;
+	}
+	.page-mortgage .right-banner.right-banner-about .right-banner-bubble {
+		display:none;
+	}
+	.page-mortgage .about-banner .container .d-flex {
+		flex-direction:column;
+	}
+	.page-mortgage .about-banner .banner-right-image {
+		position:initial;
+		text-align: center;
+	}
+	.page-mortgage .about-banner .banner-right-image img {
+		width:60%;
+		margin-bottom:-5px;
+	}
+	.page-mortgage .about-banner .right-banner {
+		margin-left:0px;
+	}
+	.page-mortgage .about-banner .left-banner {
+		max-width:none;
+		width:100%;
+	}
+	.left-banner .banner-content p {
+		max-width:none;
+		width:100%;
+	}
+	.mortgageBenefits-sec .container .d-flex {
+		flex-direction:column;
+	}
+	.mortgageBenefits-sec .container .mortgage-left, .mortgageBenefits-sec .container .mortgage-right {
+		width:100%;
+		max-width:none;
+	}
+	.mortgageBenefits-sec .container .mortgage-left {
+		margin-bottom:25px;
+	}
+	.page-mortgage h3.options-heading {
+		padding: 30px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right: 0px;
+	}
+
+	/* Help Center */
+	.help-boxes-wrap {
+		column-gap: 2%;
+	}
+	.help-boxes {
+		max-width:32%;
+		margin-bottom:2%;
+	}
+	.faq-wrap.d-flex {
+		column-gap:2%;
+	}
+	.faq-box-wrap {
+		margin-right:0px;
+		max-width:49%;
+	}
+	.get-in-touch-sec h3 {
+		font-size:24px;
+		line-height:30px;
+	}
+	.faq-box {
+		padding:30px;
+	}
+	.faq-content-wrap {
+		padding: 30px;
+	}
+
+	/* Investor Relations */
+	.investor-right-banner {
+		padding:60px;
+	}
+	.text-center.center-image-sec {
+		padding:60px 30px;
+	}
+
+
+	/* Career */
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 270px;
+	}
+	.page-career-opportunities .inner-page-banner .banner-right-image {
+		max-width: 450px;
+		right: 0px;
+		left: 0px;
+		margin: 0 auto;
+	}
+	.page-career-opportunities .inner-page-banner {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.page-career-opportunities .inner-page-banner .d-flex {
+		flex-direction: column;
+		row-gap:70px;
+	}
+	.page-career-opportunities .right-banner {
+		margin-left:0px;
+	}
+
+	/* Business Checking */
+	.service-solutions-sec .d-flex {
+		flex-wrap:wrap;
+	}
+	.left-solutions, .right-solutions {
+		max-width:none;
+		width:100%;
+	}
+	.service-solutions-sec .left-solutions, .service-solutions-sec .right-solutions {
+		padding:100px 35px;
+	}
+	.solution-image-wrap {
+		right:0px;
+	}
+	.service-solutions-sec::before, .service-solutions-sec::after {
+		display:none;
+	}
+	.services-business-checking .service-solutions-sec .container {
+		padding:0px;
+	} 
+	.service-solutions-sec .container {
+		padding:0px;
+	}
+	.services-business-checking .solution-image-wrap {
+		position: initial;
+		max-width:400px;
+		margin:0 auto;
+	}
+	.services-business-checking .right-solutions {
+		padding-bottom:0px;
+	}
+	.services-business-checking .solutions-bubble {
+		right: auto;
+		bottom: 20%;
+		left: 20%;
+	}
+	.blue-tick-list {
+		margin-left:0px;
+	}
+	.services-business-checking .left-solutions, .services-business-checking .right-solutions {
+		padding: 60px 30px;
+	}
+	.services-business-checking .right-solutions {
+		padding-bottom:0px;
+	}	
+	h3.options-heading {
+		padding-right:185px;
+		line-height:40px;
+	}
+	.options-box-wrap::after {
+		top:34px;
+	}
+	.services-business-checking .testimonial-right .testimonials-carousel .owl-carousel {
+		width:100%;
+	}
+	h3.options-heading:after {
+		width:60px;
+		height:60px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -45px;
+	}
+
+
+
+	/* Bio Page */
+	.team-banner-content {
+		margin-top: 80px;
+	}
+	.team-about-right h3 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.team-banner-image {
+		height:500px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 32px;
+	}
+
+	
+	/* Contact */
+	.page-contact-us .inner-page-banner .banner-right-image {
+		position: initial;
+		margin:0 auto;
+	}
+	.page-contact-us .inner-page-banner .d-flex {
+		flex-direction:column;
+	}
+	.page-contact-us .inner-page-banner {
+		padding-bottom:0px;
+		padding-top:50px;
+	}
+	.page-contact-us .right-banner {
+		margin-left:0px;
+	}
+	.here-to-help-right .help-form-wrap {
+		max-width:none;
+		margin-left:0px;
+	}
+	.page-contact-us .here-to-help-right .help-form-wrap {
+		margin-left:0px;
+	}
+	/* .ctf-carousel .ctf-owl-item>div {
+		width: 100% !important;
+	}
+	.ctf-carousel .ctf-owl-stage {
+		height: auto;
+	}
+	#ctf.ctf-fixed-height {
+		overflow:initial !important;
+		height:auto !important;
+		margin-bottom:60px;
+	} */
+	.twitter-container h2 {
+		margin-top: 60px;
+	}
+}
+
+@media only screen and (max-width:860px){
+	/* Homepage */
+	.video-sec {
+		height: 290px;
+	}
+
+	/* Help Center */
+	input.search-submit {
+		margin-top:10px;
+	}
+	.faq-links a, .faq-links span {
+		line-height:18px;
+	}
+	.faq-links {
+		margin-bottom:15px;
+	}
+	.faq-links:last-child {
+		margin-bottom:0px;
+	}
+
+	/* Business Checking */
+	h3.options-heading br {
+		display: block;
+	}
+	h3.options-heading {
+		padding-right:110px;
+	}
+	.services-business-checking .testimonial-left {
+		width:35%;
+	}
+	.services-business-checking .testimonial-right {
+		width:65%;
+	}
+	.services-business-checking .testimonial-right .testimonials-carousel .owl-carousel {
+		max-width:none;
+	}
+
+
+	/* Bio Page */
+	.team-banner-wrap {
+		flex-direction:column;
+	}
+	.next-post-link {
+		margin-top:0px;
+		padding:0px;
+		position:absolute;
+		bottom:0px;
+		left:100px;
+	}
+	.next-post-link p {
+		margin:0px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom:0px;
+	}
+	.team-banner-image {
+		/* height:auto;
+		width:258px; */
+		margin:0 auto;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	.team-banner-image {
+		height: 420px;
+	}
+
+	.team-banner-content p {
+		height:auto;
+	}
+	.team-banner-content {
+		margin-top: 0px;
+	}
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -50px;
+	}
+
+
+	/* Business Checking */
+	.services-left h2 {
+		margin-right: 60px;
+	}
+
+	/* Team Bio */
+	.next-post-link {
+		position:initial !important;
+		margin:0px;
+		padding-left:100px
+	}
+}
+
+@media only screen and (max-width:800px){
+	.image-gallery-content .image-gallery {
+		max-width: none;
+		width: 80%;
+		margin: 0 auto;
+		margin-left: 52px;
+	}
+	.team-wrap {
+		width: 48%;
+	}
+
+	/* About */
+	.team-wrap a img {
+		max-width:100%;
+	}
+
+	/* Locations */
+	.location-banner .right-banner {
+		margin-left: 20px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right: -60px;
+	}
+	.services-business-checking .services-left h2 {
+		margin-right: 45px;
+	}
+
+	/* Bio Page */
+	.team-bottom-sec .d-flex {
+		flex-direction:column;
+	}
+	.team-bottom-left, .team-bottom-right {
+		width:100%;
+	}
+	.team-bottom-sec .container {
+		padding:0px;
+	}
+	.team-bottom-left, .team-bottom-right {
+		padding: 70px 30px 70px 30px;
+	}
+	.team-about-sec .left-content,.team-about-sec .team-about-right {
+		width: 100%;
+	} 
+	.team-about-sec {
+		padding: 70px 0px;
+	}
+	.team-about-right {
+		margin-top:70px;
+		text-align:center;
+	}
+	.team-about-right h3, .team-about-right .content-wrap {
+		text-align:left;
+	}
+	.team-about-right img {
+		width: 50%;
+	}
+
+	/* Treasury Management */
+	.team-bottom-sec.reverse-order .d-flex {
+		flex-direction: column;
+	}
+	.team-bottom-sec.reverse-order .team-bottom-right, .team-bottom-sec.reverse-order .team-bottom-left {
+		width:100%;
+	}
+	.team-bottom-sec.reverse-order .team-bottom-right {
+		padding-right: 35px;
+		padding-left: 35px;
+	}
+
+	/* Business Concierge */
+	.services-form-wrap {
+		flex-wrap:wrap;
+		row-gap:50px;
+	}
+	.services-form-left, .services-form-right {
+		width: 100%;
+	}
+
+
+	.services-post-content {
+		padding: 20px 30px 40px 30px;
+	}
+
+}
+
+
+@media only screen and (max-width:782px){
+	.mobile-menu, .business-sub-menu {
+		top:73px;
+	}
+	.page-mortgage h3.options-heading {
+		font-size:16px;
+		line-height:20px;
+	}	
+	.tools-wrap .option-content-wrap {
+		padding: 20px 30px 30px 30px;
+	}
+	.video-sec {
+		height: 280px;
+	}
+
+	/* Single FAQ */
+	.signle-faq-page .d-flex {
+		flex-direction:column;
+	}
+	a.back-link {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.signle-faq-page .faq-right {
+		margin: 0 auto;
+	}
+	.signle-faq-page .d-flex {
+		margin-bottom: 70px;
+	}
+	section.newsletter-sec {
+		background-position: left -123px bottom 0px;
+		background-size: 60%;
+		padding-top:70px;
+		padding-bottom:70px;
+		min-height:auto;
+	}
+	
+
+	/* Checking Account */
+	.checking-account-banner h1 {
+		margin-right: 0px;
+	}
+	.checking-account-banner {
+		padding: 100px 0px;
+	}
+	.checking-management-section {
+		padding: 70px 0px;
+	}
+	.account-options-sec h2 {
+		margin-bottom:30px;
+	}
+	.account-options-sec h2 {
+		line-height: 50px;
+	}
+	.checking-management-section h3 {
+		line-height:40px;
+	}
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -63px;
+	}	
+}
+
+
+@media only screen and (max-width:768px){
+	/* Social Popup Modal */
+	.ja_noTitle .ja_close_round {
+		right: 2px;
+		top: 2px;
+		background: #E1E1E1;
+		color: black;
+		border: 2px solid black;
+		border-radius: unset;
+		padding: 10px;
+		font-size: 30px;
+	}
+	.ja_btn_wrap.optBack a {
+		padding: 7px 30px;
+		font-size: 16px;
+		background-color: transparent;
+		color: #000 !important;
+		border: 2px solid #000 !important;
+		border-radius: 0px;
+		font-weight: 500;
+		margin-right: 28px;
+		margin-top: 20px;
+		max-width:fit-content;
+	}
+	.ja_body p {
+		font:normal normal normal 18px/28px Avenir Next;
+	}
+
+
+	/* Home */
+	.page-home span.about-bubble-text {
+		margin-right:50px;
+	}
+	.video-sec {
+		height: 250px;
+	}
+	.image-gallery-content .image-gallery {
+		max-width: none;
+		width: 92%;
+		margin: 0 auto;
+		margin-left: 20px;
+		justify-content: center;
+	}
+	.page-home .testimonials-carousel span.about-bubble-text , .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		padding: 25px;
+	}
+	
+
+
+	/* About */
+	.services-left h2 {
+		margin-right: 0px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap span {
+		right: 14%;
+		top: 50px;
+	}
+	.connect-with-us-sec h2 {
+		color: #102245;
+		margin-bottom: 20px;
+	}
+	.connect-with-us-sec .image-bubble {
+		margin-top: 0px;
+		bottom: 23%;
+		left: 30px;
+	}
+
+	/* Location */
+	.location-banner.banner-overlay .d-flex {
+		flex-direction: column;
+	}
+	.location-banner {
+		padding: 70px 0px 70px 0px;
+	}
+	.location-banner .left-banner , .location-banner .right-banner{
+		max-width:none;
+	}
+	.location-banner .banner-image-wrap {
+		margin: 0 auto;
+	}
+	.location-banner .right-banner {
+		margin-left:0px;
+	}
+	.location-banner .banner-download-btns {
+		margin-left: 37px;
+		bottom: 37px;
+	}
+	.location-banner .left-banner {
+		margin-bottom:70px;
+	}
+	.locations-sec .get-directions {
+		bottom: 20px;
+	}
+	.locations-sec .option-content-wrap {
+		max-height:none;
+		height:auto;
+	}
+	.locations-sec .options-box-wrap {
+		height: auto;
+	}
+	.page-locations-and-hours .location-inner {
+		margin-bottom: 60px;
+	}
+	.options-box-wrap {
+		width: 100%;
+		max-width: none;
+	}
+	.locations-sec h3.options-heading {
+		padding-right:40px;
+	}
+	h3.options-heading {
+		min-height:auto;
+	}
+	.options-box-wrap::after {
+		top:15px;
+	}
+	.locations-sec h2 {
+		margin-bottom:40px;
+	}
+	.locations-sec, .find-an-atm-sec {
+		padding: 60px 0px;
+	}
+	.here-to-help-inner {
+		padding-top:60px;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin: 60px auto;
+	}
+
+	/* Resources */
+	.resource-box {
+		max-width: 49%;
+		margin-bottom: 2%;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap, .questions-inquiries-sec .resources-right-wrap {
+		padding-top:70px;
+	}
+
+	/* Investor Relations */
+	.document-wrap {
+		max-width:49%;
+	}
+
+	/* Contact */
+	.page-contact-us .inner-page-banner span.right-banner-bubble {
+		right:35px;
+		bottom:90px;
+	}
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -47px;
+	}
+	.page-career-opportunities .image-gallery-content {
+		padding-top:0px;
+	}
+	.ginput_container_fileupload::after {
+		left:0px;
+	}
+	.gform_wrapper .gform_fields .ginput_container_fileupload input {
+		margin-left:-60px;
+	}
+	.mac-os .gform_wrapper .gform_fields .ginput_container_fileupload input {
+		margin-left:-68px;
+	}
+}
+
+@media only screen and (max-width:740px) {
+	.next-post-link {
+		bottom:-30px;
+	}
+}
+
+
+@media only screen and (max-width:700px){
+	.page-home span.about-bubble-text {
+		margin-right: 40px;
+	}
+	.services-left {
+		padding-right: 69px;
+		padding-top:50px;
+	}
+	section.newsletter-sec {
+		background-position: left 45% bottom 0px;
+		background-size: 60%;
+	}
+	.signup-content {
+		max-width: none;
+		width: 100%;
+	}
+	section.newsletter-sec {
+		padding-bottom:390px;
+	}
+	.get-in-touch-inner {
+		max-width:none;
+		width:100%;
+	}
+	.get-in-touch-wrap {
+		background-position: left 115px bottom -163px;
+		background-size: auto;
+		padding-top: 130px;
+		padding-bottom: 392px;
+	}
+	.get-in-touch-wrap span.bubble-text {
+		bottom: 64px;
+		right: auto;
+		left: 65%;
+	}
+	.resources-right-wrap {
+		flex-direction: column-reverse;
+	}
+	.resources-right-content {
+		max-width: none;
+		width: 100%;
+		padding-left: 0px;
+		margin-bottom:70px;
+	}
+	.testimonials-carousel .owl-carousel {
+		max-width: none;
+		width: 100%;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		position: relative !important;
+		margin-top:20px;
+	}
+	.testimonials-carousel {
+		position: relative;
+		flex-direction: column-reverse;
+	}
+	.page-home-personal-banking .who-we-are-sec .custom-container, .page-home .who-we-are-sec .custom-container{
+		margin-bottom:70px;
+	}
+	.services-left h2 {
+		margin-right: 0px;
+	}
+	section.newsletter-sec {
+		padding-top: 100px;padding-bottom: 340px;
+	}
+	.services-sec-wrap.d-flex {
+		flex-direction: column;
+	}
+	.services-sections .custom-container {
+		padding: 0px;
+	}
+	.services-left, .services-right {
+		padding-right:30px;
+		padding-left:30px;
+		width:100%;
+	}
+	.services-right {
+		padding-top:0px;
+	}
+	.services-right .services-slider {
+		margin-top:-90px;
+	}
+	.services-sections .services-left {
+		width:100%;
+	}
+	.services-slider {
+		margin-left: 0px;
+	}
+	.services-slider .owl-nav {
+		right: 135px;
+		bottom: -45px;
+		top: auto;
+		transform: none;
+		height: auto;
+	}
+	.service-left-content {
+		max-width:none;
+	}
+	.video-sec {
+		margin-bottom:35px;
+	}
+	.testimonial-content, .layout2 .testimonial-content {
+		padding: 40px 30px 30px 30px;
+	}
+	.company-logo {
+		display:none;
+	}
+	.footer-col1 {
+		margin-bottom: 30px;
+		display: flex;
+		width: 100%;
+		max-width: none;
+		justify-content: space-between;
+		align-items: center;
+	}
+	ul.footer-social {
+		margin-left: 0;
+		padding-left: 0;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: auto;
+	}
+	.footer-col2, .footer-col3, .footer-col4 {
+		width: 33%;
+		max-width: none;
+		margin-bottom: 30px;
+	} 
+	.home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		max-width: 212px;
+	}
+	.front-back-image {
+		margin-left:0px;
+	}
+
+
+	/* Business Banking */
+	.layout2 .testimonials-carousel {
+		flex-direction:column-reverse;
+	}
+	.layout2 .testimonials-carousel .owl-carousel {
+		width:100%;
+	}
+	.layout2 .testimonials-inner-wrap img {
+		margin-bottom:35px;
+	}
+	.layout2 .testimonial-about img {
+		margin-bottom:0px;
+	}
+	.layout2 .testimonials-carousel span.about-bubble-text {
+		margin-top:0px;
+	}
+	.who-we-are-sec .custom-container {
+		margin-bottom:70px;
+	}
+
+	/* Help Center */
+	.help-boxes {
+		max-width:49%;
+	}
+	.faq-box-wrap {
+		max-width:100%;
+	}
+
+	/* Investor Relations */
+	.page-investor-relations .services-sections .services-left {
+		width:100%;
+		padding-top:60px;
+	}
+	.page-investor-relations .investor-banner .custom-container {
+		padding:0px;
+	}
+	.page-investor-relations .investor-banner .custom-container .d-flex {
+		flex-direction: column;
+	}
+	.investor-left-banner, .investor-right-banner {
+		width:100%;
+	}
+	.investor-right-banner {
+		margin-right:0px;
+		margin-top:60px;
+	}
+	.investor-left-banner {
+		text-align:center;
+	}
+	.investor-banner h1 {
+		padding:0px 30px;
+	}
+
+	/* Business Checking */
+	.services-business-checking .testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		left: -229px;
+		bottom:0px;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		flex-direction: column;
+	}
+	.services-business-checking .testimonial-left {
+		width:100%;
+		margin-bottom:25px;
+	}
+	.services-business-checking .testimonial-right {
+		width: 100%;
+	}
+	.services-business-checking .testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		position:initial;
+	}
+	.solution-image-wrap {
+		position:initial;
+		margin:0 auto;
+	}
+	.service-solutions-sec .right-solutions {
+		padding-bottom:0px;
+	}
+	.service-solutions-sec .right-solutions .solutions-bubble {
+		right:auto;
+		left:24%;
+	}
+
+
+
+
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -53px;
+	}
+
+
+	/* Business Checking */
+	.grey-bg.testimonial-slider-section .testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		display:none;
+	}
+	.grey-bg.testimonial-slider-section .testimonial-right {
+		max-width: none;
+		width: 100%;
+	}
+	.grey-bg.testimonial-slider-section .testimonial-left {
+		max-width: none;
+		width: 100%;
+	}
+	.grey-bg.testimonial-slider-section .testimonial-right .testimonials-carousel .owl-carousel {
+		max-width:none;
+		width:100%;
+		margin-top:50px;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		padding: 50px 35px;
+	}
+
+
+	/* Credit Cards */
+	/*.services-credit-cards .here-to-help-sec .here-to-help-inner {
+		padding-top: 0px;
+	}*/
+	
+
+	/* Services Page */
+	.grey-bg.testimonial-slider-section .testimonial-left h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	.services-post-content {
+		padding: 20px 30px 30px 30px;
+	}
+}
+
+
+@media only screen and (max-width: 680px){
+	.image-gallery-content .image-gallery {
+		max-width: none;
+		width: 82%;
+		margin: 0 auto;
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width:200px;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-height: 210px;
+	}
+	.sidebar-tab-ul {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+	.tabs .tab-content {
+		padding-top:120px;
+	}
+	.mortgage-tools-sec .tool-box-wrap {
+		max-width: 100%;
+	}
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 200px;
+	}
+	.gform_wrapper.gravity-theme .gform_fields {
+		grid-row-gap: 8px;
+	}
+	.video-sec {
+		height: 230px;
+	}
+
+	/* Bio Page */
+	.team-banner-content p {
+		min-height: auto;
+		height:auto;
+	}
+	.next-post-link {
+		bottom: -4px;
+	}
+
+	/* Mobile Wallet */
+	.wallet-logos img {
+		max-width: 160px;
+	}
+	.mobile-wallet {
+		padding: 50px 0px;
+	}
+	.mobile-wallet p {
+		margin-bottom:25px !important;
+	}
+
+
+	/* Investor Relations */
+	.content-only .psContainer {
+		overflow-x: auto;
+		justify-content: flex-start;
+	}
+}
+
+@media only screen and (max-width:640px){
+	.gform_wrapper.gravity-theme .gform_fields {
+		grid-row-gap: 8px !important;
+	}
+	#gform_4 .gform_footer, #gform_1 .gform_footer {
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.gform_wrapper .gform_button {
+		max-width:180px;
+	}
+	.video-sec {
+		height: 200px;
+	}
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -68px;
+	}
+}
+
+@media only screen and (max-width:604px){
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 40px;
+	}
+	.team-slider.team-overlay {
+		padding: 70px 0px 50px 0px;
+	}
+}
+
+
+@media only screen and (max-width:580px){
+	/* Social Modal Icon */
+	.ja_default {
+		background-color: #fff;
+	}
+	.ja_btn_wrap.optBack a:first-child {
+		margin-right:0px;
+	}
+	.ja_btn_wrap.optBack {
+		background-color:white;
+	}
+	.ja_body {
+		padding: 60px 0px 55px 0px;
+	}
+
+	/* Home */
+	.video-sec {
+		height: 150px;
+		border-radius:0px;
+		margin-bottom:15px;
+	}
+	#input_1_4_3_container {
+		margin-bottom:16px;
+	}	
+	.alert-content p {
+	font-size: 13px ;
+		line-height: 16px;
+	}
+	.top-links a {
+		font-size: 13px ;
+		line-height: 18px;
+	}
+	.left-banner h1 {
+		font-size: 45px ;
+		line-height: 48px;
+		margin-right: 60px;
+	}
+	.payment-details {
+		display: none;
+	}
+	.login-form {
+		position:initial;
+	}
+	.login-form-wrap p {
+		font-size: 20px ;
+		line-height: 36px;
+	}
+	.login-form-wrap .input-wrap label {
+		font-size: 13px ;
+		line-height: 36px;
+	}
+	.login-form-wrap .input-wrap select, .login-form-wrap .input-wrap input {
+		max-height:50px;
+		padding:16px;
+	}
+	.login-form {
+		width:305px;
+	}
+	.who-we-are-inner h2 {
+		font-size: 30px ;
+		line-height: 38px;
+	}
+	p, .tick-list li{
+		font-size: 15px ;
+		line-height: 22px;
+	}
+	.red-btn {
+		font-size: 13px ;
+		line-height: 18px;
+	}
+	span.about-bubble-text {
+		font-size: 16px ;
+		line-height: 24px;
+	}
+	.page-home span.about-bubble-text {
+		margin-left: 0px;
+		max-width: 248px;
+	}
+	.page-home span.about-bubble-text {
+		position: absolute;
+		left: 0px;
+		bottom: -30%;
+		height: auto;
+	}
+	.services-left{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.services-left {
+		padding-bottom:130px;
+	}
+	.services-right  {
+		padding-top:0px;
+		padding-bottom:125px;
+	}
+	.services-right.grey-bg {
+		padding-bottom:130px;
+	}
+	.right-circle-arrow, .left-circle-arrow {
+		width: 60px;
+		height: 60px;
+	}
+	.services-slider .owl-nav {
+		bottom: -55px;
+	}
+	/* .services-slider .owl-carousel.owl-drag .owl-item {
+		width:unset !important;
+	} */
+	h3, .related-article-section .related-top-bar h3 {
+		font-size: 20px ;
+		line-height: 30px;
+	}
+	section.newsletter-sec {
+		padding-top: 40px;
+		padding-bottom: 290px;
+		background-size: contain;
+    	background-position: bottom -160px right 37px;
+	}
+	h2 {
+		font-size: 30px ;
+		line-height: 33px;
+		letter-spacing:0.6px;
+	}
+	h3 {
+		letter-spacing:0.4px;
+	}
+	.content-image-sec .d-flex {
+		flex-wrap:wrap;
+	}
+	.content-image-sec .d-flex .left-content {
+		width: 100%;
+    	max-width: none;
+	}
+	.content-image-sec .d-flex .right-image img {
+		max-height: 384px;
+		margin: 0 auto;
+		margin-bottom:-5px;
+	}
+	.content-image-sec .d-flex .right-image {
+		text-align: center;
+		padding-top:0px;
+	}
+	.login-form-wrap {
+		max-width: none;
+		padding: 40px;
+	}
+	.verticle-slider-wrap .slick-slide, 
+	.verticle-slider-wrap .slick-slide.slick-center {
+		font-size: 30px ;
+		line-height: 40px;
+		letter-spacing:0.6px;
+	}
+	.verticle-slider-wrap .slick-slide.slick-center {
+		max-width: 305px;
+		margin-right: auto;
+	}
+	.text-on-right {
+		margin-bottom:55px;
+	}
+	.get-in-touch-sec h3 {
+		line-height: 30px;
+	}
+	.verticle-slider .text-on-left {
+		margin-top:30px;
+		margin-bottom:10px;
+	}
+	.verticle-slider-wrap {
+		max-height: 140px;
+		padding: 0px;
+		margin-bottom:30px;
+	}
+	.get-in-touch-wrap {
+		padding-top: 40px;
+	}
+	.get-in-touch-wrap, .resources-right-wrap {
+		width: 100%;
+		padding: 40px 30px;
+	}
+	.get-in-touch-wrap {
+		padding-bottom:304px !important;
+		background-size: 322px;
+		background-position: bottom -40px right 45%;
+	}
+	.resources-right-content {
+		margin-bottom:40px;
+	}
+	.front-back-image {
+		width: 110px;
+	}
+	.footer-newletter {
+		max-width: none;
+	}
+	#gform_submit_button_1 {
+		max-width:160px;
+		padding: 9px 16px !important;
+	}
+	.back-image {
+		transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+		position: absolute;
+		top: 8px;
+		z-index: 0;
+		left: -40px;
+		max-width: 110px;
+	}
+	.home-banner.banner-overlay .right-banner .mobile-image {
+		margin: 0 auto;
+		width: 100%;
+		max-width: none;
+	}
+	.login-form {
+		margin:0 auto;
+	}
+	.services-slider {
+		margin-left: 0px;
+		margin-top: -90px;
+	}
+	.footer-col2, .footer-col3, .footer-col4 {
+		width: 46%;
+		max-width: none;
+		margin-bottom: 30px;
+	}
+	.top-links a {
+		margin-right: 15.5px;
+		padding-right: 15.5px;
+	}
+	.connect-link .right-circle-arrow {
+		position: absolute;
+		right: -70px;
+	}
+	#animation-image, .alert-icon-white {
+		display:none;
+	}
+	.alert-content {
+		width:100%;
+	}
+	#input_1_4_3_container.name_first {
+		margin-bottom: 8px;
+	}
+	.home-banner {
+		padding: 35px 0 35px 0px;
+	}
+	.home-banner.banner-overlay .right-banner {
+		margin-top:30px;
+	}
+	.input-wrap:first-child:after {
+		top: 73%;
+	}
+	.login-form-wrap .input-wrap button {
+		max-height: none;
+		font-size: 14px ;
+		line-height: 35px;
+	}
+	.who-we-are-sec .custom-container {
+		margin-top: 40px;
+	}
+	.red-btn {
+		font-size: 13px ;
+		line-height: 10px;
+	}
+	.who-we-are-wrap {
+		margin-bottom:40px;
+		padding-left:35px;
+		padding-right:35px;
+	}
+	.content-image-sec .left-content {
+		padding-top:45px;
+		padding-bottom:30px;
+	}
+	.home-banner.banner-overlay .right-banner {
+		margin-top: 20px;
+	}
+	.left-banner .banner-content {
+		padding-top: 0px;
+	}
+	.left-banner h1 {
+		padding: 8px 0 14px 0px;
+	}
+	.left-banner .banner-content {
+		margin-bottom: 12px;
+	}
+	.who-we-are-inner .content-wrap.mt-10 {
+		margin-top: 5px !important;
+	}
+	ul.tick-list {
+		margin-top:14px;
+	}
+	.tick-list li {
+		padding-top:3px;
+	}
+	.who-we-are-inner .content-wrap.mt-10 p {
+		margin-right:7px;
+	}
+	.page-business-banking .who-we-are-inner .content-wrap.mt-10 p, .page-personal-banking .who-we-are-inner .content-wrap.mt-10 p {
+		margin-right: 4px;
+	} 
+	.who-we-are-sec .custom-container {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.testimonials-inner-wrap .testimonials-carousel {
+		padding:0px 25px;
+	}
+	.testimonial-content {
+		margin:10px;
+		box-shadow: 0px 0px 10px #00000029;
+	}
+	.testimonials-carousel .owl-theme .owl-nav {
+		margin-top:10px;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		margin-top:10px;
+	}
+	.page-home-personal-banking .who-we-are-sec .custom-container, .page-home .who-we-are-sec .custom-container {
+		margin-bottom: 40px;
+	}
+	.services-left, .services-right {
+		padding-left:35px;
+		padding-right:35px;
+	}
+	.services-left p {
+		margin-top:2px;
+	}
+	.signup-content p {
+		margin-right:10px;
+	}
+	#gform_fields_1 span input {
+		max-height:50px;
+	}
+	#gform_1 .gform_footer.top_label {
+		padding:4px 0px 0px 0px; 
+	}
+	.verticle-slider-wrap .slick-slide {
+		padding:0px;
+		margin-bottom: 10px;
+	}
+	.verticle-slider-wrap .slider {
+		margin-top:-50px;
+	}
+	.connect-link .right-circle-arrow {
+		position: absolute;
+		right: -70px;
+	}
+	.footer-container {
+		padding:0px 20px;
+	}
+	.footer-top {
+		padding-top:20px;
+	}
+	#gform_4 .gform_footer.top_label {
+		padding:0px;
+		padding-top:4px;	
+	} 
+	#gform_4 .gform_footer.top_label .gform_button {
+		padding:4px !important;
+		max-width: 160px;
+	}
+	.gform_wrapper .gform_button {
+		font:normal normal 600 13px/18px 'Avenir Next Demi';
+	}
+	.gform_wrapper .gform_fields input, .gform_wrapper .gform_fields textarea {
+		max-height:50px;
+	}
+	.download-button {
+		justify-content:space-between;
+	}
+	.footer-bottom .download-button {
+		justify-content:initial;
+	}
+	.copyright-text {
+		flex-direction:column;
+	}
+	.copyright-text p, .copyright-text a {
+		text-align:left;
+		line-height:18px;
+	}
+	.copyright-text a {
+		margin-left: 0px;
+	} 
+	.footer-bottom {
+		padding:30px 0 35px;
+	}
+	.content-image-sec {
+		background-size: contain;
+    	background-position: bottom 0px right 0px;
+	}
+	.content-image-sec.white-gradient:before {
+		background: transparent linear-gradient(270deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+	}
+	/* section.newsletter-sec {
+		background-size: 322px;
+		background-position: bottom 0px right 37px;
+	}
+	.get-in-touch-wrap {
+		background-size: 260px;
+		background-position: bottom 0px right 63px;
+	} */
+	.desktop-iframe {
+		display:none;
+	}
+	/* .arrow-circle-left.white-circle:hover, .red-arrow-circle-left {
+		background-image: url(images/nav-arrow-left.svg);
+	}
+	.red-circle {
+		border:0px;
+	}
+	.arrow-circle-left, .red-arrow-circle-left.red-circle:hover {
+		background-image: url(images/arrow-red-hover.svg);
+	}
+	.arrow-circle-right.white-circle:hover, .red-arrow-circle-right {
+		background-image: url(images/nav-arrow-right.svg);
+	}
+	.arrow-circle-right, .red-arrow-circle-right.red-circle:hover {
+		background-image: url(images/red-right-arrow-hover.svg);
+	} */
+	.footer-top {
+		position: relative;
+    	padding-bottom: 63px;
+	}
+	.company-logo {
+		display:block;
+		position: absolute;
+		bottom:0px;
+		left:0px;
+	}
+	.login-form-wrap .form-bottom .input-wrap input::before, .login-form-wrap .form-bottom .input-wrap input::after {
+		display:none !important;
+		position:initial;
+	}
+	.login-form-wrap .form-bottom .input-wrap input {
+		width:15px !important;
+		height:15px !important;
+		padding:8px;
+	}
+	.connect-link .right-circle-arrow {
+		right: -70px !important;
+	}
+    .resources-right-content .content-wrap {
+    	margin-bottom: 0px !important;
+    }
+
+
+	/* About */
+	.about-banner .left-banner {
+		margin-top: 40px;
+		margin-bottom: 180px;
+	}
+	.services-securlock .about-banner .left-banner {
+		margin: 0px;
+		padding-top: 45px;
+		padding-bottom: 330px;
+	}
+	.red-btn {
+		padding:13px 4px;
+	}
+	.left-banner .red-btn {
+		display:block;
+		max-width:160px;
+		margin-bottom:11px;
+		margin-top:0px;
+	}
+	.left-banner .banner-content{
+		margin-bottom:20px;
+	}
+	.right-banner.right-banner-about {
+		margin-left:0px;
+	}
+	.image-gallery-content {
+		padding: 40px 0px;
+	}
+	.image-gallery-content .image-gallery {
+		max-width: none;
+		width: 100%;
+		margin: 0 auto;
+		margin-left: auto;
+	}
+	.image-gallery .gallery-img-wrap {
+		max-width: none;
+		width: 46%;
+	}
+	.image-gallery-content h2 {
+		font-size: 30px ;
+		line-height: 38px;
+		letter-spacing: 0.6px;
+	}
+	.gallery-content {
+		margin-top:40px;
+	}
+	.gallery-content .content-wrap {
+		margin-bottom:0px;
+	}
+	.image-gallery-content {
+		padding-bottom:50px;
+	}
+	.core-values-sec {
+		padding-top: 45px;
+	}
+	.core-values-slider-wrap {
+		margin-top:20px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap span {
+		right: 12%;
+		top: 35px;
+		max-width:143px;
+		padding: 18px 12px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap {
+		padding-left:0px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap img {
+		width: auto;
+		max-height: 365px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap {
+		text-align:center;
+	}
+	.core-values-slider #sync2 {
+		max-width: 230px;
+		margin-right: 0px;
+	}
+	.core-values-slider {
+		padding: 40px 35px;
+	}
+	.core-values-slider #sync2 {
+		max-width: 230px;
+		margin-right: 0px;
+	}
+	#sync2 .owl-item {
+		margin-bottom: 0px;
+	}
+	.core-values-slider #sync1 {
+		max-width: none;
+		margin-top: 15px;
+	}
+	#sync1 .owl-nav {
+		margin-top: 15px;
+		text-align: end;
+	}
+	.image-gallery-heading-container h1 {
+		font-size: 30px ;
+		line-height: 38px;
+		letter-spacing: 0.6px;
+	}
+	.tab-link a,.tab-bottom-link a {
+		font-size: 13px ;
+		line-height: 18px;
+    	letter-spacing: 0.52px;
+	}
+	.sidebar-tab-ul, .team-bottom-tabs {
+		flex-wrap: wrap;
+		row-gap: 25px;
+		column-gap: 26px;
+	}
+	.team-wrap {
+		width: 100%;
+	}
+	.sidebar-tab-ul {
+		top: 25px;
+		left:0px;
+	}
+	#sync2 p .slide-count {
+		width:30px;
+		height:30px;
+	}
+	.sidebar-tab-ul li {
+    	margin-right: 0px;
+	}
+	.core-values-sec h1 {
+		font-size: 30px ;
+		line-height:38px;
+		letter-spacing: 0.6px;
+	}
+	.image-gallery-content {
+    	padding-bottom: 40px;
+	}
+	.connect-with-us-sec h2 {
+		letter-spacing:0.6px;
+	}
+	.connect-with-us-sec {
+    	padding: 40px 0px 60px 0px;
+	}
+	.connect-with-us-sec .footer-social li a {
+    	width: 20px;
+    	height: 20px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		padding-top:80px;
+	}
+	/* .connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		max-width:255px;
+	} */
+	/* .connect-with-us-sec .image-carousel .owl-stage-outer {
+    	max-height: 212px;
+	} */
+	.about-banner {
+		background-position: bottom 0px left 34%;
+		background-size: cover;
+	}
+	.red-btn {
+		letter-spacing:0.52px;
+	}
+	.gallery-content h1 {
+		margin-bottom:5px;
+	}
+	.page-who-we-are .core-values-sec {
+		padding-top:50px;
+		position: relative;
+		z-index: 1;
+		background-image: url(images/about-mobile-image.jpg) !important;
+	}
+	.page-who-we-are .core-values-sec h2 {
+		color:#102245;
+		margin-bottom:8px;
+	}
+	.team-wrap a img {
+		width:150px;
+	}
+	.team-wrap {
+		margin-bottom: 20px;
+	}
+	.services-post-content h4 {
+		margin-bottom:0px;
+		font-size:16px;
+	}
+	.connect-with-us-sec h2 {
+		margin-bottom:15px;
+	}
+	.page-who-we-are .connect-with-us-sec .image-bubble {
+		margin-top: 0px;
+		bottom: 21%;
+		left: 30px;
+		max-width:208px;
+	}
+	.page-who-we-are .connect-with-us-sec .red-btn {
+		margin-top: 188px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -35px;
+	}
+	.page-who-we-are .left-banner h1 {
+		margin-right:0px;
+	}
+	#sync1 p {
+		margin-right:0px;
+	}
+	.full-video-sec.mobile-full-video iframe {
+		height: 150px;
+	}
+	.tab-content ul {
+		position:initial;
+		margin-top:20px;
+	}
+	.meet-team-image {
+		height:400px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage {
+		padding-top: 42px;
+	}
+
+	
+
+	/* Business Banking */
+	.banking-banner.home-banner.banner-overlay .right-banner .mobile-image {
+		width:65%;
+	}
+	.layout2 .testimonials-carousel span.about-bubble-text {
+		margin-top:10px;
+	}
+	.who-we-are-sec .custom-container {
+		margin-bottom:50px;
+	}
+	.services-sections.services-box-sec .services-left {
+		padding: 40px 30px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		width:100%;
+		max-width:none;
+	}
+	.service-box-wrap {
+		height:250px;
+		width:100%;
+	}
+	.layout2 .testimonials-inner-wrap img {
+		border-radius:8px;
+	}
+	.layout2 .testimonial-about img {
+		border-radius:100%;
+	}
+	.testimonial-about {
+		margin-top:15px;
+	}
+	.gallery-content h1 {
+		font: normal normal bold 30px/38px Avenir Next Demi;
+	}
+	.page-business-banking .left-banner .red-btn {
+		margin-bottom:20px;
+	}
+	.layout2 .testimonials-inner-wrap img {
+    	margin-bottom: 25px;
+		width:80%;
+	}
+	.layout2 .testimonials-inner-wrap {
+		text-align:center;
+	}
+	.layout2 .testimonials-carousel {
+		text-align:left;
+	}
+	.page-personal-banking .services-left h2 {
+		margin-right:10px;
+	}
+	.page-business-banking .who-we-are-wrap {
+		margin-right: 0px;
+	}
+	.page-business-banking .who-we-are-inner h2 {
+		margin-right:20px;
+	}
+	.page-business-banking .layout2 .testimonials-carousel span.about-bubble-text {
+		max-height: 132px;
+		max-width: 240px;
+	}
+	.page-business-banking .services-left h2 {
+		margin-right: 5px;
+	}
+	.page-business-banking .gallery-content h1 {
+		margin-right:62px;
+	}
+	
+	/* Location */
+	.location-banner {
+		overflow:hidden;
+		padding: 20px 0px 70px 0px;
+	}
+	.location-banner h1 {
+		padding: 8px 0 4px 0px;
+	}
+	.location-banner .banner-download-btns {
+		max-width: 1920px;
+		margin-left: 0px;
+		bottom: -70px;
+		width: 100%;
+		left:0px;
+		right:0px;
+		align-items:center;
+		justify-content: space-between;
+		border-radius:0px;
+		display: flex;
+		padding: 20px 30px 16px;
+	}
+	.location-banner .banner-download-btns h5 {
+		display:none;
+	}
+	.download-button a {
+		max-width:180px;
+		margin-right:0px;
+		height:30px;
+	}
+	.location-banner .right-banner {
+		margin-left: 0px;
+		margin-bottom: 50px;
+	}
+	.map-sec .hc-clearfix {
+		flex-direction:column;
+	}
+	.map-input-address {
+		max-width: none;
+		width: 100% !important;
+	}
+	.map-search-btn .red-btn {
+		min-width: 160px;
+	}
+	.map-input-address {
+		margin-bottom:0px;
+	}
+	.map-search-btn {
+		margin-bottom:30px !important;
+	}
+	.gform_wrapper.gravity-theme .gform_fields {
+		grid-row-gap : 10px !important;
+	}
+	.here-to-help-image {
+		max-width:260px;
+	}
+	.here-to-help-image .image-bubble-text {
+		padding:22px 20px;
+	}
+	.page-locations-and-hours .here-to-help-image .image-bubble-text {
+		right:20%;
+		bottom:80px;
+	}
+	.location-banner .banner-image-wrap {
+		margin-left:18%;
+	}
+	.locations-sec, .find-an-atm-sec {
+		padding: 45px 0px;
+	} 
+	.locations-sec h2 {
+		margin-bottom:20px;
+	}
+	.locations-sec .option-content-wrap {
+		padding:30px 30px 67px;
+	}
+	.options-box-wrap, .tool-box-wrap {
+		margin-bottom:20px;
+	}
+	.page-locations-and-hours .location-inner {
+		margin-bottom: 35px;
+	}
+	.page-locations-and-hours .locations-sec h2 {
+		text-align: left;
+	}
+	.page-locations-and-hours .options-sub-heading p {
+		margin-bottom: 20px;
+	}
+	.find-an-atm-sec .atm-text {
+		margin-bottom:40px;
+	}
+	.map-input-address {
+		margin-bottom:0px !important; 
+	}
+	#gform_3 .gform_footer.top_label {
+		padding:0px;
+		margin-top:8px;
+	}
+	.gform_wrapper .gform_button {
+		padding: 5px 11px !important;
+   		min-width: 160px;
+	}
+
+
+	/* Mortgage  */
+	.page-mortgage .about-banner .left-banner {
+		margin-bottom:20px;
+	}
+	.page-mortgage .about-banner .left-banner {
+		margin-top:36px;
+	}
+	.mortgageBenefits-sec {
+		padding: 40px 0px 50px 0px;
+	}
+	.mortgage-left h2 {
+		font: normal normal 600 30px/38px Avenir Next Demi;
+	}
+	.mortgage-right ul {
+		column-count:1;
+	}
+	.tick-list li {
+		margin-bottom: 8px;
+	}
+	.mortgage-tools-sec {
+		padding: 40px 0px 30px 0px;
+	}
+	.mortgage-tools-sec h2 {
+		margin-bottom: 26px;
+	}
+	.mortgage-tools-sec .tool-box-wrap {
+		margin-bottom:20px;
+	}
+	section.image-content-sec {
+		padding-top:50px;
+	}
+	.page-mortgage .image-content-sec .left-image img {
+		width:230px;
+	}
+	.page-mortgage .image-content-sec .left-image {
+		margin-left:0px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		right:0px;
+	}
+	.page-mortgage .image-content-sec .left-image {
+		width:100%;
+	}
+	.page-mortgage .image-content-sec.white-gradient .d-flex .right-content h2 {
+		margin-right: 100px;
+	}
+	.page-mortgage .image-content-sec.white-gradient .d-flex .right-content h2 {
+		margin-right: 100px;
+	}
+	.page-mortgage .image-content-sec .bubble-wrap {
+		max-width:178px;
+		padding:19px 14px;
+		right:-9px;
+	}
+	.page-mortgage h3.options-heading {
+		font-size: 20px;
+		line-height: 24px;
+		padding:36px 30px;
+	}	
+	.page-mortgage .left-banner .banner-content, .page-personal-banking .left-banner .banner-content {
+		margin-right:-2px;
+	}
+	
+
+	/* Resources */
+	.resources-heading {
+		font: normal normal bold 45px/48px Avenir Next;
+		letter-spacing: 0.9px;
+	}
+	.resources-main-wrap h3 {
+		font: normal normal bold 20px/20px Avenir Next Demi;
+		letter-spacing: 0.4px;
+	}
+	.resource-box {
+		max-width:100%;
+		margin-bottom:15px;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap {
+		background-position: bottom 0px right 47%;
+		background-size:260px;
+	}
+	.resources-sec .white-btn {
+		margin-bottom: 40px;
+	}
+	.resources-box-wrap {
+		margin-bottom: 35px;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap, .questions-inquiries-sec .resources-right-wrap {
+		padding-top: 40px;
+	}	
+	.resources-sec .white-btn {
+		margin-top:0px;
+	}
+	
+
+	/* Help Center */
+	.get-in-touch-sec .container h1 {
+		margin-top:50px;
+		padding-bottom:20px;
+		margin-bottom:30px;
+	}
+	.get-in-touch-sec h3 {
+		font-size:20px;
+	}
+	.search-form {
+		margin-bottom: 30px;
+	}
+	.help-boxes {
+		padding:20px;
+	}
+	.help-boxes:before {
+		display:none !important;
+	}
+	.help-boxes h4 {
+		margin-top:8px;
+		text-align:center;
+	}
+	.help-boxes-wrap {
+		margin-bottom: 45px;
+	}
+	.faq-content-wrap {
+		padding: 25px 30px;
+	}	
+	.faq-box-wrap {
+		margin-bottom:20px;
+	}
+	.faq-wrap.d-flex {
+		margin-bottom: 50px;
+	}
+
+	/* Single FAQ */
+	.signle-faq-page h1 {
+		margin-top: 50px;
+		padding-bottom:20px;
+		margin-bottom:30px;
+	}
+	.related-faq-section {
+		margin-bottom:15px;
+	}
+	.signle-faq-page .d-flex {
+		margin-bottom: 50px;
+	}
+	.post-content h4 {
+		line-height: 20px;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.single-post-page {
+		padding-bottom:50px;
+	}
+	.faq-content h3 {
+		line-height:30px;
+	}
+
+
+	/* Investor Relations */
+	.investor-banner h1 {
+		font:normal normal 600 45px/48px Avenir Next Demi;
+	}
+	.investor-banner {
+		padding-top: 50px;
+	}
+	.investor-banner h1 {
+		margin-bottom:50px;
+	}
+	.investor-right-banner {
+		margin-top:0px;
+	}
+	.investor-left-banner {
+		padding:40px 0px 50px 0px;
+		background-color:white;
+	}
+	.investor-right-banner {
+		padding:40px 30px;
+	}
+	.text-center.center-image-sec {
+		padding:40px 30px;
+	}
+	.investors-doc-wrap h3 {
+		font: normal normal bold 20px/20px Avenir Next;
+		letter-spacing: 0.4px;
+		margin-bottom:20px;
+	}
+	.investors-doc-sec {
+		padding: 40px 0px 40px 0px;
+	}
+	.investors-doc-sec .tabs.investors-tab-ul {
+		position:initial;
+		margin-top:-10px;
+		margin-bottom:34px;
+	}
+	.document-wrap {
+		max-width:100%;
+		margin-bottom:15px;
+	}
+	.page-investor-relations .document-wrap {
+		min-height: 200px;
+	}
+	.investors-doc-wrap {
+		margin-bottom:35px;
+	}
+	.document-row-wrap {
+		margin:0px;
+	}
+	.investor-banner {
+		background-size: 580px;
+		background-position: top left;
+	}
+	.investor-left-banner img {
+		width: 220px;
+	}
+	.investor-right-banner .content-wrap p {
+		margin-right:10px;
+	}
+	.center-image-sec {
+		padding: 40px 0px;
+	}
+
+	/* Career */
+	.page-career-opportunities .gallery-img-wrap {
+		max-width: 100%;
+	}
+	.page-career-opportunities .inner-page-banner {
+		padding-top:40px;
+	}
+	.page-career-opportunities .inner-page-banner .left-banner .banner-content {
+		padding-top:0px;
+	}
+	.page-career-opportunities .left-banner {
+		max-width:none;
+		width:100%;
+	}
+	.page-career-opportunities .right-banner {
+		margin-left:0px;
+	}
+	.page-career-opportunities .core-values-sec .content-wrap {
+		max-width:none;
+	} 
+	.page-career-opportunities .tick-list li::after {
+		top:-1px;
+	}
+	.page-career-opportunities .core-values-slider-wrap {
+		margin-top:50px;
+	}
+	.page-career-opportunities .connect-with-us-sec {
+		padding: 60px 0px 60px 0px;
+	}
+	/* .page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage-outer {
+		max-height: 170px;
+	} */
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-nav {
+		left: auto;
+		right: 30px;
+		text-align: center;
+		margin-right: 0px;
+		bottom: -84px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-bubble {
+		margin-top: 0px;
+		bottom: -95px;
+	}
+	.page-career-opportunities .image-gallery-content {
+		padding: 170px 0px 50px 0px;
+	}
+	.gallery-content h1 {
+		font: normal normal bold 30px/38px Avenir Next Demi;
+		letter-spacing:0.6px;
+	}
+	.page-career-opportunities .center-content {
+		padding-bottom: 55px;
+		padding-top: 40px;
+	}
+	.center-content .content-wrap {
+		margin-bottom:0px;
+	}
+	.here-to-help-inner h3 {
+		font: normal normal bold 20px/20px Avenir Next;
+    	letter-spacing: 0.4px;
+	}
+	.page-career-opportunities .here-to-help-inner {
+		padding-top:40px;
+	}
+	.page-career-opportunities .inner-page-banner .banner-right-image {
+		max-width:325px;
+		width:100%;
+	}
+	.page-career-opportunities .inner-page-banner {
+		padding-bottom:50px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-bubble {
+		max-width:208px;
+		padding: 24px 35px;
+		bottom: -75px !important;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		max-width:255px;
+	}
+	.page-career-opportunities .banner-right-image img{
+		margin-bottom:-5px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		height:170px;
+		margin-top:30px;
+	}
+	.page-career-opportunities .inner-page-banner .d-flex {
+		row-gap:40px;
+	}
+	 
+
+	/* Article */
+	.single-post-page {
+		padding-top:50px;
+	}
+	.post-title {
+		font: normal normal normal 30px/38px Avenir Next Demi;
+		letter-spacing: 0.6px;
+	}
+	p.post-date {
+		font: normal normal normal 16px/21px Avenir Next Demi;
+		letter-spacing: 0px;
+		padding-top:10px;
+		padding-bottom:30px;
+	}
+	.post-content-wrap {
+		padding-top:30px;
+		padding-bottom:40px;
+	}
+	.social-share-wrap {
+		flex-direction: column;
+		align-items: flex-start;
+	}	
+	.related-article-section {
+		padding-top: 40px;
+		margin-top: 40px;
+	}
+
+	/* Business Checking */
+	.left-banner h1 {
+		margin-right:85px;
+	}
+	.services-business-checking .about-banner .left-banner {
+		margin-top:40px;
+		margin-bottom:333px;
+	}
+	.services-business-checking .left-banner h1 {
+		letter-spacing: 0.9px;
+		margin-right:100px;
+	}
+	.services-business-checking .left-solutions {
+		padding:50px 30px;
+	}
+	.services-business-checking .left-solutions h2 {
+		font:normal normal 600 30px/38px Avenir Next Demi;
+		letter-spacing: 0.6px;
+		margin-right:0px;
+	}
+	.services-business-checking .right-solutions {
+		padding:40px 30px 0px 30px;
+	}
+	.blue-tick-list li {
+		font: normal normal normal 15px/20px Avenir Next;
+	}
+	.account-options-sec h2 {
+		font: normal normal bold 30px/38px Avenir Next Demi;
+		letter-spacing: 0.6px;
+		margin-top: 40px;
+		margin-bottom:20px;
+	}
+	h3.options-heading {
+		font: normal normal bold 20px/24px Avenir Next Demi;
+	}
+	h3.options-heading br {
+		display:none;
+	}
+	.options-box-wrap::after {
+		width: 50px;
+		height: 50px;
+		top:16px;
+	}
+	.services-business-checking .solution-image-wrap {
+		max-width:320px;
+	}
+	.services-business-checking .solutions-bubble {
+		bottom:45px;
+	}
+	.options-sub-heading p {
+		margin-bottom:15px;
+	}
+	.options-wrap ul {
+		margin-top: 15px;
+	} 
+	.compare-acc {
+		display:none;
+	}
+	.services-business-checking .options-wrap {
+		margin-bottom:25px;
+	}
+	#counter {
+		margin-top:10px;
+	}
+	.services-business-checking .testimonial-left {
+		margin-bottom:45px;
+	}
+	.testimonial-about {
+		margin-top: 25px;
+	}
+	.services-business-checking .testimonial-right .testimonial-about img {
+		max-width: 45px;
+		min-height: 45px;
+	}
+	.services-business-checking .testimonial-right .testimonials-carousel .owl-theme .owl-nav {
+		display:none;
+	}
+	.grey-bg.testimonial-slider-section .container {
+		padding: 50px 30px 55px 30px;
+	}
+	.services-business-checking .testimonial-right .testimonial-text p {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.left-solutions h2 {
+		line-height: 38px;
+	}
+	.service-solutions-sec .left-solutions, .service-solutions-sec .right-solutions {
+		padding: 40px 35px;
+	}
+	.service-solutions-sec .right-solutions {
+		padding-bottom:0px;
+	}
+
+
+	/* Bio Page */
+	.team-slider.team-overlay {
+		padding: 40px 0px 46px 0px;
+	}
+	h1,.no-results.not-found h1 {
+		font: normal normal 600 45px/48px Avenir Next Demi;
+		letter-spacing:0.9px;
+	}
+	.no-results.not-found h1 {
+		padding-top:60px;
+	}
+	.team-banner-content p {
+		margin: 15px 0px;
+	}
+	.team-banner-image {
+		margin-top:35px;
+		/* width:258px; */
+		margin-top:35px;
+		margin-bottom:50px;
+	}
+	.next-post-link p {
+		margin:0px !important;
+	}
+	.team-about-sec {
+		padding:50px 0px 0px 0px;
+	}
+	.team-about-right {
+		margin-top:45px;
+	}
+	.team-about-right h3 {
+		margin-bottom:5px;
+	}
+	.team-about-right {
+		margin-bottom:-20px;
+	}
+	.team-about-sec {
+		z-index: 9;
+	}
+	.team-bottom-left, .team-bottom-right {
+		padding: 50px 30px 50px 30px;
+	}
+	.team-bottom-left h3 {
+		font: normal normal 600 30px/33px 'Avenir Next Demi';
+		margin-bottom:25px;
+	}
+	.accordion-wrap {
+		margin-bottom:30px;
+	}
+	.team-banner-content p {
+		font: normal normal normal 18px/27px Avenir Next;
+	}
+	.single-our-team .team-bottom-right {
+		padding-left:30px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 0px;
+	}
+	.team-about-right img {
+		width: 76%;
+	}
+
+
+	/* Contact */
+	.page-contact-us .inner-page-banner {
+		padding-bottom: 0px;
+		padding-top: 37px;
+	}
+	.page-contact-us .inner-page-banner .banner-right-image {
+		max-width:320px;
+		margin-left:0px;
+		margin-top:24px;
+	}
+	.page-contact-us .get-in-touch-sec {
+		padding-top: 45px;
+	}
+	.page-contact-us .help-boxes-wrap {
+		margin-top: 20px;
+	}
+	.help-boxes img {
+		height: 48px;
+	}
+	.help-boxes-wrap .help-boxes h4 {
+		margin-top: 10px;
+		margin-right:0px;
+	}
+	.help-boxes-wrap {
+		margin-bottom: 40px;
+	}
+	.page-contact-us .faq-wrap.d-flex {
+		margin-bottom: 40px;
+	}
+	.page-contact-us .here-to-help-inner {
+		padding-top: 40px;
+	}
+	.here-to-help-left {
+		padding: 0px 35px;
+	}
+	.page-contact-us .download-button {
+			justify-content:flex-start;
+			column-gap:15px;
+			margin-bottom:30px;
+	}
+	.page-contact-us .here-to-help-image {
+		max-width: 230px;
+		margin-bottom:-49px;
+	}
+	.page-contact-us .here-to-help-inner {
+		padding-bottom: 240px;
+	}
+	.page-contact-us .here-to-help-right .help-form-wrap {
+		margin-top: 50px;
+	}
+	.twitter-container h2 {
+		margin-top: 50px;
+		margin-bottom:20px;
+	}
+	.ctf-owl-prev {
+		right: 62px !important;
+	}
+	.ctf-owl-next {
+		right: 20px !important;
+	}
+	.page-contact-us .here-to-help-inner h3 {
+		font: normal normal bold 20px/30px Avenir Next;
+	}
+	.page-contact-us .here-to-help-inner h5,
+	.here-to-help-sec .here-to-help-inner h5 {
+		font: normal normal normal 16px/20px Avenir Next;
+	}
+
+
+	/* Checking Account */
+	.checking-account-banner {
+		padding: 45px 0px 60px 0px;
+	}
+	.checking-account-banner {
+		padding-bottom:330px;
+	}
+	.page-legacy .checking-account-banner {
+		padding-bottom:50px;
+	}
+	.checking-management-section {
+		padding: 40px 0px;
+	}
+	.checking-management-section h3 {
+		font-size:20px;
+		line-height:24px;
+	}
+	.checking-options-sec {
+		margin: 45px 0px;
+	}
+	.checking-options-sec .options-box-wrap h2 {
+		margin-top:0px !important;
+	}
+	.checking-options-sec .compare-acc {
+		display:block;
+	}
+	.account-features-section .tick-list li::after {
+		width:25px;
+		height:25px;
+	}
+	.account-features-section .tick-list li {
+		line-height: 20px;
+		padding-left: 32px;
+	}
+	.checking-options-sec span {
+		margin-bottom:0px;
+	}
+
+
+	/* Credit Cards */
+	.center-content {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+
+
+	/* Business Concierge */
+	.services-form-wrap {
+		justify-content: space-between;
+		flex-wrap: wrap;
+		row-gap: 40px;
+	}
+	.service-form-sec {
+		padding: 40px 0px;
+	}
+
+
+	/* Legacy */
+	.legacy-merger .image-gallery {
+		width: 100%;
+	}
+	.legacy-merger, .legacy-merger-image {
+		margin-top: 40px;
+	}
+	.legacy-merger {
+		margin-bottom: 0px;
+	}
+	.spacing-sec {
+		height:40px !important;
+	}
+	.legacy-merger .d-flex, .legacy-merger .d-flex.reverse-order {
+		row-gap:20px;
+	}
+	.page-legacy .get-in-touch-sec .container h1 {
+		margin-top:40px;
+	}
+	.get-in-touch-sec .content-wrap {
+		margin-bottom: 40px;
+	}
+	.page-legacy .center-content {
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+
+
+	/* Landing Page */
+	.landing-banner {
+		padding:60px 0px 85px 0px;
+	}
+	h1 {
+		margin-bottom:3px;
+	}
+	.right-landing-banner {
+		width: 200px;
+		margin: 0 auto;
+	} 
+	.landing-mobile-image .image-bubble-text {
+		max-width:178px;
+		padding:29px;
+		bottom:-19px;
+		left:-85px;
+	}
+    .page-legacy .get-in-touch-sec {
+		margin-top:30px;
+	}  
+
+
+	/* Credit Cards */
+	.account-features-section {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+}
+
+
+@media only screen and (max-width:540px){
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -48px;
+	}
+	.page-who-we-are .core-values-sec {
+		background-size:660px;
+	}
+
+}
+
+@media only screen and (max-width:534px){
+	.next-post-link {
+		bottom:-5px;
+	}
+}
+
+@media only screen and (max-width:500px){
+	section.newsletter-sec {
+		background-size: contain;
+		background-position: bottom -110px right 37px;
+	}
+	.page-home .left-banner h1, .page-home-personal-banking .left-banner h1{
+		margin-right: 0px;
+	}
+	.page-home .left-banner .banner-content, .page-home-personal-banking .left-banner .banner-content {
+		padding-right: 14px;
+	}
+
+	/* Mortgage */
+	.page-mortgage .image-content-sec .bubble-wrap {
+		max-width:178px;
+		text-align:center;
+		top:110px;
+	}
+	.page-mortgage .about-banner .banner-right-image img {
+		width:314px;
+	}
+
+	/* About */
+	.core-values-slider-wrap .image-bubblt-wrap {
+		text-align: left;
+		padding-left: 35px;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-height: 180px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		height: 170px;
+		margin-top: 15px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		height: 200px;
+		margin-top: 0px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		padding-top: 40px;
+	}
+
+	/* Locations */
+	.locations-sec h3.options-heading {
+		padding-right: 106px;
+		position:relative;
+	}
+	.options-box-wrap:hover::after {
+		display:none;
+	}
+	.locations-sec h3.options-heading::after {
+		position: absolute;
+		content: "";
+		width: 50px;
+		height: 50px;
+		top: 50%;
+		right: 30px;
+		background-image: url(images/arrow-demo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		transform: translateY(-50%);
+		display:none;
+		transition:0.3s ease-in-out;
+	}
+	.locations-sec .options-box-wrap:hover h3.options-heading::after  {
+		display:block;
+	}
+	.location-banner .banner-image-wrap {
+		margin-left: 15%;
+	}
+
+	/* Checking Account */
+	.account-features-section .tick-list {
+		column-count:1;
+	}
+	.account-features-section .tick-list li {
+		width: 100%;
+	}
+
+	/* Careers */
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -55px;
+	}
+
+
+	/* Business Checking*/
+	.service-solutions-sec .right-solutions .solutions-bubble {
+		left:35px;
+	}
+	.account-options-sec {
+		margin-bottom:50px;
+	}
+	
+}
+
+
+@media only screen and (max-width:460px){
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -60px;
+	}
+	.location-banner .banner-image-wrap {
+		margin-left: 14%;
+	}
+}
+
+
+@media only screen and (max-width:440px){
+	.location-banner .banner-image-wrap {
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width:420px){
+	.location-banner .banner-image-wrap {
+		margin-left: 6%;
+	}	
+}
+
+@media only screen and (max-width:415px){
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 0px;
+	}
+}
+
+@media only screen and (max-width:400px){
+	section.newsletter-sec {
+		background-position: bottom -47px right 37px;
+	}
+	
+	/* Bio Page */
+	.team-banner-content h1 {
+		padding-right:100px;
+		margin-right:0px;
+	}
+	.team-bottom-left h3 {
+		margin-right:0px;
+	}
+	.team-slider.team-overlay.banner-overlay .owl-carousel .owl-nav {
+		bottom: 0px;
+	}
+
+	/* Locatons */
+	.location-banner .banner-right-image {
+		width: 144px;
+		left: 68px;
+	}
+	.location-banner .banner-image-wrap {
+		width: 146px;
+	}
+	.download-button a {
+		max-width: 108px;
+		margin-right: 0px;
+	}
+	.location-banner .banner-download-btns {
+		padding:22px;
+		padding-bottom:14px;
+	}
+	.location-banner .banner-image-wrap {
+		margin-left: 20%;
+	}
+
+
+	/* About */
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		height: 140px;
+		margin-top: 13px;
+		margin-bottom: 15px;
+	}
+	.connect-with-us-sec .image-carousel .owl-item img {
+		object-fit: cover;
+		height: 100%;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -75px;
+	}
+
+	/* Landing Page */
+	.right-landing-banner {
+		margin-left: 25%;
+	}
+}
+
+
+@media only screen and (max-width:380px){
+	.alert-content {
+		width: 97%;
+	}
+	.left-banner h1 {
+		margin-right:0px;
+	}
+	.page-home .left-banner .banner-content, .page-home-personal-banking .left-banner .banner-content {
+		padding-right: 10px;
+	}
+	.login-form {
+		width:auto;
+	}
+	.login-form-wrap {
+		max-width: none;
+		padding: 30px 40px 40px 40px;
+	}
+	/* .left-banner h1 {
+		font: normal normal bold 38px/40px Avenir Next Demi;
+	} */
+	.top-links a:last-child {
+		padding-right:0px;
+	}
+	.container, .custom-container, .footer-container {
+		padding: 0 35px;
+	}
+	.footer-container {
+		padding:0px 20px;
+	}
+	.footer-col1 {
+		margin-bottom:25px;
+	}
+	.footer-col2, .footer-col3 {
+		margin-bottom:10px;
+	}
+	.footer-col4 {
+		margin-bottom:35px;
+	}
+	.footer-newletter .footer-col-heading {
+		margin-bottom:18px;
+	}
+	.top-links a {
+		margin-right: 15.5px;
+		padding-right: 15.5px;
+	}
+	.page-home span.about-bubble-text {
+		position: absolute;
+		left: 0px;
+		bottom: -24%;
+		height: auto;
+	}
+	.service-wrap {
+		margin-right:0px;
+		max-width:270px;
+	}
+	.text-on-right {
+		max-width:260px;
+	}
+	.connect-link .right-circle-arrow {
+		position: absolute;
+		right: -70px;
+	}
+	span.bubble-text {
+		padding: 20px 17px;
+	}
+	.footer-col1 img {
+		width:100px;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		margin-left: 15px;
+		max-width: 252px;
+		padding: 33px;
+	}
+	.page-home-personal-banking span.about-bubble-text {
+		padding:30px;
+	}
+	.lg-slider .connect-link .right-circle-arrow {
+		right:-80px;
+	}
+	.verticle-slider .text-on-left {
+		width:100%;
+	}
+	.testimonial-content {
+		padding:30px;
+	}
+	.get-in-touch-wrap span.bubble-text {
+		bottom:92px;
+		max-width:110px;
+		right:35px;
+		left:auto;
+	}
+	section.newsletter-sec {
+		padding-bottom:280px;
+		background-size: 322px;
+		background-position: bottom 0px right 37px;
+	}
+	.get-in-touch-wrap {
+		background-size:260px;
+		background-position: bottom 0px right 63px;
+	}
+	.resources-heading {
+		padding-top:50px;
+	}
+	.get-in-touch-inner p {
+		margin-right:22px;
+	}
+	.resources-right-content .content-wrap.mt-10 {
+		margin-right:33px;
+	}
+	.login-form-wrap .form-bottom .input-wrap input::after, .login-form-wrap .form-bottom .input-wrap input::before {
+		display:none;
+	}
+	.download-button {
+		justify-content:space-between;
+	}
+	.services-left p {
+		margin-right:0px;
+	}
+	.home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		max-width: 240px;
+	}
+	.page-home .testimonials-carousel span.about-bubble-text, .page-home-personal-banking .testimonials-carousel span.about-bubble-text {
+		padding: 42px 32px;
+		margin-right:40px;
+	}
+
+
+	/* About */
+	.gallery-img-wrap:nth-child(1) {
+		max-width:150px !important;
+		width:100%;
+	}
+	.gallery-img-wrap:nth-child(2) {
+		max-width:30% !important;
+		width:100%;
+		margin-top:auto;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-width:154px;
+		width:100%;
+	}
+	.gallery-img-wrap:nth-child(4) {
+		max-width:140px;
+		width:100%;
+	}
+	.image-gallery-content .image-gallery {
+		row-gap: 9px;
+    	column-gap: 11px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage-outer {
+		max-height: 212px;
+	}
+	.page-who-we-are .gallery-content h1 {
+		margin-right:57px;
+	}
+	.page-who-we-are .core-values-sec {
+		background-size:380px;
+		position:relative;
+		z-index: 1;
+		background-image:url(images/about-mobile-image.jpg) !important;
+	}
+	.page-who-we-are .core-values-sec::after {
+		background: transparent linear-gradient(1deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+		content: "";
+		opacity: 0.82;
+		width: 100%;
+		height: 258px;
+		position: absolute;
+		left: 0;
+		z-index: -1;
+		top: 0;
+	}
+	.tab-link a {
+		font-size: 12px;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-height: 140px;
+	}
+	.team-banner-image {
+		height:353px;
+	}
+	.meet-team-image {
+		height: 290px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		height: 167px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+
+	/* Business Banking */
+	.service-box-wrap .services-post-content {
+		padding-left: 35px;
+		padding-bottom: 35px;
+		max-width: 300px;
+	}
+	.service-box-wrap::after {
+		bottom:35px;
+		right:35px;
+	}
+	.lg-slider .verticle-slider-wrap .slick-slide, .lg-slider .verticle-slider-wrap .slick-slide.slick-center {
+		line-height:33px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		max-height: 200px;
+	}
+	.lg-slider .verticle-slider-wrap .slider.slick-slider {
+		margin-top:-13%;
+	}
+	.lg-slider .verticle-slider-wrap .slider.slick-slider {
+		margin-top: -27%;
+	}
+	.lg-slider .verticle-slider-wrap .slider.slick-slider {
+		margin-top: -85px;
+	}
+	.lg-slider .verticle-slider-wrap {
+		max-height: 180px;
+	}
+	.image-gallery-content .image-gallery {
+		justify-content:flex-end;
+		column-gap:7px;
+	}
+
+	/* Pesronal Banking */
+	.page-personal-banking .connect-link .right-circle-arrow {
+		right: -70px;
+	}
+
+	/* Resources */
+	.resources-heading {
+		margin-bottom:30px;
+		padding-bottom:25px;
+	}
+	.questions-inquiries-sec .resources-right-wrap {
+		position: relative;
+		z-index: 1;
+	}
+	.questions-inquiries-sec .resources-right-wrap:after {
+		position: absolute;
+		content:"";
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		background-image:url('images/back-mobile-img.jpg');
+		background-size: cover;
+		background-repeat:no-repeat;
+		z-index:-1;
+	}
+	.questions-inquiries-sec .get-in-touch-wrap span.bubble-text {
+		bottom: 81px;
+		right: 35px;
+		left: auto;
+	}
+
+	/* Business Banking */
+	.services-business-checking .solutions-bubble {
+		left:35px;
+		bottom:50px;
+	}
+	.blue-tick-list li {
+		padding: 6px 0px 6px 40px;
+	} 
+	.blue-tick-list li::after {
+		top:0px;
+	}
+	h3.options-heading br {
+		display: block;
+	}
+	.options-box-wrap::after {
+		top:28px;
+	}
+	.services-left h2 {
+		line-height:38px;
+	}
+	.front-back-image {
+		width: 110px;
+		margin-left: 30px;
+	}
+	.service-solutions-sec .left-solutions h2 {
+		margin-right:0px;
+	}
+	h3.options-heading {
+		padding-right:100px;
+	}
+
+	/* Locations */
+	.page-locations-and-hours .here-to-help-image .image-bubble-text {
+		right:40px;
+	}
+	.locations-sec h3.options-heading {
+		padding-right: 106px;
+		position:relative;
+	}
+	.options-box-wrap:hover::after {
+		display:none;
+	}
+	.locations-sec h3.options-heading::after {
+		position: absolute;
+		content: "";
+		width: 50px;
+		height: 50px;
+		top: 50%;
+		right: 30px;
+		background-image: url(images/arrow-demo.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		transform: translateY(-50%);
+		display:none;
+		transition:0.3s ease-in-out;
+	}
+	.locations-sec .options-box-wrap:hover h3.options-heading::after  {
+		display:block;
+	}
+	.here-to-help-right .help-form-wrap {
+		margin: 50px auto;
+	}
+	.location-banner .banner-image-wrap {
+		margin-left: 17%;
+	}
+	.here-to-help-inner .content-wrap.mt-10 {
+		margin-right:10px;
+	}
+
+	/* Contact */
+	.page-contact-us .here-to-help-inner {
+		padding-bottom: 190px;
+	}
+	.page-contact-us .inner-page-banner .banner-right-image {
+		max-width:215px;
+		margin-left:-4px;
+	}
+	.page-contact-us .inner-page-banner span.right-banner-bubble {
+		right: 24px;
+		bottom: 78px;
+		max-width:180px;
+	}
+	.page-contact-us .help-boxes-wrap .help-boxes h4 {
+		margin-top: 10px;
+	}
+	.help-boxes {
+		margin-bottom:5%;
+		max-width:47%;
+	}
+	.help-boxes-wrap {
+		column-gap:6%;
+	}
+	.help-boxes:before {
+		display:none !important;
+	}
+	.help-boxes::after {
+		bottom: -2px;
+		left: -2px;
+		width: 103%;
+	}
+	.help-boxes {
+		padding: 20px 10px 10px 10px;
+	}
+	#ctf.ctf-fixed-height {
+		margin-bottom:20px;
+	}
+	.ctf-carousel .ctf-owl-item>div {
+		width: 100% !important;
+		max-width: 217px;
+	}
+	.ctf-carousel .ctf-owl-item {
+		margin-left: -100px;
+	}
+	.ctf-carousel .ctf-owl-stage {
+		margin-left: -10px;
+	}
+	.faq-links a {
+		font-size:16px;
+		line-height:20px;
+	}
+
+	/* Mortgage */
+	.page-mortgage section.image-content-sec {
+		background-position: bottom 93px left 0px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.page-mortgage .image-content-sec.white-gradient:before{
+		background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+	}
+
+
+	/* Careers */
+	.core-values-sec.our-culture-sec {
+		background-repeat: no-repeat;
+		background-size: 688px;
+		background-position: top 0px left 0px;
+		padding-bottom: 0px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -78px;
+	}
+	.here-to-help-image .image-bubble-text {
+		padding:22px 15px;
+	}
+	
+	
+
+	/* Investor Relations*/
+	.investor-banner {
+		background-size: 380px;
+		background-position: top left;
+	}
+
+
+	/* Checking account */
+	.checking-account-banner {
+		padding: 45px 0px 50px 0px;
+	}
+	.checking-account-banner {
+		padding-bottom:330px;
+	}
+	.checking-management-section h3 {
+		margin-right:45px;
+	}
+	.checking-options-sec span {
+		font: normal normal normal 13px/20px Avenir Next;
+	}
+	.account-features-section h2 {
+		font-size:20px;
+		line-height:28px;
+	}
+	.account-features-section {
+		margin-bottom: 50px;
+	}
+
+
+	/* Business Checking */
+	.grey-bg.testimonial-slider-section .testimonial-right .testimonial-text p {
+			font-size: 20px;
+			line-height: 24px;
+	}
+
+	/* Team Bio */
+	.team-about-sec .team-about-right h3 {
+		font-size:20px;
+		line-height:36px;
+	}
+	.team-about-right {
+		margin-top: 35px;
+	}
+
+}
+
+@media only screen and (max-width:375px){
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -75px;
+	}
+}
+
+
+@media only screen and (max-width:370px){
+	/* Homepage */
+	.top-links a {
+		margin-right: 10px;
+		padding-right: 10px;
+	}
+	.text-on-right {
+		max-width: 210px;
+	} 
+	.container, .custom-container, .footer-container {
+		padding: 0 15px;
+	}
+	.main-header {
+		padding: 20px 15px;
+	}
+	.who-we-are-wrap {
+		margin-bottom: 40px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.testimonials-inner-wrap .testimonials-carousel {
+		padding: 0px 10px;
+	}
+	.page-home span.about-bubble-text, .page-home-personal-banking span.about-bubble-text {
+		padding:30px;
+	}
+	.services-left, .services-right {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.get-in-touch-wrap, .resources-right-wrap {
+		width: 100%;
+		padding: 40px 15px;
+	}
+	.connect-link {
+		position:relative;
+	}
+	.connect-link a {
+		position:initial;
+	}
+	.connect-link .right-circle-arrow, .page-personal-banking .connect-link .right-circle-arrow {
+		position: absolute;
+		right: -50px;
+	}
+	.video-sec {
+		height:130px;
+	}
+	.ginput_recaptcha {
+		overflow-x:scroll;
+	}
+
+	
+
+	/* About */
+	.core-values-slider-wrap .image-bubblt-wrap {
+		text-align: left;
+		padding-left: 15px;
+	}
+	.gallery-img-wrap:nth-child(1) {
+		max-width:none;
+		width:48%;
+	}
+	.gallery-img-wrap:nth-child(2) {
+		max-width:none;
+		width:48%;
+	}
+	.gallery-img-wrap:nth-child(3) {
+		max-width:none;
+		width:48%;
+	}
+	.gallery-img-wrap:nth-child(4) {
+		max-width:none;
+		width:48%;
+	}
+	.tab-link a {
+		font-size:12px;
+	}
+	.page-who-we-are .connect-with-us-sec .red-btn {
+		margin-top: 250px;
+	}
+	.core-values-slider-wrap .image-bubblt-wrap span {
+		top:150px;
+	}
+
+
+	/* Locations */
+	.banner-download-btns img {
+		height: 30px;
+	}
+	.download-button a {
+		max-width: 96px;
+		margin-right: 0px;
+	}
+	.find-an-atm-sec .container {
+		padding: 0 15px;
+	} 
+	.here-to-help-left {
+		padding: 0px 15px;
+	}
+	.here-to-help-right {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.location-banner .banner-download-btns {
+		padding: 22px 15px;
+	}
+
+	/* Careers */
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-nav {
+		bottom:-56px;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-bubble {
+		max-width: 208px;
+		padding: 24px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -23%;
+	}
+
+
+	/* Investor Relations */
+	.investor-banner h1 {
+		padding:0px 15px;
+	}
+	.investor-right-banner {
+		padding:40px 15px;
+	}
+
+	/* Bio Page */
+	.team-bottom-left, .team-bottom-right {
+		padding: 50px 15px 50px 15px;
+	}
+	.single-our-team .team-bottom-right {
+		padding-left:15px;
+	}
+
+
+	/* Contact Us */
+	.page-contact-us .inner-page-banner span.right-banner-bubble {
+		right: 10px;
+		bottom: 40px;
+		max-width: 160px;
+	}
+	.download-button a {
+		height:28px;
+	}
+}
+
+
+@media only screen and (max-width:338px){
+	.menu-main-menu-container {
+		top: 137px;
+	}
+	.mobile-menu, .business-sub-menu {
+		padding:0px 30px;
+	}
+	.top-links a {
+		margin-right: 8.5px;
+		padding-right: 8.5px;
+	}
+	section.newsletter-sec {
+		padding-bottom: 255px;
+	}
+	.team-banner-content h1 {
+		margin-right: 65px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage {
+		margin-left: -22%;
+	}
+	.page-career-opportunities .connect-with-us-sec .image-carousel .owl-stage .owl-item.active.center {
+		max-width: 240px;
+	}
+	.connect-with-us-sec .image-carousel .owl-stage .owl-item {
+		height: 140px;
+		margin-top: 12px;
+		margin-bottom: 15px;
+	}
+
+
+	/* Landing Page */
+	.landing-mobile-image .image-bubble-text {
+		left:-70px;
+	}
+}

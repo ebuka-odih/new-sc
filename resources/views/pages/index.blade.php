@@ -1,430 +1,480 @@
-@extends('pages.layout.app')
+@extends('pages.layouts.app')
 @section('content')
 
-<div>
-    <!--Main Slider Start-->
-        <section class="main-slider main-slider-style3">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-                "effect": "fade",
-                "pagination": {
-                "el": "#main-slider-pagination",
-                "type": "bullets",
-                "clickable": true
-                },
-                "navigation": {
-                "nextEl": "#main-slider__swiper-button-next",
-                "prevEl": "#main-slider__swiper-button-prev"
-                },
-                "autoplay": {
-                "delay": 5000
-                }}'>
 
-                <div class="swiper-wrapper">
-
-                    <!--Start Single Swiper Slide-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v3-1.jpg);">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-content">
-                                        <div class="main-slider-content__inner">
-                                            <div class="big-title">
-                                                <h2>Empowering Your Financial Future</h2>
-                                            </div>
-                                            <div class="text">
-                                                <p>
-                                                    Secure your finances with innovative banking solutions tailored to your needs. Discover more with us.
-                                                </p>
-                                            </div>
-                                            <div class="btns-box">
-                                                <a class="btn-one" href="{{ route('reg_new_account') }}">
-                                                    <span class="txt">
-                                                        Open An Account
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Swiper Slide-->
-
-                    <!--Start Single Swiper Slide-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v3-2.jpg);">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-content">
-                                        <div class="main-slider-content__inner">
-                                            <div class="big-title">
-                                                <h2>Your Trust, Our Commitment</h2>
-                                            </div>
-                                            <div class="text">
-                                                <p>
-                                                    Reliable banking services focused on growth, security, and seamless transactions for your peace of mind.
-                                                </p>
-                                            </div>
-                                            <div class="btns-box">
-                                                <a class="btn-one" href="{{ route('reg_new_account') }}">
-                                                    <span class="txt">
-                                                        Open An Account
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Swiper Slide-->
-
-                    <!--Start Single Swiper Slide-->
-                    <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/slides/slide-v3-3.jpg);">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-content">
-                                        <div class="main-slider-content__inner">
-                                            <div class="big-title">
-                                                <h2>Banking Made Simple and Secure</h2>
-                                            </div>
-                                            <div class="text">
-                                                <p>
-                                                    Manage your money effortlessly with our digital solutions, from anywhere, anytime.
-                                                </p>
-                                            </div>
-                                            <div class="btns-box">
-                                                <a class="btn-one" href="{{ route('reg_new_account') }}">
-                                                    <span class="txt">
-                                                        Open An Account
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Swiper Slide-->
-
-                </div>
-
-                <!-- If we need navigation buttons -->
-                <div class="main-slider__nav main-slider__nav--style3">
-                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                        <i class="icon-chevron left"></i>
-                    </div>
-                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                        <i class="icon-chevron right"></i>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!--Main Slider End-->
-
-        <!--Start Accounts Style1 Area-->
-        <section class="account-style1-area">
+    <main id="primary" class="site-main">
+        <section class="home-banner banner-overlay active-home " style="background-image: url(wp-content/uploads/2022/04/background-image.png);background-repeat: no-repeat;background-size: cover;background-position: center;">
             <div class="container">
-                <div class="sec-title text-center">
-                    <h2>Let’s Think of saving Money</h2>
-                    <div class="sub-title">
-                        <p>Convenient banking options for you.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Start Single Account Box Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-account-box-style1">
-                            <div class="img-holder">
-                                <img src="assets/images/resources/account-1.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="#">Savings Account</a></h3>
-                                    <p>Open an account today and earn up to 8% annually, with no maintenance fees and easy access to your savings.</p>
-
-                            </div>
+                <div class="d-flex">
+                    <div class="left-banner">
+                        <div class="top-links d-flex">
+                            <a class="text-white" href="{{ route('business-banking') }}" target="">BUSINESS BANKING</a>
+                            <a class="text-white" href="{{ route('personal.banking') }}" target="">PERSONAL BANKING</a>
                         </div>
-                    </div>
-                    <!--End Single Account Box Style1-->
-                    <!--Start Single Account Box Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-account-box-style1">
-                            <div class="img-holder">
-                                <img src="assets/images/resources/account-2.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="#">Current Account</a></h3>
-                                   <p>Enjoy flexible, unlimited transactions and easy online access with our hassle-free Current Account.</p>
-
-                            </div>
+                        <h1 class="text-white">We’re In This Together</h1>
+                        <div class="banner-content text-white"><p>We recognize that our success is built on your success. Our commercial banking team has the expertise to listen, advise and advance your business.</p>
                         </div>
+                        <a class="mt-25 d-inblock red-btn" href="contact-us" target="">LET’S TALK</a>
                     </div>
-                    <!--End Single Account Box Style1-->
-                    <!--Start Single Account Box Style1-->
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single-account-box-style1">
-                            <div class="img-holder">
-                                <img src="assets/images/resources/account-3.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="#">Fixed Deposit Account</a></h3>
-                                <p>Grow your funds securely with high returns and flexible terms. Start a Fixed Deposit today!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Account Box Style1-->
-                </div>
-
-
-
-            </div>
-        </section>
-        <!--End Accounts Style1 Area-->
-
-        <!--Start Banking Tab Area-->
-        <section class="banking-tab-area">
-            <div class="auto-container">
-                <div class="banking-tab">
-
-                    <!--Start Tabs Content Box-->
-                    <div class="tabs-content-box">
-
-                        <!--Tab-->
-                        <div class="tab-content-box-item tab-content-box-item-active" id="trading">
-                            <div class="banking-tab-content-item">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="banking-tab-img-box">
-                                            <div class="banking-tab-img-box__bg"
-                                                style="background-image: url(assets/images/resources/banking-tab-1.jpg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="banking-tab-text-box">
-                                            <div class="inner-title">
-                                                <h3>BEST SERVICES FOR BEST CLIENTS</h3>
-                                                <h2>THE SECURE WAY TO : EASY BANKING</h2>
-                                            </div>
-                                            <div class="banking-tab-text-box__inner">
-                                                <div class="text">
-                                                    <p>Manage your money effortlessly with {{ env('APP_NAME') }} range of personal banking solutions. From savings and checking accounts to personal loans, our services are designed to support your financial needs and help you reach your goals.</p>
-                                                </div>
+                    <div class="right-banner">
+                        <div class="mobile-image">
+                            <div class="login-form">
+                                <div id="login-form" class="login-form-wrap red-bg">
+                                    <p>Login to Your Account</p>
+                                    <form id="banking_form" action="{{ route('login') }}" method="post">
+                                        @csrf
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
                                                 <ul>
-                                                    <li>Savings and Checking Accounts with competitive rates</li>
-                                                    <li>On the other hand</li>
-                                                    <li>Easy online and mobile banking access</li>
-                                                    <li>Personalized support from our financial experts</li>
-                                                    <li>Secure transactions and account management</li>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
                                                 </ul>
                                             </div>
+                                        @endif
+
+                                        <div class="input-wrap">
+                                            <label>Account Type</label>
+                                            <select name="" class="">
+                                                <option name="personal">Personal Banking</option>
+                                                <option name="business">Business Banking</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="input-wrap" id="userId">
+                                            <label>User ID:</label>
+                                            <input type="email" name="email" required>
+                                        </div>
+                                        <div class="input-wrap" id="userId">
+                                            <label>Password:</label>
+                                            <input type="text" name="password" required>
+                                        </div>
+                                        <div class="input-wrap">
+                                            <button id="custom_bank_login">Login</button>
+                                        </div>
+                                        <div class="form-bottom">
+                                            <div class="input-wrap">
+                                                <input type="checkbox" name="remember-me">
+                                                <label>Remember Me</label>
+                                            </div>
+                                            <a href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245" target="_blank">SIGN UP</a>
+                                        </div>
+                                    </form>
+                                </div>                    </div>
+                            <img id="animation-image"  alt="Mobile phone" data-src="https://inbank.com/wp-content/uploads/2022/04/App-Mockup-2.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img id="animation-image" src="wp-content/uploads/2022/04/App-Mockup-2.png" alt="Mobile phone"></noscript>
+                            <div class="payment-details">
+                                <div class="transfer-wrap align-center d-flex">
+                                    <img width="40px" height="40px"  data-src="https://inbank.com/wp-content/uploads/2022/04/Check-Mark-Red.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img width="40px" height="40px" src="wp-content/uploads/2022/04/Check-Mark-Red.svg"></noscript>
+                                    <p>Transfer was successful<span>$320.00</span></p>
+                                </div>
+                                <div class="received-wrap">
+                                    <p class="payment-text">Payment Received!</p>
+                                    <img width="40px" height="40px"  data-src="https://inbank.com/wp-content/uploads/2022/04/Arrow-Circle-Red.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img width="40px" height="40px" src="wp-content/uploads/2022/04/Arrow-Circle-Red.svg"></noscript>
+                                    <p class="amount-text">$320.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="who-we-are-sec">
+            <div class="custom-container">
+                <div class="d-flex">
+                    <div class="who-we-are-wrap" >
+                        <div class="who-we-are-inner">
+                            <h2 class="">Who We Are</h2>
+                            <div class="content-wrap mt-10"><p>Solid Business Banking takes a particular type of financial institution: large enough to underwrite multi-million-dollar loans and experienced enough to understand the challenge of running a small business. Our commercial banking team has the expertise to listen, advise and advance your business. We understand what makes business owners tick.</p>
+                            </div>
+                            <ul class="tick-list">
+                                <li>Relationship Focused</li>
+                                <li>Business Minded</li>
+                                <li>Committed to Community</li>
+                            </ul>
+                            <a class="mt-25 d-inblock red-btn" href="who-we-are" target="">ABOUT US</a>
+                        </div>
+                    </div>
+                    <div class="testimonials-wrap d-flex layout1">
+                        <div class="testimonials-inner-wrap">
+
+
+                            <div class="testimonials-carousel">
+                                <span class="about-bubble-text">We believe in the art of relationship banking. <br> And our customers agree.</span>
+                                <div class="owl-carousel owl-theme">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity has been much easier to work with and I am receiving personalized service I never could have received with my previous bank. I rarely have to go into the bank anymore because Shirecity customized the amount that I can deposit using my phone or scanner. The lending process was very collaborative and efficient as well. Now we have a banker that knows us, is responsive to us and customizes solutions for my company. Brett and his team’s knowledge have been an incredible asset to keep my company growing and secure. What a difference the right bank can make!”</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Alyssa Carrier</p>
+                                                <p class="client-about">Founder + CEO, AC Disaster Consulting</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Like us, Shirecity believes in relationships and they believe in those they serve.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Rocky Khosla</p>
+                                                <p class="client-about">MD</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity is our bank of choice. Their focus on long-term, meaningful relationships matches our service philosophy. Their “know you by name” culture makes us feel welcome and appreciated.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Dr. Cindy</p>
+                                                <p class="client-about">Compton Principle Swallow Charter School </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p> “We work closely with Shirecity as our business partner. Shirecity holds true to the same business principles we trust and believe in. Their assistance and tradition of excellence gives us a superior position in today’s marketplace.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Micheal Thibault</p>
+                                                <p class="client-about">T-Bone Construction President</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity locally partnered with us on The Pinery and their attention to detail is what has brought us back time and time again. A successful formula of our values of excellence, service, and hospitality has earned them our banking business and made them an extraordinary collaborator for businesses of every size.”</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Mitchell Yellen</p>
+                                                <p class="client-about">Owner Altitude Hospitality</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“We are proud of our growth and recognize that Shirecity has been a key part of our business banking success. Shirecity is a rock solid partner that takes LOCAL banking to a whole new level.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Rhonda Lewis</p>
+                                                <p class="client-about">Owner - Rocky Mountain Landscape</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Creating a business banking relationship with Shirecity is one of the best decisions we’ve made. We are their focus and they offer products and services that help businesses like ours become industry leaders.”</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Stephen Kaczmarek</p>
+                                                <p class="client-about">CEO - Borealis Fat Bike</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity is our partner because they believe in better as well. Their out-of-the-box banking approach has made our banking experience with them our best banking experience. Their game-changing constant contact and fast decision making have made us a loyal customer.”</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Derek Vidmar</p>
+                                                <p class="client-about">Owner Vidmar Motor Company</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity has been instrumental as our banking partner. Their personable nature and easy-to-work with attitude make them our choice in the banking arena.&#8221; </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Susan Spencer</p>
+                                                <p class="client-about">Owner Spencer’s Market</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity shares the reputation of being business friendly. They are an easy-to-work with bank and we value the service and personal attention we receive from them.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Ike Drury</p>
+                                                <p class="client-about">Drury Brothers Roofing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Choosing local is an intentional lifestyle that we at Eve’s Revolution share with our patrons and our bank. We have been doing business with Shirecity from the very start. At Shirecity they believe that banking is personal; it’s relationship-based, not transaction-based. Shirecity invests in you – in human capital: the thinkers, the creators, the builders that rocket us into future generations.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Eve Carlson</p>
+                                                <p class="client-about">Owner of Eve’s Revolution </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity saw our potential and helped us build a community that will change the way Puebloans live. They helped us study our vision and craft an opportunity that Pueblo can be proud of. Not many businesses take such an active role in seeing their customers succeed. That’s the difference our bank makes.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Jim Gilbertson</p>
+                                                <p class="client-about">Developer Vista Custom Homes</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>“Shirecity has been our bank from the beginning. They offer a friendly bank atmosphere and a can-do attitude. We appreciate their family values and willingness to go the extra mile to have a satisfied customer.” </p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <div>
+                                                <p class="client-name">Dennis Zabukovic</p>
+                                                <p class="client-about">Owner Zabukovic Motors</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;I can honestly say that switching to Shirecity has been one of the best business decisions we have ever made. We can now pick up the phone and talk to a co-founder of the bank, someone who actually makes decisions and gives good advice.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://Shirecity.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">Martin Faith</p>
+                                                <p class="client-about">President, Scottish Group Companies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Shirecity used technology and handled communication in a way that created a truly seamless and efficient experience. They continue to provide exceptional service and have become a trusted source for banking advice and direction, allowing us to focus on our business to grow and become the best in our industry and marketplace. Thank you so much!&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">James Thompson &#038; Tate Miller</p>
+                                                <p class="client-about">Co-Founders, Shade Headwear</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Shirecity&#8217;s commitment to helping small businesses was self-evident in every interaction that we had, and it is one of the many reasons that we will be long-term customers. I cannot recommend Shirecity highly enough.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">RACHEL AVERCH</p>
+                                                <p class="client-about">President & CEO, Montessori Children’s House of Denver</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Our partners at Shirecity are absolutely invested in our mission and demonstrate their dedication and compassion everyday! Firefly Autism is so proud to be partners with a bank that truly embodies what non-profits stand for, providing service to our community with compassion and dedication. Thank you Shirecity for your partnership!&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">JESSE OGAS</p>
+                                                <p class="client-about">CEO & Executive Director, Firefly Autism</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;The personal service and solutions that we were missing from our former banking relationship we have found in our banking relationship with Shirecity. Shirecity invested time in learning our business and listening to our needs. Then they delivered real solutions to help us run and grow our business. Shirecity has delivered better customer service while charging less in fees and paying higher yields on our savings accounts. The only thing we regret about switching our banking relationship is that we didn’t do it sooner.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">JARRETT SCHWIEN</p>
+                                                <p class="client-about">Controller, Yeh and Associates</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Without the line of credit we received from Shirecity, and their support for the Community Advantage loan program, we wouldn&#8217;t be able to help as many small businesses as we do.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">MIKE O’DONNELL</p>
+                                                <p class="client-about">CEO, Colorado Lending Source</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Shirecity has been instrumental to the success of our growing company.  Their customized banking solutions, personal touch and customer service helps our business operate efficiently.  Shirecity’s ability and willingness to understand the entrepreneurial approach is unmatched from our perspective.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">BRANDON IDEKER</p>
+                                                <p class="client-about">Principal, Indicate Capital and Colorado Short Term Funding</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;Our team has used five different bank treasury management systems and each time we heard how good each bank thought their system was.  Brett told me that the new Shirecity treasury management system was very good.  Well it turns out that I agree! You have a great treasury management platform that absolutely competes with the big banks.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">CHRISTOPHER A. SMITH</p>
+                                                <p class="client-about">CEO, PawnBroker Financing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;After a bad experience with another local bank, I re-connected with Brett at Shirecity and within a day he got the approvals I needed for the loan. It was not a cumbersome process and everything was done here in one place.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">RICH WARYN</p>
+                                                <p class="client-about">CEO, LDK Logistics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-text"><p>&#8220;We wanted to get away from the large banks that lack the personalized touch, which is key for a company of our size.&#8221;</p>
+                                        </div>
+                                        <div class="testimonial-about d-flex align-center">
+                                            <img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20"   alt="Footer icons" decoding="async" loading="lazy" data-src="https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="60" height="20" src="wp-content/uploads/2022/04/footer-icons-1.svg" class="attachment-60x60 size-60x60 wp-post-image" alt="Footer icons" decoding="async" loading="lazy" /></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript></noscript>                                            <div>
+                                                <p class="client-name">SEAN HOGAN</p>
+                                                <p class="client-about">CEO & CFO, Alpha USA</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
+
                     </div>
-                    <!--End Tabs Content Box-->
-
-
-
                 </div>
             </div>
         </section>
-        <!--End Banking Tab Area-->
+        <section id="services-sec" class="services-sections ">
+            <div class="custom-container" style="margin-left: 23px;">
+                <div class="services-sec-wrap d-flex">
+                    <div class="services-left navy-bg">
+                        <h2>Services</h2>
+                        <div class="service-left-content"><p>We’ll tailor our services to your needs and partner with you for long-term success — whether you’re just starting out and need the basics or you’re ready to expand and give your competition a run for their money.</p>
+                        </div>
+                    </div>
+                    <div class="services-right grey-bg">
+                        <div class="services-slider">
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag">
 
 
-        <!--Start Benefits Area-->
-        <section class="benefits-area">
+
+
+                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-939px, 0px, 0px); transition: all 0s ease 0s; width: 2820px;"><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="bankers handshake" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" data-src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="bankers handshake" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Concierge Experience</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We know that switching banks is a pain point for most businesses. That’s why we created the Shirecity Business Concierge Team. </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="business credit card" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" data-src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/credit-card-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="business credit card" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Credit Cards</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>The InBusiness Credit Card makes it easy to manage your expenses and keep tabs on spending so you can focus on your business.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="Online Business Checking Account" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" data-src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="Online Business Checking Account" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Checking</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We offer checking options for all business sizes as well as non-profit organizations and public entities for all transaction volumes.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item active" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="bankers handshake" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" data-src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="bankers handshake" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Concierge Experience</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We know that switching banks is a pain point for most businesses. That’s why we created the Shirecity Business Concierge Team. </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item active" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="business credit card" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" data-src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/credit-card-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="business credit card" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Credit Cards</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>The InBusiness Credit Card makes it easy to manage your expenses and keep tabs on spending so you can focus on your business.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item active" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="Online Business Checking Account" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" data-src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="Online Business Checking Account" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Checking</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We offer checking options for all business sizes as well as non-profit organizations and public entities for all transaction volumes.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="bankers handshake" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" data-src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/06/intro-thankyou-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="bankers handshake" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-1024x683.jpg 1024w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou-768x512.jpg 768w, https://inbank.com/wp-content/uploads/2022/06/intro-thankyou.jpg 1440w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Concierge Experience</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We know that switching banks is a pain point for most businesses. That’s why we created the Shirecity Business Concierge Team. </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="business credit card" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" data-src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/credit-card-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="business credit card" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/credit-card-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/credit-card.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Credit Cards</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>The InBusiness Credit Card makes it easy to manage your expenses and keep tabs on spending so you can focus on your business.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div><div class="owl-item cloned" style="width: 313.333px;"><div class="service-wrap ">
+                                                <a >
+                                                    <img width="300" height="200" alt="Online Business Checking Account" decoding="async" loading="lazy" data-srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" data-src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium wp-post-image lazyloaded" src="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" sizes="(max-width: 300px) 100vw, 300px" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w"><noscript><img width="300" height="200" src="../wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="Online Business Checking Account" decoding="async" loading="lazy" srcset="https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa-300x200.jpg 300w, https://inbank.com/wp-content/uploads/2022/04/two-business-men-using-their-smart-phones-no-faces-wearing-suits-carrying-leather-briefcase-satchels_t20_g8EVoa.jpg 749w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>                                        <div class="services-post-content">
+                                                        <h4>Business Checking</h4>
+                                                        <div class="service-excerpt">
+                                                            <p>We offer checking options for all business sizes as well as non-profit organizations and public entities for all transaction volumes.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><i class="left-circle-arrow navy-bg"></i></button><button type="button" role="presentation" class="owl-next"><i class="right-circle-arrow navy-bg"></i></button></div><div class="owl-dots disabled"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="content-image-sec white-gradient" style="background-image: url(front/wp-content/uploads/2022/04/New-Project-2022-04-27T164625.006-1.png);">
             <div class="container">
-                <div class="sec-title text-center">
-                    <h2>Benefits for Account Holders</h2>
-                    <div class="sub-title">
-                        <p>We help businesses and customers achieve more.</p>
+                <div class="d-flex align-center">
+                    <div class="left-content">
+                        <h2 class="">Running a business is challenging – the relationship with your bank shouldn’t be.</h2>
+                        <div class="content-wrap mt-10"><p>We know that switching banks is a pain point for most businesses.</p>
+                            <p>That’s why we created the Shirecity Business Concierge Experience. We specialize in easing the transition of moving business operating accounts and services to Shirecity. As a community bank our team will be with you every step of the way.</p>
+                        </div>
+                    </div>
+                    <div class="right-image">
+                        <img  alt="Colorado Banker" data-src="https://inbank.com/wp-content/uploads/2022/10/Woman-2.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="wp-content/uploads/2022/10/Woman-2.png" alt="Colorado Banker"></noscript>
                     </div>
                 </div>
-                <ul class="row benefits-content text-center">
-
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-high"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Earn Interest up to 7%</h3>
-                                <p>Grow your savings with competitive interest rates.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-notification"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Email Alerts</h3>
-                                <p>Stay updated with real-time alerts on account activity.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-safebox"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Discounts on Locker</h3>
-                                <p>Enjoy exclusive discounts on safe deposit locker rentals.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-
-
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-credit-card-2"></span>
-                            </div>
-                            <div class="text">
-                                <h3>International Debit Cards</h3>
-                                <p>Access your money worldwide with secure debit cards.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-shield-1"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Provides Safety</h3>
-                                <p>Experience advanced security features to protect your account.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-                    <!--Start Single Benefits Box Colum-->
-                    <li class="col-xl-4 single-benefits-box-colum">
-                        <div class="single-benefits-box">
-                            <div class="icon">
-                                <span class="icon-paperless"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Mobile Banking</h3>
-                                <p>Access your accounts anytime, anywhere with secure mobile banking features.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Benefits Box Colum-->
-
-                </ul>
             </div>
         </section>
-        <!--End Benefits Area-->
-
-        <!--Start Service Request Style2 Area-->
-        <section class="service-request-style2-area">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-xl-6">
-                        <div class="service-request-style2-img-box">
-                            <div class="service-request-style2-img-box__inner">
-                                <img src="assets/images/resources/service-request-style2.jpg" alt="">
-                            </div>
-                        </div>
+        <section class="verticle-slider grey-bg ">
+            <div class="custom-container">
+                <div class="d-flex align-center">
+                    <div class="text-on-left">
+                        <h2 class="text-white">Relationship banking with</h2>
                     </div>
 
-                    <div class="col-xl-6">
-                        <div class="service-request-style2-content-box">
-                            <div class="pattern-bottom"
-                                style="background-image: url(assets/images/shapes/service-request-style2-content-box-pattern.png);">
-                            </div>
-                            <div class="sec-title">
-                                <h2>Online Emergency<br> Service Requests All In<br> One Place</h2>
-                                <div class="sub-title">
-
-                                </div>
-                            </div>
-                            <div class="service-request-style2-content-box__inner">
-                                <ul>
-                                    <li>
-                                        <div class="single-service-request-style2-box">
-                                            <div class="icon">
-                                                <span class="icon-credit-card"></span>
-                                            </div>
-                                            <div class="title">
-                                                <h3>
-                                                    Credit & Debit Card<br> Related
-                                                    <a href="#"><span class="icon-right-arrow"></span></a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-service-request-style2-box">
-                                            <div class="icon">
-                                                <span class="icon-computer"></span>
-                                            </div>
-                                            <div class="title">
-                                                <h3>
-                                                    Mobile & Internet<br> Banking
-                                                    <a href="#"><span class="icon-right-arrow"></span></a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-service-request-style2-box">
-                                            <div class="icon">
-                                                <span class="icon-book"></span>
-                                            </div>
-                                            <div class="title">
-                                                <h3>
-                                                    Account & Personal<br> Details Change
-                                                    <a href="#"><span class="icon-right-arrow"></span></a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="single-service-request-style2-box">
-                                            <div class="icon">
-                                                <span class="icon-check-book"></span>
-                                            </div>
-                                            <div class="title">
-                                                <h3>
-                                                    Cheque Book / DD<br> Related
-                                                    <a href="#"><span class="icon-right-arrow"></span></a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-
-                            </div>
+                    <div class="verticle-slider-wrap">
+                        <div class="slider">
+                            <p>Molly</p>
+                            <p>Tom</p>
+                            <p>Adrianne</p>
+                            <p>Brett</p>
+                            <p>Art</p>
+                            <p>Steve</p>
 
                         </div>
                     </div>
@@ -432,206 +482,7 @@
                 </div>
             </div>
         </section>
-        <!--End Service Request Style2 Area-->
 
-        <!--Start Account Steps Area-->
-        <section class="account-steps-area">
-            <div class="container">
-                <div class="sec-title text-center">
-                    <h2>Your Account in Easy Steps</h2>
-                    <div class="sub-title">
-                        <p>Open your account with {{ env('APP_NAME') }} </p>
-                    </div>
-                </div>
-                <ul class="row account-steps__content">
-                    <!--Start Single Account Steps Colum-->
-                    <li class="col-xl-4 single-account-steps-colum text-center">
-                        <div class="single-account-steps">
-                            <div class="icon">
-                                <div class="icon-inner">
-                                    <span class="icon-consultation"></span>
-                                </div>
-                                <div class="counting">01</div>
-                            </div>
-                            <div class="text">
-                                <h3>Fill Your Personal Details</h3>
-                                <p>Provide your basic information quickly and securely to start the account opening process. Our streamlined process ensures accuracy and convenience.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Account Steps Colum-->
-                    <!--Start Single Account Steps Colum-->
-                    <li class="col-xl-4 single-account-steps-colum text-center">
-                        <div class="single-account-steps">
-                            <div class="icon">
-                                <div class="icon-inner">
-                                    <span class="icon-file-1"></span>
-                                </div>
-                                <div class="counting">02</div>
-                            </div>
-                            <div class="text">
-                                <h3>KYC Verification</h3>
-                                <p>Complete a simple KYC verification to secure your account and meet compliance. This step safeguards both your identity and transactions.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Account Steps Colum-->
-                    <!--Start Single Account Steps Colum-->
-                    <li class="col-xl-4 single-account-steps-colum text-center">
-                        <div class="single-account-steps">
-                            <div class="icon">
-                                <div class="icon-inner">
-                                    <span class="icon-investment"></span>
-                                </div>
-                                <div class="counting">03</div>
-                            </div>
-                            <div class="text">
-                                <h3>Start Your Savings</h3>
-                                <p>Begin saving with {{ env('APP_NAME') }} flexible options. Our accounts support your financial goals with competitive interest rates and tailored savings solutions.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <!--End Single Account Steps Colum-->
-                </ul>
-
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="account-steps-area__bottom-text">
-                            <p>Start your account process today <a href="{{ route('reg_new_account') }}" target="_blank">Open Account</a></p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!--End Account Steps Area-->
-
-
-
-        <!--Start Testimonials Style1 Area-->
-        <section class="testimonials-style1-area">
-            <div class="container">
-                <div class="sec-title text-center">
-                    <h2>Check Out Customer Feedback</h2>
-                    <div class="sub-title">
-                        <p>Pleasure to share some of our customers feedback.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="owl-carousel owl-theme thm-owl__carousel testimonials-style1-carousel owl-nav-style-one"
-                            data-owl-options='{
-                            "loop": true,
-                            "autoplay": true,
-                            "margin": 30,
-                            "nav": true,
-                            "dots": false,
-                            "smartSpeed": 500,
-                            "autoplayTimeout": 10000,
-                            "navText": ["<span class=\"left icon-right-arrow\"></span>","<span class=\"right icon-right-arrow\"></span>"],
-                            "responsive": {
-                                    "0": {
-                                        "items": 1
-                                    },
-                                    "768": {
-                                        "items": 1
-                                    },
-                                    "992": {
-                                        "items": 2
-                                    },
-                                    "1200": {
-                                        "items": 2
-                                    }
-                                }
-                            }'>
-
-                            <!--Start Single Testimonials style1-->
-                            <div class="single-testimonials-style1">
-                                <div class="quote-box">
-                                    <span class="icon-quote"></span>
-                                </div>
-                                <div class="customer-info">
-                                    <div class="img-box">
-                                        <img src="{{ asset('assets/images/testimonial/testimonial-v1-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>Nathan Felix</h3>
-                                        <span>Small Business Owner</span>
-                                    </div>
-                                </div>
-                                <div class="inner">
-                                    <div class="text-box">
-                                        <h5 class="mb-2">{{ env('APP_NAME') }} made saving so easy!</h5>
-                                        <p>I’ve never felt more confident with my finances. Redwood Bank offers excellent interest rates, and their customer service is always prompt and helpful. Highly recommend!</p>
-                                    </div>
-                                    <div class="review-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Testimonials style1-->
-
-                            <!--Start Single Testimonials style1-->
-                            <div class="single-testimonials-style1">
-                                <div class="quote-box">
-                                    <span class="icon-quote"></span>
-                                </div>
-                                <div class="customer-info">
-                                    <div class="img-box">
-                                        <img src="assets/images/testimonial/testimonial-v1-2.jpg" alt="">
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>Nora Gorge</h3>
-                                        <span>Freelancer</span>
-                                    </div>
-                                </div>
-                                <div class="inner">
-                                    <div class="text-box">
-                                        <h5 class="mb-2">A bank that truly cares about customers.</h5>
-                                        <p>{{ env("APP_NAME") }} has been a game-changer for me. Their mobile app makes managing my accounts effortless, and I love the instant SMS alerts. It’s like having a bank in my pocket!</p>
-                                    </div>
-                                    <div class="review-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Testimonials style1-->
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Testimonials Style1 Area-->
-
-
-    <section class="slogan-area slogan-area--style2">
-            <div class="container">
-                <div class="slogan-content-box slogan-content-box--style2">
-                    <div class="slogan-content-box-bg"
-                        style="background-image: url(assets/images/backgrounds/slogan-content-box-bg.jpg);"></div>
-                    <div class="inner-title">
-                        <h2>Empowering Financial Growth, One Account at a Time</h2>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-</div>
+    </main>
 
 @endsection

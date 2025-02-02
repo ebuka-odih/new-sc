@@ -13,17 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'pages.index')->name('index');
-Route::view('/about', 'pages.about')->name('about');
+//Route::view('/', 'pages.index')->name('index');
+//Route::view('/about', 'pages.about')->name('about');
+//
+//Route::view('/personal/checking', 'pages.personal.checking')->name('personal.checking');
+//Route::view('/personal/savings', 'pages.personal.savings')->name('personal.savings');
+//Route::view('/personal/ira', 'pages.personal.ira')->name('personal.ira');
+//Route::view('/business/checking', 'pages.business.checking')->name('business.checking');
+//Route::view('/business/savings', 'pages.business.savings')->name('business.savings');
+//Route::view('/business/ira', 'pages.business.ira')->name('business.ira');
+//Route::view('/wealth-management/trust-service', 'pages.wealth.trust-service')->name('wealth.trust-service');
+//Route::view('/wealth-management/estate-planning', 'pages.wealth.estate-planning')->name('wealth.estate-planning');
 
-Route::view('/personal/checking', 'pages.personal.checking')->name('personal.checking');
-Route::view('/personal/savings', 'pages.personal.savings')->name('personal.savings');
-Route::view('/personal/ira', 'pages.personal.ira')->name('personal.ira');
-Route::view('/business/checking', 'pages.business.checking')->name('business.checking');
-Route::view('/business/savings', 'pages.business.savings')->name('business.savings');
-Route::view('/business/ira', 'pages.business.ira')->name('business.ira');
-Route::view('/wealth-management/trust-service', 'pages.wealth.trust-service')->name('wealth.trust-service');
-Route::view('/wealth-management/estate-planning', 'pages.wealth.estate-planning')->name('wealth.estate-planning');
+Route::view('/', 'pages.index')->name('homepage');
+Route::view('/home', 'pages.index')->name('index');
+Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
+Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
+Route::view('/business-banking', 'pages.business-banking')->name('business-banking');
+Route::view('/business-banking/checking', 'pages.business-checking')->name('business.checking');
+Route::view('/business-banking/savings', 'pages.business-savings')->name('business.savings');
+Route::view('/business-banking/lending', 'pages.business-lending')->name('business.lending');
+
+Route::view('/personal-banking', 'pages.personal-banking')->name('personal.banking');
+Route::view('/personal-banking/checking', 'pages.personal-checking')->name('personal.checking');
+Route::view('/personal-banking/savings', 'pages.personal-savings')->name('personal.savings');
+Route::view('/personal-banking/lending', 'pages.personal-lending')->name('personal.lending');
 
 
 Route::view('bank-accounts','pages.bank-accounts')->name('bank_accounts');

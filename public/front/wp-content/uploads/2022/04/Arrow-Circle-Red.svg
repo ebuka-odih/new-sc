@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" width="41" height="41">
+	<title>Arrow Circle Red-svg</title>
+	<style>
+		.s0 { fill: #d13035 } 
+		.s1 { fill: none;stroke: #ffffff } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<circle id="Path_8" class="s0" cx="20.3" cy="20.6" r="20"/>
+	<g id="Ellipse_5">
+		<circle id="Layer" class="s0" cx="20.3" cy="20.6" r="16"/>
+		<circle id="Layer" class="s1" cx="20.3" cy="20.6" r="15.5"/>
+	</g>
+	<g id="Group_9">
+		<g id="Layer">
+			<g id="Group_8">
+				<path id="Path_7" class="s2" d="m19.8 28l-5.8-5.5c-0.3-0.3-0.3-0.7 0-1 0.3-0.2 0.7-0.2 1 0l4.5 4.4v-12.1c0-0.4 0.3-0.7 0.7-0.7 0.4 0 0.7 0.3 0.7 0.7v12l4.7-4.4c0.3-0.3 0.7-0.3 1 0 0.3 0.3 0.3 0.7 0 1l-5.8 5.5c-0.2 0.1-0.3 0.2-0.5 0.2-0.2 0.1-0.3 0-0.5-0.1z"/>
+			</g>
+		</g>
+	</g>
+</svg>

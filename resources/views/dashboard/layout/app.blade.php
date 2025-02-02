@@ -88,7 +88,7 @@
         <div class="smini-visible-block">
             <div class="content-header bg-header-dark">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     SkyWays<span class="opacity-75"> Bank</span>
                 </a>
                 <!-- END Logo -->
@@ -103,7 +103,7 @@
         <div class="smini-hidden">
             <div class="content-header justify-content-lg-center bg-header-dark">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     <span class="opacity-75"> {{ env('APP_NAME') }}</span>
                 </a>
                 <!-- END Logo -->
@@ -129,7 +129,7 @@
                 <div class="smini-hide">
                     <img class="img-avatar" src="{{ asset(auth()->user()->avatar ) }}" alt="">
                     <div class="mt-3 fw-semibold">{{ auth()->user()->first_name." ".auth()->user()->last_name }}</div>
-                    <a class="link-fx text-muted" href="javascript:void(0)"> @convert(auth()->user()->account->balance) <small style="font-size: 10px" class="badge bg-info">USD</small></a>
+                    <a class="link-fx text-muted" href="javascript:void(0)"> @convert(auth()->user()->account->balance) <small style="font-size: 10px" class="badge bg-info">{{ auth()->user()->preferred_currency ?? ''}}</small></a>
                 </div>
             </div>
             <!-- END Side Actions -->
