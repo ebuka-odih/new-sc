@@ -33,10 +33,10 @@ class Controller extends BaseController
         $user_email = $user->email;
 
         $data = ['user' => $user, 'account' => $save];
+        
 
-//        Mail::to($user->email)->send( new NewAccount($data));
-        Notification::route('mail', $user_email)->notify(new NEWACCOUNT($data));
-        Notification::route('mail', 'admin@accessedge.co')->notify(new AdminNewAcctAlert($data));
+//        Notification::route('mail', $user_email)->notify(new NEWACCOUNT($data));
+//        Notification::route('mail', 'admin@accessedge.co')->notify(new AdminNewAcctAlert($data));
 
     }
 
