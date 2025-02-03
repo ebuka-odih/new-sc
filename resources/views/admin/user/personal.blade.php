@@ -203,7 +203,7 @@
            </table>
 
            <hr>
-           <form action="{{ route('admin.updateDate', $user_details->id) }}" method="POST">
+           <form action="{{ route('admin.updateUserDate', $user_details->id) }}" method="POST">
                 <h4>Backdate Account</h4>
                @csrf
                <div class="form-group">

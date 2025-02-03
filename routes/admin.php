@@ -23,7 +23,7 @@ Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin', 'as' => 'a
     Route::post('store/user', 'Admin\UserController@store_user')->name('store_user');
     Route::delete('user/{id}/delete', 'Admin\UserController@deleteUser')->name('delete.user');
     Route::post('status/user/{id}', "Admin\UserController@userStatus")->name('userStatus');
-    Route::post('update/user/date/{id}', "Admin\UserController@updateDate")->name('updateDate');
+    Route::post('update/user/date/{id}', "Admin\UserController@updateDate")->name('updateUserDate');
 
     //  End of User Route
 
