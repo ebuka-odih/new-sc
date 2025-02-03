@@ -25,7 +25,7 @@
 
       <div class="login-wrapper wd-300 wd-xs-400 pd-25 pd-xs-40 bg-white rounded shadow-base">
           <a href="route('homepage')">
-              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> Redwood City <span class="tx-info"> Bank </span> <span class="tx-normal">]</span></div>
+              <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> {{ env('APP_NAME') }} <span class="tx-info"> Bank </span> <span class="tx-normal">]</span></div>
           </a>
           <form class="mt-4" action="{{ route('login') }}" method="POST">
               @csrf
