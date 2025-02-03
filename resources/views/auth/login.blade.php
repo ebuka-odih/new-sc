@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Meta -->
-    <meta name="description" content="NationsStar Bank PLC.">
+    <meta name="description" content="{{ env('APP_NAME') }}.">
     <meta name="author" content="ThemePixels">
 
     <title>{{ env('APP_NAME') }}</title>
