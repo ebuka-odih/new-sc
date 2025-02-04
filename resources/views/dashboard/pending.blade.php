@@ -90,7 +90,7 @@
             <!-- Left Section -->
             <div class="d-flex align-items-center">
                 <!-- Logo -->
-                <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
+                <a class="fw-semibold text-white tracking-wide" href="{{ route('homepage') }}">
                     {{ env('APP_NAME') }}</span>
                 </a>
                 <!-- END Logo -->

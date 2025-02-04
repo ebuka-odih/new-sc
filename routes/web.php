@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Route;
 //Route::view('/wealth-management/estate-planning', 'pages.wealth.estate-planning')->name('wealth.estate-planning');
 
 Route::view('/', 'pages.index')->name('homepage');
-Route::view('/home', 'pages.index')->name('index');
+Route::view('/home', 'pages.homepage')->name('index');
 Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
 Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
 Route::view('/business-banking', 'pages.business-banking')->name('business-banking');
