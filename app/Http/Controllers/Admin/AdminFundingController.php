@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Account;
 use App\Funding;
 use App\Http\Controllers\Controller;
 use App\Notifications\DepositAlert;
@@ -37,9 +38,9 @@ class AdminFundingController extends Controller
             $debit->user_id = $request->user_id;
             $debit->created_at = $request->created_at;
             $debit->save();
-            $user = User::findOrFail($request->user_id);
-            $user->account->balance -= $request->amount;
-            $user->account->save();
+            $acct = Account::where('user_id', $debit->user_id)->first();
+            $acct->balance -= $request->amount;
+            $acct->save();
             return redirect()->back()->with('success', "Money Debited");
         } else {
             $deposit = new Funding();
@@ -51,9 +52,10 @@ class AdminFundingController extends Controller
             $deposit->user_id = $request->user_id;
             $deposit->created_at = $request->created_at;
             $deposit->save();
-            $user = User::findOrFail($request->user_id);
-            $user->account->balance += $request->amount;
-            $user->account->save();
+            $acct = Account::where('user_id', $deposit->user_id)->first();
+            $acct->balance += $request->amount;
+            $acct->save();
+
 //            Notification::route('mail', $user->email)->notify(new DepositAlert($deposit));
             return redirect()->back()->with('success', "Money Added");
         }
