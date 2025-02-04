@@ -75,7 +75,7 @@
                    </tr>
                    <tr>
                        <th>Account Balance:</th>
-                       <td> @convert($user_details->balance) {{ $user_details->preferred_currency ?? 'USD' }}</td>
+                       <td> @convert($user_details->account->balance ?? '') {{ $user_details->preferred_currency ?? 'USD' }}</td>
                    </tr>
                    <tr>
                        <th>User Password:</th>
