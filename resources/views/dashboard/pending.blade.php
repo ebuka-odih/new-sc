@@ -140,7 +140,7 @@
             <div class="content">
 
                 <!-- Main Navigation -->
-                <div id="main-navigation" class="d-none d-lg-block push">
+                <div id="main-navigation" class="d-flex d-lg-block push">
                     <ul class="nav-main nav-main-horizontal nav-main-hover nav-main-dark">
                         <li class="nav-main-item">
 
