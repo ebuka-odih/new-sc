@@ -199,9 +199,8 @@
                         </div>
                         <br>
                     @endif
-
                     <hr>
-                    <form action="{{ route('admin.updateDate') }}" method="POST">
+                    <form action="{{ route('admin.updateDate', $transfer->id) }}" method="POST">
                         @csrf
                         <div class="form-group">
                             <input type="date" class="text-control col-8" name="created_at">
@@ -210,6 +209,8 @@
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
+
+                
 
                 </div>
             </div>
