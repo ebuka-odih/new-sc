@@ -31,7 +31,7 @@
                             <table class="table table-striped" style="width:100%">
                                 <tr>
                                     <th>Amount:</th>
-                                    <td>$@convert($transfer->amount)</td>
+                                    <td>@convert($transfer->amount) {{ $transfer->user->preferred_currency ?? 'USD'}}</td>
                                 </tr>
                                 <tr>
                                     <th>Transfer Type:</th>
@@ -210,7 +210,7 @@
                         </div>
                     </form>
 
-                
+
 
                 </div>
             </div>

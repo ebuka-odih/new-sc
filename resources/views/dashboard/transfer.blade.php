@@ -105,8 +105,8 @@
                                     <input type="text" readonly class="form-control form-control-lg" id="example-if-email" name="from" value="{{ auth()->user()->account->account_number }}">
                                 </div>
                                 <div class="col-lg-6">
-                                    <label for="example-ltf-text">Amount <span class="text-danger">*</span></label>
-                                    <input type="number" class="form-control form-control-lg" id="example-if-password" name="amount" placeholder="$">
+                                    <label for="example-ltf-text">Amount {{ auth()->user()->preferred_currency ?? 'USD'}}<span class="text-danger">*</span></label>
+                                    <input type="number" class="form-control form-control-lg" id="example-if-password" name="amount" >
                                 </div>
 
                                 <div class="col-lg-4">

@@ -42,7 +42,7 @@
                                             <td class="fw-semibold"> <a href="{{ route('admin.user_details', $item->user->id) }}">{{ $item->user->first_name." ".$item->user->last_name }}</a> </td>
                                             <td class="d-none d-sm-table-cell"> {{ $item->acct_number }}</td>
                                             <td class="d-none d-sm-table-cell"> {{ date('Y-M-d', strtotime($item->created_at)) }} <span class="badge bg-primary">{{ date('h:i a', strtotime($item->created_at)) }}</span>  ({{ \Carbon\Carbon::parse($item->created_at)->diffForHumans() }})</td>
-                                            <td class="fw-semibold">$@convert($item->amount) </td>
+                                            <td class="fw-semibold">@convert($item->amount) {{ $item->user->preferred_currency ?? 'USD'}}</td>
                                             <td class="d-none d-sm-table-cell"> {!! $item->status() !!} </td>
                                             <td class="text-center">
                                                 <div class="btn-group">

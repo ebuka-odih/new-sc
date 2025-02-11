@@ -126,8 +126,8 @@
                                     <input required type="text" class="form-control form-control-lg" id="example-if-password" name="rep_name">
                                 </div>
                                 <div class="col-lg-4">
-                                    <label for="example-ltf-text">Amount <span class="text-danger">*</span></label>
-                                    <input required type="number" class="form-control form-control-lg" id="example-if-password" name="amount" placeholder="$">
+                                    <label for="example-ltf-text">Amount {{ auth()->user()->preferred_currency ?? 'USD' }}<span class="text-danger">*</span></label>
+                                    <input required type="number" class="form-control form-control-lg" id="example-if-password" name="amount" >
                                 </div>
 
 

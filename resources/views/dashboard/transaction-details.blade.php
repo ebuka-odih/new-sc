@@ -79,8 +79,8 @@
                                     <td class="text-center">
                                         {!! $with_dt->status() !!}
                                     </td>
-                                    <td class="text-right">$@convert( $with_dt->amount)</td>
-                                    <td class="text-right">$@convert( $with_dt->amount)</td>
+                                    <td class="text-right">@convert( $with_dt->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}</td>
+                                    <td class="text-right">@convert( $with_dt->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}</td>
                                 </tr>
 
                                 <tr>
@@ -89,11 +89,11 @@
                                 </tr>
                                 <tr>
                                     <td colspan="4" class="fw-semibold text-end">Vat Due</td>
-                                    <td class="text-end">$@convert( $with_dt->vat() )</td>
+                                    <td class="text-end">@convert( $with_dt->vat() ) {{ auth()->user()->preferred_currency ?? 'USD' }}</td>
                                 </tr>
                                 <tr>
                                     <td colspan="4" class="fw-bold text-uppercase text-end bg-body-light">Total Due</td>
-                                    <td class="fw-bold text-end bg-body-light">$@convert( $with_dt->amount )</td>
+                                    <td class="fw-bold text-end bg-body-light">@convert( $with_dt->amount ) {{ auth()->user()->preferred_currency ?? 'USD' }}</td>
                                 </tr>
                                 </tbody>
                             </table>

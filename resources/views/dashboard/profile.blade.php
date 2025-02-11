@@ -39,11 +39,11 @@
                         </tr>
                         <tr>
                             <th>Base Currency:</th>
-                            <td>{{ $user->preferred_currency }}</td>
+                            <td>{{ $user->preferred_currency ?? 'USD'}}</td>
                         </tr>
                         <tr>
                             <th>Account Balance:</th>
-                            <td>$ @convert($user->account->balance)</td>
+                            <td>@convert($user->account->balance) {{ $user->preferred_currency ?? 'USD'}}</td>
                         </tr>
                     </table>
                 </div>

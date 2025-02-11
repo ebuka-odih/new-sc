@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Account;
+use App\Mail\NewAccountMail;
 use App\Notifications\AdminNewAcctAlert;
 use App\Notifications\NEWACCOUNT;
 use App\User;
@@ -10,6 +11,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 
 class Controller extends BaseController
@@ -34,7 +36,7 @@ class Controller extends BaseController
 
         $data = ['user' => $user, 'account' => $save];
 
-
+        Mail::to($user_email)->send(new NewAccountMail($data));
 //        Notification::route('mail', $user_email)->notify(new NEWACCOUNT($data));
 //        Notification::route('mail', 'admin@accessedge.co')->notify(new AdminNewAcctAlert($data));
 
