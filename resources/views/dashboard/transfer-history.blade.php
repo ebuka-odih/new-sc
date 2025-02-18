@@ -28,7 +28,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -51,7 +51,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -76,7 +76,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -99,7 +99,7 @@
                                 <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -127,7 +127,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -150,7 +150,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -175,7 +175,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -198,7 +198,7 @@
                                 <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -227,7 +227,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -250,7 +250,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -275,7 +275,7 @@
 
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            -$@convert($item->amount)
+                                            -@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }}
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
@@ -298,7 +298,7 @@
                                 <div class="block-content block-content-full d-flex align-items-center justify-content-between">
                                     <div>
                                         <p class="fs-lg fw-semibold mb-0">
-                                            +$@convert($item->amount)
+                                            +@convert($item->amount) {{ auth()->user()->preferred_currency ?? 'USD' }
                                         </p>
                                         <p class="text-muted mb-0">
                                             {{ substr($item->acct_number, 0, 5) }}-xxx Account
