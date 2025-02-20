@@ -610,7 +610,6 @@
                             <div class="col-lg-6">
                                 <label class="" for="example-if-email2">Preferred Currency</label>
                                 <select name="preferred_currency" required class="form-control currency_changer" id="currency">
-                                    <option selected>Prefered Currency</option>
                                     <option value="USD">USD</option>
                                     <option value="GBP">British pound (GBP)</option>
                                     <option value="EURO">EURO (EUR)</option>
@@ -619,6 +618,16 @@
                                     <option value="CHF">Swiss Franc (fr)</option>
                                     <option value="JPY">Japanese Yen (JPY)</option>
                                     <option value="NZD">New Zealand Dollars (NZD)</option>
+                                    <option value="BTC">BTC</option>
+                                        <option value="ETH">ETH</option>
+                                        <option value="USDT">USDT</option>
+                                        <option value="USDC">USDC</option>
+                                        <option value="BNB">BNB</option>
+                                        <option value="XRP">XRP</option>
+                                        <option value="ADA">ADA</option>
+                                        <option value="BUSD">BUSD</option>
+                                        <option value="SOL">SOL</option>
+                                        <option value="DOT">DOT</option>
                                 </select>
 {{--                                <input value="{{ old('preferred_currency', optional($user_details)->preferred_currency) }}" type="text" name="preferred_currency" class="form-control form-control-alt" id="example-if-email2"  >--}}
                             </div>

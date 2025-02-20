@@ -605,7 +605,7 @@
                                 <div class="col-lg-6">
                                     <label class="" for="example-if-email2">Preferred Currency</label>
                                     <select name="preferred_currency" required class="form-control currency_changer" id="currency">
-                                        <option selected disabled>Prefered Currency</option>
+                                        <option selected disabled>Preferred Currency</option>
                                         <option value="USD">USD</option>
                                         <option value="GBP">British pound (GBP)</option>
                                         <option value="EURO">EURO (EUR)</option>
