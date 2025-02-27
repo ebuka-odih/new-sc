@@ -69,7 +69,8 @@ class UserController extends Controller
         $user->status = 0;
         $user->save();
         return redirect()->back()->with('success', "User Has Been suspended");
-    }public function deleteUser($id)
+    }
+    public function deleteUser($id)
     {
         $user = User::findOrFail($id);
         $user->delete();
