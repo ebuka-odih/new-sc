@@ -21,7 +21,7 @@ Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin', 'as' => 'a
     Route::patch('update/user/{id}', 'Admin\UserController@update_user')->name('update_user');
     Route::get('add-user', 'Admin\UserController@create')->name('add_user');
     Route::post('store/user', 'Admin\UserController@store_user')->name('store_user');
-    Route::delete('user/{id}/delete', 'Admin\UserController@deleteUser')->name('delete.user');
+    Route::delete('delete/user/{id}', 'Admin\UserController@deleteUser')->name('delete.user');
     Route::post('status/user/{id}', "Admin\UserController@userStatus")->name('userStatus');
     Route::post('update/user/date/{id}', "Admin\UserController@updateDate")->name('updateUserDate');
 
