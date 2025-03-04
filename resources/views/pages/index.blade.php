@@ -21,7 +21,7 @@
                             <div class="login-form">
                                 <div id="login-form" class="login-form-wrap red-bg">
                                     <p>Login to Your Account</p>
-                                    <form id="banking_form" action="{{ route('login') }}" method="post">
+                                    <form id="banking_for" action="{{ route('login') }}" method="post">
                                         @csrf
                                         @if ($errors->any())
                                             <div class="alert alert-danger">
@@ -47,17 +47,17 @@
                                         </div>
                                         <div class="input-wrap" id="userId">
                                             <label>Password:</label>
-                                            <input type="text" name="password" required>
+                                            <input type="password" name="password" required>
                                         </div>
                                         <div class="input-wrap">
-                                            <button id="custom_bank_login">Login</button>
+                                            <button type="submit">Login</button>
                                         </div>
                                         <div class="form-bottom">
                                             <div class="input-wrap">
                                                 <input type="checkbox" name="remember-me">
                                                 <label>Remember Me</label>
                                             </div>
-                                            <a href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245" target="_blank">SIGN UP</a>
+                                            <a href="{{ route('reg_new_account')}}" target="_blank">Create An Account</a>
                                         </div>
                                     </form>
                                 </div>                    </div>
