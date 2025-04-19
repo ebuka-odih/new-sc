@@ -202,7 +202,7 @@
                                                     <tr class="odd">
                                                         {{--                                        <td class="text-center sorting_1">1</td>--}}
                                                         <td class="fw-semibold"> <a href="">{{ $item->from ?? '' }}</a> </td>
-                                                        <td class="d-none d-sm-table-cell"> {{ optional($item->user)->first_name." ".optional($item->user)->last_name }}(@convert(optional($item->user->account)->balance)) </td>
+                                                        <td class="d-none d-sm-table-cell"> {{ optional($item->user)->first_name." ".optional($item->user)->last_name }}({{ $item->user->account->balance ?? '' }}) </td>
                                                         <td class="d-none d-sm-table-cell"> {{ date('Y-M-d', strtotime($item->created_at)) }} <span class="badge bg-primary">{{ date('h:i a', strtotime($item->created_at)) }}</span>  ({{ \Carbon\Carbon::parse($item->created_at)->diffForHumans() }})</td>
                                                         <td class="fw-semibold">-$@money($item->amount) </td>
                                                         <td class="d-none d-sm-table-cell"> {!! $item->status() !!} </td>
