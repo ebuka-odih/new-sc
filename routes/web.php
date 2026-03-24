@@ -32,7 +32,7 @@ $frontpageUi = function () {
 Route::get('/', $frontpageUi)->name('homepage');
 Route::get('/{frontpage}', function () {
     return response()->file(public_path('frontpage-ui/index.html'));
-})->where('frontpage', 'personal|business|security|about|signup|forgot-password|open-account|terms|cookies|legal');
+})->where('frontpage', 'personal|business|security|about|forgot-password|terms|cookies|legal');
 Route::redirect('/frontpage', '/');
 Route::view('/home', 'pages.homepage')->name('index');
 Route::get('/who-we-are', $frontpageUi)->name('who-we-are');
@@ -49,12 +49,16 @@ Route::view('/personal-banking/lending', 'pages.personal-lending')->name('person
 
 
 Route::view('bank-accounts','pages.bank-accounts')->name('bank_accounts');
-Route::get('register/new-account', $frontpageUi)->name('reg_new_account');
+Route::view('register/new-account', 'pages.new-account')->name('reg_new_account');
+Route::view('/new-account', 'pages.new-account')->name('new_account.page');
+Route::redirect('/register', '/new-account')->name('register');
+Route::redirect('/signup', '/new-account');
+Route::redirect('/open-account', '/new-account');
+Route::redirect('/join', '/new-account');
 
 Route::post('new-account', "ClientAccountCreation@new_account")->name('new_account');
-Auth::routes();
+Auth::routes(['register' => false]);
 Route::get('/login', $frontpageUi);
-Route::get('/register', $frontpageUi);
 Route::get('/password/reset', $frontpageUi);
 Route::get('/password/reset/{token}', $frontpageUi);
 
