@@ -25,16 +25,18 @@ use Illuminate\Support\Facades\Route;
 //Route::view('/wealth-management/trust-service', 'pages.wealth.trust-service')->name('wealth.trust-service');
 //Route::view('/wealth-management/estate-planning', 'pages.wealth.estate-planning')->name('wealth.estate-planning');
 
-Route::get('/', function () {
+$frontpageUi = function () {
     return response()->file(public_path('frontpage-ui/index.html'));
-})->name('homepage');
+};
+
+Route::get('/', $frontpageUi)->name('homepage');
 Route::get('/{frontpage}', function () {
     return response()->file(public_path('frontpage-ui/index.html'));
-})->where('frontpage', 'personal|business|security');
+})->where('frontpage', 'personal|business|security|about|signup|forgot-password|open-account|terms|cookies|legal');
 Route::redirect('/frontpage', '/');
 Route::view('/home', 'pages.homepage')->name('index');
-Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
-Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
+Route::get('/who-we-are', $frontpageUi)->name('who-we-are');
+Route::get('/contact-us', $frontpageUi)->name('contact-us');
 Route::view('/business-banking', 'pages.business-banking')->name('business-banking');
 Route::view('/business-banking/checking', 'pages.business-checking')->name('business.checking');
 Route::view('/business-banking/savings', 'pages.business-savings')->name('business.savings');
@@ -47,10 +49,14 @@ Route::view('/personal-banking/lending', 'pages.personal-lending')->name('person
 
 
 Route::view('bank-accounts','pages.bank-accounts')->name('bank_accounts');
-Route::view('register/new-account','pages.new-account')->name('reg_new_account');
+Route::get('register/new-account', $frontpageUi)->name('reg_new_account');
 
 Route::post('new-account', "ClientAccountCreation@new_account")->name('new_account');
 Auth::routes();
+Route::get('/login', $frontpageUi);
+Route::get('/register', $frontpageUi);
+Route::get('/password/reset', $frontpageUi);
+Route::get('/password/reset/{token}', $frontpageUi);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
