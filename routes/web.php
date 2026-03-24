@@ -61,11 +61,11 @@ Route::group(['middleware' => ['auth', 'active'], 'prefix' => 'user', 'as' => 'u
     Route::get('profile', "UserController@profile")->name('profile');
     Route::get('edit/profile/{id}', "UserController@editProfile")->name('editProfile');
     Route::get('password', "UserController@password")->name('password');
-    Route::post('change-password', 'ChangePasswordController@storePassword')->name('storePassword');
+    Route::post('change-password', 'UserController@storePassword')->name('storePassword');
 
 
     // Withdrawal Routes
-    Route::get('statement', 'TransactionsController@transactions')->name('statement');
+    Route::get('statement', 'WithdrawalController@withdrawHistory')->name('statement');
 //    Route::get('process', 'TransactionsController@process')->name('process');
 
 //    NSB Transfer
