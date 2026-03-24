@@ -25,7 +25,13 @@ use Illuminate\Support\Facades\Route;
 //Route::view('/wealth-management/trust-service', 'pages.wealth.trust-service')->name('wealth.trust-service');
 //Route::view('/wealth-management/estate-planning', 'pages.wealth.estate-planning')->name('wealth.estate-planning');
 
-Route::view('/', 'pages.index')->name('homepage');
+Route::get('/', function () {
+    return response()->file(public_path('frontpage-ui/index.html'));
+})->name('homepage');
+Route::get('/{frontpage}', function () {
+    return response()->file(public_path('frontpage-ui/index.html'));
+})->where('frontpage', 'personal|business|security');
+Route::redirect('/frontpage', '/');
 Route::view('/home', 'pages.homepage')->name('index');
 Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
 Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
