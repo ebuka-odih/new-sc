@@ -10,6 +10,7 @@
   </testsuites>
   <php>
     <server name="APP_ENV" value="testing"/>
+    <server name="APP_KEY" value="base64:DlXh2yTDRSRuiXI3sK+YqAxMwVzTITTQyI+wPbbrTQU="/>
     <server name="BCRYPT_ROUNDS" value="4"/>
     <server name="CACHE_DRIVER" value="array"/>
     <!-- <server name="DB_CONNECTION" value="sqlite"/> -->
